@@ -1,6 +1,6 @@
-name = "Coyote"
+name = "Hugo blog awesome"
 license = "MIT"
-licenselink = ""
+licenselink = "https://github.com/hugo-sid/hugo-blog-awesome/blob/main/LICENSE"
 description = "Minimal Hugo blog theme with light and dark mode support"
 
 # The home page of the theme, where the source can be found.
