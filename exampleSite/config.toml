@@ -1,0 +1,40 @@
+title = "Awesome Hugo blog"
+baseURL = 'http://gohugo.io/'
+languageCode = 'en-us'
+theme = "hugo-blog-awesome"
+
+
+# set markup.highlight.noClasses=false to enable code highlight
+[markup]
+  [markup.highlight]
+    noClasses = false
+
+[menu]
+  [[menu.main]] 
+    # The page reference (pageRef) is useful for menu highlighting
+    # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
+    pageRef="/"
+    name = 'Home'
+    url = '/'
+    weight = 10
+  [[menu.main]]
+    pageRef="posts"
+    name = 'Posts'
+    url = '/posts/'
+    weight = 20
+  [[menu.main]]
+    pageRef="about"
+    name = 'About'
+    url = '/about/'
+    weight = 30
+
+[params]
+  sitename = "Awesome hugo blog"
+  defaultColor = "dark" # set default color mode: dark or light
+  description = "Minimal Hugo blog theme with light and dark mode support"
+
+[params.author]
+  avatar = "img/avatar.jpg"
+  intro = "Awesome hugo blog"
+  name = "Sidharth R"
+  description = "A minimalistic Hugo theme with light and dark mode support, for running a personal site or blog"

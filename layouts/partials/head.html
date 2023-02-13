@@ -1,0 +1,19 @@
+<head>
+  {{ partial "meta/main.html" . }}
+  {{ hugo.Generator }}
+
+  <!-- Permalink & RSSlink -->
+  <link rel="canonical" href="{{ .Permalink }}">
+  {{- with .OutputFormats.Get "RSS" }}
+  <link href="{{ .Permalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}">
+  <link href="{{ .Permalink }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}">
+  {{- end -}}
+
+  {{- $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint -}}
+  <link href="{{ $style.RelPermalink }}" rel="stylesheet">
+  {{- $code_syntax_highlight_css := resources.Get "code-highlight.css" | minify | fingerprint -}}
+  <link href="{{ $code_syntax_highlight_css.RelPermalink }}" rel="stylesheet">
+
+
+  {{- if or .Params.math .Site.Params.math }}{{ partial "helpers/katex.html" . -}}{{- end -}}
+</head>

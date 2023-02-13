@@ -1,0 +1,78 @@
+//////////////// 1. Light Colors /////////////////
+$text-base-color: #434648;
+$text-link-blue: #003fff;
+$text-link-blue-active: #0036c7;
+$bloquote-border: #c4c8cc;
+$blockquote-text: #525b66;
+$inline-code-text: #333638;
+$inline-code-bg: #d8dbe2;
+
+$black: #0d122b;
+$light: #ececec;
+$smoke: #d2c7c7;
+$gray: #6b7886;
+$white: #fff;
+
+//////////////// 2. Dark Colors /////////////////
+$dark-text-base-color: #babdc4;
+$dark-text-link-blue: #77a8fd;
+$dark-text-link-blue-active: #5292ff;
+$dark-bloquote-border: #4a4d56;
+$dark-blockquote-text: #9b9ba3;
+$dark-inline-code-text: #c2c4ca;
+$dark-inline-code-bg: #2d2d2d;
+
+$dark-black: #131418;
+$dark-white: #eaeaea;
+$dark-light: #1b1d25;
+$dark-smoke: #4a4d56;
+$dark-gray: #767f87;
+
+//////////////// 3. Fonts preferences /////////////////
+$sans-family: Roboto, sans-serif;
+$mono-family: Consolas, monospace;
+$base-font-size: 16px;
+$medium-font-size: $base-font-size * 0.938;
+$small-font-size: $base-font-size * 0.875;
+$base-line-height: 1.85;
+
+// Font weight
+// $light-weight: 300; // uncomment if necessary
+$normal-weight: 400;
+$bold-weight: 700;
+// $black-weight: 900; // uncomment if necessary
+
+//////////////// 4.Responsive design (media queries) /////////////////
+$wide-size: 890px;
+$narrow-size: 720px;
+
+// Padding unit
+$spacing-full: 30px;
+$spacing-half: $spacing-full / 2;
+
+// Screen sizes
+$on-mobile: 768px;
+$on-tablet: 769px;
+$on-desktop: 1024px;
+$on-widescreen: 1152px;
+
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+@mixin relative-font-size($ratio) {
+    font-size: $base-font-size * $ratio;
+}
+
+//////////////// 5. Import all sass files /////////////////
+
+@import "fonts";
+@import "base";
+@import "navbar";
+@import "layout";
+@import "post";
+@import "code";
+@import "miscellaneous";
+@import "dark";

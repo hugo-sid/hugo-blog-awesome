@@ -1,0 +1,2 @@
+{{ $script_main := resources.Get "js/themeLoader.js" | minify | fingerprint }}
+<script src="{{ $script_main.Permalink }}"></script>

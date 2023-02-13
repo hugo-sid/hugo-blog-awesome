@@ -1,0 +1,56 @@
+{{/*  These meta tags are rendered only in the posts section (i.e. in single/list page)  */}}
+{{ if eq .Section "posts" }}
+    {{ $ISO_date := .Date.Format "2006-01-02T15:04:05Z0700" | safeHTML }}
+    <!-- Pagination meta tags for list pages only -->
+    {{ $paginator := .Paginate (where .Pages "Section" "blog") }}
+    {{ if $paginator }}
+    <link rel="first" href="{{ $paginator.First.URL }}" />
+    <link rel="last" href="{{ $paginator.Last.URL }}" />
+    {{ if $paginator.HasPrev }}
+    <link rel="prev" href="{{ $paginator.Prev.URL }}" />
+    {{end }}
+    {{ if $paginator.HasNext }}
+    <link rel="next" href="{{ $paginator.Next.URL }}" />
+    {{end }}
+    {{end }}
+
+    <meta property="og:type" content="article" />
+    <meta property="og:article:published_time" content={{ $ISO_date | safeHTML }} />
+    <meta property="article:published_time" content={{ $ISO_date | safeHTML }} />
+
+    {{ with.Params.author }}
+    <meta property="og:article:author" content="{{humanize . }}" />
+    <meta property="article:author" content="{{humanize . }}" />
+    <meta name="author" content="{{humanize . }}" />
+    {{ end }}
+
+    {{ with.Params.category }}
+    <meta name="news_keywords" content="{{ index . 0 }}" />
+    <meta property="article:section" content="{{ index . 0 }}" />
+    {{ end }}
+
+    <script defer type="application/ld+json">
+    {
+        "@context": "http://schema.org",
+        "@type": "Article",
+        "headline": {{ .Title }},
+        "author": {
+        "@type": "Person",
+        "name": "{{ .Site.Params.github }}"
+        },
+        "datePublished": "{{ .Date.Format "2006-01-02" }}",
+        "description": {{ .Description }},
+        "wordCount": {{ .WordCount }},
+        "mainEntityOfPage": "True",
+        "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
+        "image": {
+        "@type": "imageObject",
+        "url": "{{ with .Params.image }}{{ .Permalink }}{{ end }}"
+        },
+        "publisher": {
+        "@type": "Organization",
+        "name": "{{ .Site.Title }}"
+        }
+    }
+    </script>
+{{ end }}

@@ -1,0 +1,18 @@
+{{ define "main" }}
+<div class="wrapper post">
+    <main class="page-content" aria-label="Content">
+        <article>
+            <header class="header">
+                <h1 class="header-title">{{ .Title }}</h1>
+                {{ $ISO_time := .Date.Format "2006-01-02T15:04:05-07:00" }}
+                <div class="post-meta">
+                    <time datetime="{{ $ISO_time }}" itemprop="datePublished"> {{ .Date.Format "Jan 2, 2006" }} </time>
+                </div>
+            </header>
+            <div class="page-content">
+                {{ .Content }}
+            </div>
+        </article>
+    </main>
+</div>
+{{ end }}

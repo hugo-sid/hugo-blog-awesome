@@ -1,0 +1,20 @@
+name = "Coyote"
+license = "MIT"
+licenselink = ""
+description = "Minimal Hugo blog theme with light and dark mode support"
+
+# The home page of the theme, where the source can be found.
+homepage = ""
+
+# If you have a running demo of the theme.
+demosite = ""
+
+tags = ["blog", "responsive", "minimal", "dark", "light"]
+features = ["blog", "sass", "dark"]
+
+min_version = "0.86.0"
+
+# If the theme has a single author
+[author]
+    name = "Sidharth R"
+    homepage = "https://sidh.dev"

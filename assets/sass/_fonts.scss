@@ -1,0 +1,14 @@
+@charset "utf-8";
+/* roboto-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/Roboto/roboto-v30-latin-regular.eot'); /* IE9 Compat Modes */
+  src: url('/fonts/Roboto/roboto-v30-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('/fonts/Roboto/roboto-v30-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('/fonts/Roboto/roboto-v30-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('/fonts/Roboto/roboto-v30-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('/fonts/Roboto/roboto-v30-latin-regular.svg#Roboto') format('svg'); /* Legacy iOS */
+}
