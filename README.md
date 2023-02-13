@@ -1,4 +1,4 @@
-<h1 align=center> Awesome hugo blog | <a href="" target="_blank" rel="nofollow">Demo</a></h1>
+<h1 align=center> Awesome hugo blog | <a href="https://hugo-blog-awesome.netlify.app/" target="_blank" rel="nofollow">Demo</a></h1>
 
 <h4 align=center>📰 Clean UI | 🌙 Dark mode support | 📱 Responsive design </h4>
 
