@@ -2,8 +2,6 @@
 
 <h4 align=center>📰 Clean UI | 🌙 Dark mode support | 📱 Responsive design </h4>
 
-A minimal blog theme for [Hugo](https://gohugo.io/).
-
 ## Features
 
 - Minimal design
@@ -14,6 +12,8 @@ A minimal blog theme for [Hugo](https://gohugo.io/).
 
 
 ## Setup
+
+Ensure that you have installed the Hugo extended version. This theme uses SCSS for styling, so you need the extended version of Hugo to compile the SCSS files.
 
 To create a new Hugo site with this theme, run the following command:
 
