@@ -1,6 +1,6 @@
 [build]
   base = "/"
-  publish = "public/"
+  publish = "exampleSite/public/"
   command = "cd exampleSite && hugo --gc --themesDir ../.."
 
 [build.environment]
