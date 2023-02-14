@@ -1,6 +1,6 @@
 <h1 align=center> Awesome hugo blog | <a href="https://hugo-blog-awesome.netlify.app/" target="_blank" rel="nofollow">Demo</a></h1>
 
-<h4 align=center>📰 Clean UI | 🌙 Dark mode support | 📱 Responsive design </h4>
+<h4 align=center>⚡ Fast | 📰 Clean UI | 🌙 Dark mode support | 📱 Responsive design </h4>
 
 ## Features
 
@@ -9,6 +9,20 @@
 - Light and dark mode
 - Syntax highlighting
 - RSS feed
+- No jQuery, Bootstrap
+- 100/100 Google Lighthouse score
+
+## Screenshots
+
+| Dark mode | Light mode |
+| --- | --- |
+| ![Dark mode](https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/master/images/tn.png) | ![Light mode](https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/master/images/light.png) |
+
+Page speed score:
+
+![Page speed score](https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/master/images/pagespeed.png)
+
+Live test on [Google PageSpeed Insights](https://pagespeed.web.dev/report?url=https%3A%2F%2Fhugo-blog-awesome.netlify.app%2F).
 
 
 ## Setup
