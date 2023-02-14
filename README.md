@@ -10,7 +10,7 @@
 - Syntax highlighting
 - RSS feed
 - No jQuery, Bootstrap
-- 100/100 Google Lighthouse score
+- 100/100 Google PageSpeed Insights score on all 4 metrics
 
 ## Screenshots
 
@@ -22,8 +22,7 @@ Page speed score:
 
 ![Page speed score](https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/master/images/pagespeed.png)
 
-Live test on [Google PageSpeed Insights](https://pagespeed.web.dev/report?url=https%3A%2F%2Fhugo-blog-awesome.netlify.app%2F).
-
+Google PageSpeed Insights [test link](https://pagespeed.web.dev/report?url=https%3A%2F%2Fhugo-blog-awesome.netlify.app%2F).
 
 ## Setup
 
