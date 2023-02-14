@@ -9,10 +9,21 @@
 <meta name="application-name" content="{{ .Title }} | {{ .Site.Title }}" />
 <meta property="og:site_name" content="{{ .Site.Params.sitename }}" />
 
-<meta name="description" content="{{ if .Params.Description }}{{ trim .Params.Description "\n" }}{{else if .Site.Params.Description}}{{ trim .Site.Params.Description "\n"}}{{ end }}">
-<meta itemprop="description" content="{{ .Params.description }}" />
-<meta property="og:description" content="{{ .Params.description }}" />
-<meta name="twitter:description" content="{{ .Params.description }}" />
+{{/*  Define empty variable description  */}}
+{{- $description := "" -}}
+
+{{/*  If description is defined in front matter, use it  */}}
+{{- if .Params.description -}}
+  {{- $description = trim .Params.description "\n" -}}
+{{/*  If description is not defined in front matter, use site description  */}}
+{{- else if .Site.Params.description -}}
+  {{- $description = trim .Site.Params.description "\n" -}}
+{{- end -}}
+
+<meta name="description" content="{{ $description }}">
+<meta itemprop="description" content="{{ $description }}" />
+<meta property="og:description" content="{{ $description }}" />
+<meta name="twitter:description" content="{{ $description }}" />
 
 <meta property="og:locale" content="{{ .Site.LanguageCode }}" />
 <meta name="language" content="{{ .Site.LanguageCode }}" />
