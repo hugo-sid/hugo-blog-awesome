@@ -10,7 +10,7 @@
 - Syntax highlighting
 - RSS feed
 - No jQuery, Bootstrap
-- 100/100 Google PageSpeed Insights score on all 4 metrics
+- 100/100 Google PageSpeed Insights [score](https://pagespeed.web.dev/report?url=https%3A%2F%2Fhugo-blog-awesome.netlify.app%2F) on all 4 metrics
 
 ## Screenshots
 
