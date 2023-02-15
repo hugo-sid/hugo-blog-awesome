@@ -26,7 +26,7 @@ Google PageSpeed Insights [test link](https://pagespeed.web.dev/report?url=https
 
 ## Setup
 
-Ensure that you have installed the Hugo extended version. This theme uses SCSS for styling, so you need the extended version of Hugo to compile the SCSS files.
+> **Note**: you need to have the Hugo extended version installed in order to use this theme. This theme uses SCSS for styling. With Hugo extended version, SCSS can be compiled to CSS.
 
 To create a new Hugo site with this theme, run the following command:
 
