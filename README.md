@@ -66,6 +66,10 @@ Then, edit the `my-first-post.md` file to suit your needs.
 
 If you find any bugs or have any suggestions, feel free to open an issue or a pull request.
 
+## Websites using this theme
+
+If you are using this theme for any website, feel free to list the website here.
+
 ## License
 
 This theme is released under the MIT license. For more information read the [License](https://github.com/hugo-sid/hugo-blog-awesome/LICENSE.md).
