@@ -50,7 +50,13 @@ To use this theme, set the `theme` variable in your site's `config.toml` to `hug
 ## Configuration
 
 You can have a look at the `config.toml` file in the `exampleSite` directory for an example configuration.
-I recommend you to copy the `config.toml` file from the `exampleSite` directory to the root directory of your Hugo site. Then, you can edit the `config.toml` file to suit your needs.
+It is recommend that you to copy the `config.toml` file from the `exampleSite` directory to the root directory of your Hugo site. You can then edit the `config.toml` file to suit your needs.
+
+### Adding favicon
+
+I used [realfavicongenerator.net](https://realfavicongenerator.net/) to generate the favicons. You can place the resulting files in the `static\images\favicon` folder. That should get your favicon working.
+
+If you want to customize anything further, you can modify `layouts\partials\head.html`.
 
 ## Content
 
@@ -68,7 +74,7 @@ If you find any bugs or have any suggestions, feel free to open an issue or a pu
 
 ## Websites using this theme
 
-If you are using this theme for any website, feel free to list the website here.
+If you are using this theme for any website, feel free to list the website here. You can submit a pull request (PR) to include your website.
 
 ## License
 
