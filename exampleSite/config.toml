@@ -3,6 +3,10 @@ baseURL = 'https://hugo-blog-awesome.netlify.app/'
 languageCode = 'en-us'
 theme = "hugo-blog-awesome"
 
+# To enable Google Analytics 4 (gtag.js) provide G-MEASUREMENT_ID below.
+# To disable  Google Analytics, simply leave the field empty or remove the next line
+googleAnalytics = '' # G-MEASUREMENT_ID
+
 
 # set markup.highlight.noClasses=false to enable code highlight
 [markup]
@@ -37,4 +41,4 @@ theme = "hugo-blog-awesome"
   avatar = "img/avatar.jpg"
   intro = "Awesome hugo blog"
   name = "Sidharth R"
-  description = "A minimalistic Hugo theme with light and dark mode support, for running a personal site or blog"
+  description = "A fast, minimalistic Hugo theme with light and dark mode support, for running a personal site or blog"

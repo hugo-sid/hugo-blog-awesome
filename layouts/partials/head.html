@@ -35,4 +35,10 @@
   {{/*  Katex support (enabled on on specific pages). See 'helpers/katex.html' for more info.   */}}
 
   {{- if or .Params.math .Site.Params.math }}{{ partial "helpers/katex.html" . -}}{{- end -}}
+
+  {{/*  Google analytics script. See config.toml to enable/disable this.  */}}
+  {{- if hugo.IsProduction | or (eq site.Params.env "production") }}
+    {{ template "_internal/google_analytics.html" . }}
+  {{- end -}}
+
 </head>
