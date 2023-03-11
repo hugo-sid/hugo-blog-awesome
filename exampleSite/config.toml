@@ -8,6 +8,9 @@ theme = "hugo-blog-awesome"
 googleAnalytics = '' # G-MEASUREMENT_ID
 
 
+# Enable emojis globally
+enableEmoji = true
+
 # set markup.highlight.noClasses=false to enable code highlight
 [markup]
   [markup.highlight]
