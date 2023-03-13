@@ -76,6 +76,10 @@ If you find any bugs or have any suggestions, feel free to open an issue or a pu
 
 If you are using this theme for any website, feel free to list the website here. You can submit a pull request (PR) to include your website.
 
+## Support
+
+Don't forget to ⭐️ the repo if you liked this theme!
+
 ## License
 
 This theme is released under the MIT license. For more information read the [License](https://github.com/hugo-sid/hugo-blog-awesome/LICENSE.md).
