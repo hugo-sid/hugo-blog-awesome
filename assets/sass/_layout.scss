@@ -37,8 +37,8 @@
 
 // Content
 .posts-item-note {
-  font-size: $base-font-size;
-  font-weight: 700;
+  padding-bottom: .3rem;
+  font-weight: 500;
   color: $black;
 }
 
@@ -49,6 +49,7 @@
   padding-bottom: 6px;
   justify-content: space-between;
   flex-direction: row;
+  align-items: center;
 
   &:not(:first-child) {
     border-top: 1px solid $light;
