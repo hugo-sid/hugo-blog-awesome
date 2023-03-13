@@ -1,23 +1,18 @@
 {{- define "main" -}}
-<div class="wrapper">
+<div class="wrapper list-page">
     <header class="header">
         <h1 class="header-title center">{{ .Title }}</h1>
     </header>
     <main class="page-content" aria-label="Content">
         {{ range .Pages.GroupByDate "2006" }}
         {{ $year := .Key }}
-        <h2 class="post__year">{{ $year }}</h2>
+        <h2 class="post-year">{{ $year }}</h2>
 
         {{/* create a list of posts for each month, with month as heading */}}
 
         {{ range .Pages }}
 
-        <article class="post-item">
-            <h3 class="post-item-title">
-                <a href="{{ .Permalink }}">{{ .Title }}</a>
-                <p class="post-item-meta">{{ .Date.Format "January 2, 2006" }}</p>
-            </h3>
-        </article>
+        {{ partial "postCard" . }}
 
         {{ end }} {{/* end range .Pages */}}
 
