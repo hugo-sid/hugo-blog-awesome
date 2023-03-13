@@ -92,11 +92,13 @@
   @include media-query($on-mobile) {
     margin-top: 3em;
   }
+
   span.footer_item {
     opacity: 0.8;
     font-weight: $bold-weight;
     font-size: $small-font-size;
   }
+
   a.footer_item {
     opacity: 0.8;
     text-decoration: none;
@@ -109,12 +111,24 @@
     }
   }
 
-  .footer_copyright {
+  &_copyright {
     font-size: $small-font-size - 1;
-    margin-top: 3px;
     display: block;
     color: $gray;
     opacity: 0.8;
+    margin-top: .7rem;
+    padding: .3rem .95rem;
+  }
+
+  &_social-icons {
+    a {
+      text-decoration: none;
+      margin-right: .31rem;
+    }
+    svg {
+      height: 24px;
+      width: 24px;
+    }
   }
 }
 
