@@ -194,4 +194,4 @@ The social icons are made possible thanks to [Aditya Telange](https://github.com
 
 ## License
 
-This theme is released under the MIT license. For more information read the [License](https://github.com/hugo-sid/hugo-blog-awesome/LICENSE.md).
+This theme is released under the MIT license. For more information read the [License](https://github.com/hugo-sid/hugo-blog-awesome/blob/main/LICENSE).
