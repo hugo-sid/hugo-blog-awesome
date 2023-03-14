@@ -77,7 +77,7 @@ url = "index.xml"
 ```
 
 <details>
-  <summary>List of available icons</summary>
+  <summary>List of available icons (click to expand)</summary>
   
 
 | Name            | Platform Link                   |
