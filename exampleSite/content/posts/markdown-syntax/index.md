@@ -30,6 +30,24 @@ Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptio
 
 Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.
 
+## Image
+
+You can use the following syntax to include an image. Path of the image should be relative to the `index.md` file.
+
+```markdown
+![Landscape](1.jpg)
+```
+
+![Landscape](1.jpg)
+
+You can also include image from external sources.
+
+```markdown
+![Image](https://source.unsplash.com/random/600x400/?tech)
+```
+
+![Image](https://source.unsplash.com/random/600x400/?tech)
+
 ## Blockquotes
 
 The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a `footer` or `cite` element, and optionally with in-line changes such as annotations and abbreviations.
