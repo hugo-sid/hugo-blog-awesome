@@ -80,7 +80,7 @@ url = "index.xml"
   <summary>List of available icons (click to expand)</summary>
   
 
-| Name            | Platform Link                   |
+| Name            | Platform                        |
 | --------------- | ------------------------------- |
 | `123rf`         | 123rf.com                       |
 | `adobestock`    | stock.adobe.com                 |
