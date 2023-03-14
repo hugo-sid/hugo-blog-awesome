@@ -162,7 +162,7 @@ url = "index.xml"
 
 </details>
 
-If you are trying to add an icon which is not listed above, you can modify `layouts\partials\svgs\svgs.html` to include your icon (SVG). Feel free to submit your icon by creating a pull request.
+If you are trying to add an icon which is not listed above, you can modify `layouts\partials\svgs\svgs.html` to include your icon (SVG). You are encouraged to submit your icon by creating a pull request, so that other can benefit.
 
 ## Content
 
