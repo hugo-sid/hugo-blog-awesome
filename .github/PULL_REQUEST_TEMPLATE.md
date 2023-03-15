@@ -15,7 +15,7 @@ changes. Neither you need to answer all questions nor you have to check all the 
 A small description of the fix.
 -->
 
-## Does this PR add a new feature ?
+## Is this PR adding a new feature ?
 
 <!--
 A small description of the feature.
@@ -33,7 +33,7 @@ If this PR resolves an existing issue (say issue number 1), write "Closes #1" in
 ## PR Checklist
 
 - [ ] I have verified that the code works as described/as intended.
-- [ ] This change adds a Social Icon which has a permissive license to use it.
+- [ ] This change adds a social icon which has a permissive license to use it.
 - [ ] This change **does not** include any external library/resources.
 - [ ] This change **does not** include any unrelated scripts (e.g. bash and python scripts).
 - [ ] I have enabled [maintainer edits for this PR](https://help.github.com/en/github/collaborating-with-issues-and-pull-requests/allowing-changes-to-a-pull-request-branch-created-from-a-fork).
