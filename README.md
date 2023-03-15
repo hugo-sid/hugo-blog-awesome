@@ -176,7 +176,7 @@ Then, edit the `my-first-post.md` file to suit your needs.
 
 ## Contributing
 
-If you find any bugs or have any suggestions, feel free to open an issue or a pull request.
+Please read [CONTRIBUTING.md](https://github.com/hugo-sid/hugo-blog-awesome/blob/main/CONTRIBUTING.md).
 
 ## Websites using this theme
 
