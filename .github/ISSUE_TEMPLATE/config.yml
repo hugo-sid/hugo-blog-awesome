@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions or support
+    url: https://github.com/orgs/community/discussions
+    about: Please use Discussion to ask and answer questions.
+  - name: Feature request
+    url: https://github.com/hugo-sid/hugo-blog-awesome/discussions/new?category=feature-requests
+    about: Please use the feature requests section in GitHub discussions to propose new features or ideas.
