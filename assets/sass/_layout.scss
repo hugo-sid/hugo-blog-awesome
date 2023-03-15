@@ -216,8 +216,43 @@
   }
 }
 
-.rss {
+
+/* Add styles for abbr, sub, sup, kbd, mark */
+
+abbr {
+  text-decoration: none;
+  border-bottom: 1px dotted #000;
+}
+
+sub, sup {
+  font-size: 79%;
+  line-height: 0;
   position: relative;
-  bottom: -3px;
-  outline: none;
+  vertical-align: baseline;
+}
+
+sup {
+  top: -0.5em;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+kbd {
+  font-size: 85%;
+  border-radius: 3px;
+  color: $inline-code-text;
+  background: $inline-code-bg;
+  display: inline-block;
+  font-family: Consolas, monaco, monospace;
+  line-height: 1;
+  padding: 2px 4px;
+  white-space: nowrap;
+}
+
+mark {
+  background: #ff0;
+  color: #000;
+  border-radius: 3px;
 }

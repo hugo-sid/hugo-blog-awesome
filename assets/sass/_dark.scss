@@ -67,9 +67,8 @@ body[data-theme="dark"] {
 
   // kbd tag
   kbd {
-    border-color: $dark-light;
-    color: $dark-white;
-    text-shadow: 0 1px 0 $dark-black;
+    color: $dark-inline-code-text;
+    background-color: $dark-inline-code-bg;
   }
 
   // horizontal rule
