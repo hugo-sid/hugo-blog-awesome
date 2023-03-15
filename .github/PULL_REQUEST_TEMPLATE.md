@@ -15,13 +15,13 @@ changes. Neither you need to answer all questions nor you have to check all the 
 A small description of the fix.
 -->
 
-## Is this PR adding a new feature ?
+## Is this PR adding a new feature?
 
 <!--
 A small description of the feature.
 -->
 
-## Is this PR related to any issue or discussion created before?
+## Is this PR related to any issue or discussion?
 
 <!--
 Provide link(s) to any releavant issue or discussions post here.
