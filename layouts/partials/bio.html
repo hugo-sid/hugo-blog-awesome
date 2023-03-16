@@ -1,7 +1,13 @@
+{{ $avatar_img := .Site.Params.author.avatar }}
+{{ $avatar_img_alt := .Site.Params.author.name }}
+{{ $image := resources.Get $avatar_img }}
+{{ $image := $image.Fill "100x100 webp" }}
 <div class="author">
+    {{ with $image }}
     <img class="author-avatar" 
-    src="{{ .Site.Params.author.avatar | absURL }}" 
-    alt="{{ .Site.Params.author.name }}" width="70px" height="70px" />
+    src="{{ $image.RelPermalink }}" 
+    alt="{{ $avatar_img_alt }}" width="{{ .Width }}" height="{{ .Height }}" />
+    {{ end }}
     <h2 class="author-name">{{ .Site.Params.author.intro }}</h2>
     <p class="author-bio">{{ .Site.Params.author.description }}</p>
 </div>
