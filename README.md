@@ -8,11 +8,14 @@
 | --- | --- |
 | ![Dark mode](https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/master/images/dark.png) | ![Light mode](https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/master/images/light.png) |
 
-Page speed score:
+<details>
+  <summary>Page speed score (click to see)</summary>
 
 ![Page speed score](https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/master/images/pagespeed.png)
 
 Google PageSpeed Insights [test link](https://pagespeed.web.dev/report?url=https%3A%2F%2Fhugo-blog-awesome.netlify.app%2F).
+
+</details>
 
 ## Why this theme?
 
