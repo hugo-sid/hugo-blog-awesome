@@ -23,7 +23,7 @@ Hugo Blog Awesome is a theme crafted to capture your readers' attention.
 
 Additionally, it's fast, [privacy-conscious](https://themarkup.org/blacklight?url=hugo-blog-awesome.netlify.app), and comes with no external dependencies. That's right. There are no Google fonts, icon packs, or JavaScript frameworks. No trackers or ads to bloat your website.
 
-Its focus on minimalism and clean UI ensures that your content takes the spotlight. TThis, coupled with the support for dark mode, provides a stress-free (on the eyes) reading experience for your audience.
+Its focus on minimalism and clean UI ensures that your content takes the spotlight. This, coupled with the support for dark mode, provides a stress-free (on the eyes) reading experience for your audience.
 
 Built with Hugo, SCSS, and vanilla JavaScript.
 
