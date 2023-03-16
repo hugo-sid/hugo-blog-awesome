@@ -21,9 +21,9 @@ Google PageSpeed Insights [test link](https://pagespeed.web.dev/report?url=https
 
 Hugo Blog Awesome is a theme crafted to capture your readers' attention.
 
-Additionally, it's fast, [privacy-conscious](https://themarkup.org/blacklight?url=hugo-blog-awesome.netlify.app) & comes with no external dependencies. That's right. There are no Google fonts, icon packs, or JavaScript frameworks. No trackers or ads to bloat your website.
+Additionally, it's fast, [privacy-conscious](https://themarkup.org/blacklight?url=hugo-blog-awesome.netlify.app), and comes with no external dependencies. That's right. There are no Google fonts, icon packs, or JavaScript frameworks. No trackers or ads to bloat your website.
 
-It's focus on minimalism and clean UI ensures that your content takes the spotlight while the dark mode support offers a stress free reading experience for your audience.
+Its focus on minimalism and clean UI ensures that your content takes the spotlight. TThis, coupled with the support for dark mode, provides a stress-free (on the eyes) reading experience for your audience.
 
 Built with Hugo, SCSS, and vanilla JavaScript.
 
@@ -31,7 +31,7 @@ Built with Hugo, SCSS, and vanilla JavaScript.
 
 - Minimal design
 - Responsive design
-- Light and dark mode
+- Light and dark modes
 - Syntax highlighting
 - RSS feed
 - No jQuery, Bootstrap
@@ -40,7 +40,7 @@ Built with Hugo, SCSS, and vanilla JavaScript.
 
 ## Setup
 
-> **Note**: you need to have the Hugo extended version installed in order to use this theme. This theme uses SCSS for styling. With Hugo extended version, SCSS can be compiled to CSS without any additional tool.
+> **Note**: You need to have the Hugo extended version installed in order to use this theme. This theme uses SCSS for styling. With the Hugo extended version, SCSS can be compiled to CSS without any additional tools.
 
 To create a new Hugo site with this theme, run the following command:
 
@@ -51,7 +51,7 @@ Then, clone this repository into the `themes` directory of your new site:
     cd myblog
     git clone https://github.com/hugo-sid/hugo-blog-awesome.git themes/hugo-blog-awesome
 
-To preview the thmeme with example content, run the following command from the `exampleSite` directory:
+To preview the theme with example content, run the following command from the `exampleSite` directory:
 
     hugo server --themesDir ../..
 
@@ -63,8 +63,8 @@ To use this theme, set the `theme` variable in your site's `config.toml` to `hug
 
 ## Configuration
 
-You can have a look at the `config.toml` file in the `exampleSite` directory for an example configuration.
-It is recommend that you to copy the `config.toml` file from the `exampleSite` directory to the root directory of your Hugo site. You can then edit the `config.toml` file to suit your needs.
+You can take a look at the `config.toml` file in the `exampleSite` directory for an example configuration.
+It is recommended that you copy the `config.toml` file from the `exampleSite` directory to the root directory of your Hugo site. You can then edit the `config.toml` file to suit your needs.
 
 ### Adding favicon
 
@@ -174,7 +174,7 @@ url = "index.xml"
 
 </details>
 
-If you are trying to add an icon which is not listed above, you can modify `layouts\partials\svgs\svgs.html` to include your icon (SVG). You are encouraged to submit your icon by creating a pull request, so that other can benefit.
+If you are trying to add an icon that is not listed above, you can modify `layouts\partials\svgs\svgs.html` to include your icon (SVG). You are encouraged to submit your icon by creating a pull request, so that others can benefit.
 
 ## Content
 
