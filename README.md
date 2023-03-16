@@ -21,11 +21,11 @@ Google PageSpeed Insights [test link](https://pagespeed.web.dev/report?url=https
 
 Hugo Blog Awesome is a theme crafted to capture your readers' attention.
 
-Additionally, it's fast, privacy-conscious & comes with no external dependencies. That's right. There are no Google fonts, icon packs, or JavaScript frameworks. No trackers or ads to bloat your website.
+Additionally, it's fast, [privacy-conscious](https://themarkup.org/blacklight?url=hugo-blog-awesome.netlify.app) & comes with no external dependencies. That's right. There are no Google fonts, icon packs, or JavaScript frameworks. No trackers or ads to bloat your website.
 
-It's focus on minimalism and clean UI ensures that your content takes the spotlight while the dark mode support delivers a stress free reading experience for your audience.
+It's focus on minimalism and clean UI ensures that your content takes the spotlight while the dark mode support offers a stress free reading experience for your audience.
 
-The building blocks consist of Hugo, vanilla JavaScript, and a sprinkle of SCSS.
+Built with Hugo, SCSS, and vanilla JavaScript.
 
 ## Features
 
