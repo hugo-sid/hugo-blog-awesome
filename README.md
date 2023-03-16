@@ -9,7 +9,7 @@
 | ![Dark mode](https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/master/images/dark.png) | ![Light mode](https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/master/images/light.png) |
 
 <details>
-  <summary>Page speed score (click to see)</summary>
+  <summary>Page speed score (click to expand)</summary>
 
 ![Page speed score](https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/master/images/pagespeed.png)
 
