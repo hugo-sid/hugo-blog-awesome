@@ -79,7 +79,6 @@ url = "index.xml"
 <details>
   <summary>List of available icons (click to expand)</summary>
   
-
 | Name            | Platform                        |
 | --------------- | ------------------------------- |
 | `123rf`         | 123rf.com                       |
@@ -158,7 +157,6 @@ url = "index.xml"
 | `ycombinator`   | ycombinator.com                 |
 | `youtube`       | youtube.com                     |
 | `other`         | -                               |
-
 
 </details>
 
