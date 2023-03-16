@@ -2,16 +2,6 @@
 
 <h4 align=center>⚡ Fast | 📰 Clean UI | 🌙 Dark mode support | 📱 Responsive design </h4>
 
-## Features
-
-- Minimal design
-- Responsive design
-- Light and dark mode
-- Syntax highlighting
-- RSS feed
-- No jQuery, Bootstrap
-- 100/100 Google PageSpeed Insights [score](https://pagespeed.web.dev/report?url=https%3A%2F%2Fhugo-blog-awesome.netlify.app%2F) on all 4 metrics
-
 ## Screenshots
 
 | Dark mode | Light mode |
@@ -23,6 +13,27 @@ Page speed score:
 ![Page speed score](https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/master/images/pagespeed.png)
 
 Google PageSpeed Insights [test link](https://pagespeed.web.dev/report?url=https%3A%2F%2Fhugo-blog-awesome.netlify.app%2F).
+
+## Why this theme?
+
+Hugo Blog Awesome is a theme crafted to capture your readers' attention.
+
+Additionally, it's fast, privacy-conscious & comes with no external dependencies. That's right. There are no Google fonts, icon packs, or JavaScript frameworks. No trackers or ads to bloat your website.
+
+It's focus on minimalism and clean UI ensures that your content takes the spotlight while the dark mode support delivers a stress free reading experience for your audience.
+
+The building blocks consist of Hugo, vanilla JavaScript, and a sprinkle of SCSS.
+
+## Features
+
+- Minimal design
+- Responsive design
+- Light and dark mode
+- Syntax highlighting
+- RSS feed
+- No jQuery, Bootstrap
+- 100/100 Google PageSpeed Insights [score](https://pagespeed.web.dev/report?url=https%3A%2F%2Fhugo-blog-awesome.netlify.app%2F) on all 4 metrics
+
 
 ## Setup
 
