@@ -37,7 +37,6 @@ Built with Hugo, SCSS, and vanilla JavaScript.
 - No jQuery, Bootstrap
 - 100/100 Google PageSpeed Insights [score](https://pagespeed.web.dev/report?url=https%3A%2F%2Fhugo-blog-awesome.netlify.app%2F) on all 4 metrics
 
-
 ## Setup
 
 > **Note**: You need to have the Hugo extended version installed in order to use this theme. This theme uses SCSS for styling. With the Hugo extended version, SCSS can be compiled to CSS without any additional tools.
@@ -219,4 +218,3 @@ This theme is released under the MIT license. For more information read the [Lic
 ### Star History
 
 [![Star History Chart](https://api.star-history.com/svg?repos=hugo-sid/hugo-blog-awesome&type=Date)](https://star-history.com/#hugo-sid/hugo-blog-awesome&Date)
-
