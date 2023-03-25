@@ -193,6 +193,11 @@ Please read [CONTRIBUTING.md](https://github.com/hugo-sid/hugo-blog-awesome/blob
 
 If you are using this theme for any website, feel free to list the website here. You can submit a pull request (PR) to include your website.
 
+- https://krisnova.net/
+- https://paddy-exe.github.io/
+- https://mrizkimaulidan.vercel.app/
+- https://www.ariesnine.cn/
+
 ## Support
 
 Don't forget to ⭐️ the repo if you liked this theme!
