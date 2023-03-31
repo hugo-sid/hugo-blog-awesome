@@ -6,7 +6,7 @@
                 <h1 class="header-title">{{ .Title }}</h1>
                 {{ $ISO_time := dateFormat "2006-01-02T15:04:05-07:00" .Date }}
                 <div class="post-meta">
-                    <time datetime="{{ $ISO_time }}" itemprop="datePublished"> {{ dateFormat "Jan 2, 2006" .Date }} </time>
+                    <time datetime="{{ $ISO_time }}" itemprop="datePublished"> {{ .Date | time.Format ":date_medium" }} </time>
                 </div>
             </header>
             <div class="page-content">

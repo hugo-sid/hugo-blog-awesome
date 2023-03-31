@@ -5,6 +5,6 @@
     {{/*  format date string to create an ISO 8601 string  */}}
     {{ $ISO_date := "2006-01-02T15:04:05Z0700" }}
     <time class="post-item-meta" datetime="{{ dateFormat $ISO_date .Date }}">
-        {{ dateFormat "02 Jan 2006" .Date }}
+        {{ .Date | time.Format ":date_medium" }}
     </time>
 </article>
