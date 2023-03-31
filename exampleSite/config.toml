@@ -1,7 +1,13 @@
 title = "Awesome Hugo blog"
 baseURL = 'https://hugo-blog-awesome.netlify.app/'
+
+# This is what goes in <html lang="">
 languageCode = 'en-us'
+
 theme = "hugo-blog-awesome"
+
+# This defines how dates are formatted
+defaultContentLanguage = "en-gb"
 
 # To enable Google Analytics 4 (gtag.js) provide G-MEASUREMENT_ID below.
 # To disable  Google Analytics, simply leave the field empty or remove the next line
