@@ -1,6 +1,6 @@
 {{/*  These meta tags are rendered only in the posts section (i.e. in single/list page)  */}}
 {{ if eq .Section "posts" }}
-    {{ $ISO_date := .Date.Format "2006-01-02T15:04:05Z0700" | safeHTML }}
+    {{ $ISO_date := dateFormat "2006-01-02T15:04:05Z0700" .Date | safeHTML }}
     <!-- Pagination meta tags for list pages only -->
     {{ $paginator := .Paginate (where .Pages "Section" "blog") }}
     {{ if $paginator }}
@@ -38,11 +38,11 @@
         "@type": "Person",
         "name": "{{ .Site.Params.github }}"
         },
-        "datePublished": "{{ .Date.Format "2006-01-02" }}",
+        "datePublished": "{{ dateFormat "2006-01-02" .Date }}",
         "description": {{ .Description }},
         "wordCount": {{ .WordCount }},
         "mainEntityOfPage": "True",
-        "dateModified": "{{ .Lastmod.Format "2006-01-02" }}",
+        "dateModified": "{{ dateFormat "2006-01-02" .Lastmod }}",
         "image": {
         "@type": "imageObject",
         "url": "{{ with .Params.image }}{{ .Permalink }}{{ end }}"
