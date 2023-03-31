@@ -1,6 +1,9 @@
 title = "Awesome Hugo blog"
 baseURL = 'https://hugo-blog-awesome.netlify.app/'
+
+# This is what goes in <html lang="">
 languageCode = 'en-us'
+
 theme = "hugo-blog-awesome"
 
 # This defines how dates are formatted
