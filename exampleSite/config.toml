@@ -1,5 +1,5 @@
 title = "Awesome Hugo blog"
-baseURL = 'https://hugo-blog-awesome.netlify.app/'
+baseURL = 'https://hba.sid.one/'
 
 # This is what goes in <html lang="">
 languageCode = 'en-us'
