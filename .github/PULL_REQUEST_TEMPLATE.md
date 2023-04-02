@@ -24,7 +24,7 @@ A small description of the feature.
 ## Is this PR related to any issue or discussion?
 
 <!--
-Provide link(s) to any releavant issue or discussions post here.
+Provide link(s) to any relevant issue or discussion post here.
 
 If this PR resolves an existing issue (say issue number 1), write "Closes #1" in your pull request description (not in title) so that the issue is closed automatically when this PR is merged.
 -->
