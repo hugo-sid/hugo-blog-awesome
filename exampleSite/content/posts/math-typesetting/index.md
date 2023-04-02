@@ -14,7 +14,7 @@ Mathematical notation in a Hugo project can be enabled by using
 In this example we will be using [KaTeX](https://katex.org/).
 
 - To enable KaTeX globally, set the parameter `math` to `true` in a project's
-  configuration file:
+  configuration file as follows.
   - `config.toml`
     ```toml
     [params]
@@ -26,7 +26,7 @@ In this example we will be using [KaTeX](https://katex.org/).
       math: true
     ```
 - To enable KaTeX on a per page basis, include the parameter `math: true` in
-  Front Matter of Markdown content file:
+  Front Matter of Markdown content file as follows.
 
   ```
   ---
