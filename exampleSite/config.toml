@@ -47,6 +47,7 @@ enableEmoji = true
   sitename = "Awesome hugo blog"
   defaultColor = "dark" # set default color mode: dark or light
   description = "Minimal Hugo blog theme with light and dark mode support"
+  mainSections = ['posts']
 
 [params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
