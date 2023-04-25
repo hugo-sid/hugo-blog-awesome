@@ -1,44 +1,44 @@
 <head>
-  {{ partial "meta/main.html" . }}
-  {{ hugo.Generator }}
+    {{ partial "meta/main.html" . }}
+    {{ hugo.Generator }}
 
-  {{/*  <!-- Permalink & RSSlink -->  */}}
+    {{/* <!-- Permalink & RSSlink --> */}}
 
-  <link rel="canonical" href="{{ .Permalink }}">
-  {{- with .OutputFormats.Get "RSS" }}
-  <link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}">
-  <link href="{{ .RelPermalink }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}">
-  {{- end -}}
+    <link rel="canonical" href="{{ .Permalink }}">
+    {{- with .OutputFormats.Get "RSS" }}
+    <link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}">
+    <link href="{{ .RelPermalink }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}">
+    {{- end -}}
 
-  {{/*  Styles  */}}
+    {{/* Styles */}}
 
-  {{- $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint -}}
-  <link href="{{ $style.RelPermalink }}" rel="stylesheet">
-  {{- $code_syntax_highlight_css := resources.Get "code-highlight.css" | minify | fingerprint -}}
-  <link href="{{ $code_syntax_highlight_css.RelPermalink }}" rel="stylesheet">
+    {{- $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint -}}
+    <link href="{{ $style.RelPermalink }}" rel="stylesheet">
+    {{- $code_syntax_highlight_css := resources.Get "code-highlight.css" | minify | fingerprint -}}
+    <link href="{{ $code_syntax_highlight_css.RelPermalink }}" rel="stylesheet">
 
-  {{/*  Favicons  */}}
+    {{/* Favicons */}}
 
-  <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
-  <link rel="manifest" href="/images/favicon/site.webmanifest">
-  <link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
-  <link rel="shortcut icon" href="/images/favicon/favicon.ico">
-  <meta name="msapplication-TileColor" content="#2b5797">
-  <meta name="msapplication-config" content="/images/favicon/browserconfig.xml">
-  <meta name="theme-color" content="#ffffff">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/images/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="/images/favicon/favicon.ico">
+    <meta name="msapplication-TileColor" content="#2b5797">
+    <meta name="msapplication-config" content="/images/favicon/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
 
-  {{/*  SVG favicon for the modern web  */}}
-  <link rel="icon" type="image/svg+xml" href="/images/favicon/favicon.svg">
+    {{/* SVG favicon for the modern web */}}
+    <link rel="icon" type="image/svg+xml" href="/images/favicon/favicon.svg">
 
-  {{/*  Katex support (enabled on on specific pages). See 'helpers/katex.html' for more info.   */}}
+    {{/* Katex support (enabled on on specific pages). See 'helpers/katex.html' for more info. */}}
 
-  {{- if or .Params.math .Site.Params.math }}{{ partial "helpers/katex.html" . -}}{{- end -}}
+    {{- if or .Params.math .Site.Params.math }}{{ partial "helpers/katex.html" . -}}{{- end -}}
 
-  {{/*  Google analytics script. See config.toml to enable/disable this.  */}}
-  {{- if hugo.IsProduction | or (eq site.Params.env "production") }}
+    {{/* Google analytics script. See config.toml to enable/disable this. */}}
+    {{- if hugo.IsProduction | or (eq site.Params.env "production") }}
     {{ template "_internal/google_analytics.html" . }}
-  {{- end -}}
+    {{- end -}}
 
 </head>

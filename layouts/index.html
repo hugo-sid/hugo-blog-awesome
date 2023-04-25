@@ -1,27 +1,29 @@
 <!DOCTYPE html>
 <html lang="{{ .Site.LanguageCode }}">
-    {{- partial "head.html" . -}}
-    <body data-theme = "{{ .Site.Params.defaultColor }}" class="notransition">
-        {{- partial "scriptsBodyStart.html" . -}}
-        {{- partial "header.html" . -}}
-        <div class="wrapper">
-            {{ partial "bio" . }}
-            <main aria-label="Content">
-                <h3 class="posts-item-note" aria-label="Recent Posts">Recent Posts</h3>
-                {{/* Show last 5 posts in reverse date order */}}
-                {{ $pagesToShow := where .Site.RegularPages "Type" "in" site.Params.mainSections }}
-                {{ $posts := $pagesToShow.ByDate.Reverse }}
-                {{ range first 5 $posts }}
-                {{ partial "postCard" . }}
-                {{ end }}
-                {{ if gt (len $posts) 5 }}
-                <p>
-                    <a href="/posts/">See all posts</a>
-                </p>
-                {{ end }}
-            </main>
-        </div>
-        {{- partial "footer.html" . -}}
-        {{- partial "scriptsBodyEnd.html" . -}}
-    </body>
+{{- partial "head.html" . -}}
+
+<body data-theme="{{ .Site.Params.defaultColor }}" class="notransition">
+    {{- partial "scriptsBodyStart.html" . -}}
+    {{- partial "header.html" . -}}
+    <div class="wrapper">
+        {{ partial "bio" . }}
+        <main aria-label="Content">
+            <h3 class="posts-item-note" aria-label="Recent Posts">Recent Posts</h3>
+            {{/* Show last 5 posts in reverse date order */}}
+            {{ $pagesToShow := where .Site.RegularPages "Type" "in" site.Params.mainSections }}
+            {{ $posts := $pagesToShow.ByDate.Reverse }}
+            {{ range first 5 $posts }}
+            {{ partial "postCard" . }}
+            {{ end }}
+            {{ if gt (len $posts) 5 }}
+            <p>
+                <a href="/posts/">See all posts</a>
+            </p>
+            {{ end }}
+        </main>
+    </div>
+    {{- partial "footer.html" . -}}
+    {{- partial "scriptsBodyEnd.html" . -}}
+</body>
+
 </html>

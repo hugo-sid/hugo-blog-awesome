@@ -1,10 +1,10 @@
 <article class="post-item">
-  <h4 class="post-item-title">
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-  </h4>
-  {{/*  format date string to create an ISO 8601 string  */}}
-  {{ $ISO_date := "2006-01-02T15:04:05Z0700" }}
-  <time class="post-item-meta" datetime="{{ dateFormat $ISO_date .Date }}">
-      {{ .Date | time.Format ":date_medium" }}
-  </time>
+    <h4 class="post-item-title">
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+    </h4>
+    {{/* format date string to create an ISO 8601 string */}}
+    {{ $ISO_date := "2006-01-02T15:04:05Z0700" }}
+    <time class="post-item-meta" datetime="{{ dateFormat $ISO_date .Date }}">
+        {{ .Date | time.Format ":date_medium" }}
+    </time>
 </article>
