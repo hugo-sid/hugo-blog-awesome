@@ -1,0 +1,26 @@
+{{ define "partials/hugo-blog-awesome/manifest-background-color" }}
+    {{ $bg := ""}}
+    {{ if isset .Site.Params.webmanifest "background_color" }}
+        {{ $bg = .Site.Params.webmanifest.background_color }}
+    {{ else if eq .Site.Params.defaultColor "dark" }}
+        {{ $bg = "#131418" }}
+    {{ else }}
+        {{ $bg = "#ffffff"}}
+    {{ end}}
+    {{ return $bg }}
+{{ end }}
+
+{{ $background_color := partial "hugo-blog-awesome/manifest-background-color" . }}
+
+{{
+    $ctx := merge (.Site.Params.webmanifest | default dict)
+    (dict
+        "name" (.Site.Params.webmanifest.name | default .Site.Params.sitename | default .Site.Title)
+        "short_name" (.Site.Params.webmanifest.short_name | default .Site.Params.sitename | default .Site.Title)
+        "start_url" (.Site.Params.webmanifest.start_url | default .Site.Home.Permalink)
+        "theme_color" (.Site.Params.webmanifest.theme_color | default "#434648")
+        "background_color" $background_color
+        "display" (.Site.Params.webmanifest.display | default "standalone")
+    )
+}}
+<link rel="manifest" href="{{ (resources.Get "icons/site.webmanifest" | resources.ExecuteAsTemplate "site.webmanifest" $ctx).Permalink }}">

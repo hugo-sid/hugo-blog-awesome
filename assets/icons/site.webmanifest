@@ -1,0 +1,20 @@
+{
+    "name": "{{ .name }}",
+    "short_name": "{{ .short_name }}",
+    "start_url": "{{ .start_url }}",
+    "theme_color": "{{ .theme_color }}",
+    "background_color": "{{ .background_color }}",
+    "display": "{{ .display }}",
+    "icons": [
+        {
+            "src": "{{ (resources.Get "/icons/android-chrome-192x192.png").RelPermalink }}",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "{{ (resources.Get "/icons/android-chrome-512x512.png").RelPermalink }}",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
