@@ -1,28 +1,48 @@
-name: PR labeler
+name: "Pull Request auto-label"
 
-on: [pull_request]
+on:
+  # So that PRs touching the same files as the push are updated
+  push:
+    branches: [ main ]
+  pull_request_target:
+    types: [ opened, synchronize ]
 
 jobs:
-  labeler:
+  conflicts:
     runs-on: ubuntu-latest
-    name: Label the PR size
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - name: Update PRs with conflict labels
+        uses: eps1lon/actions-label-merge-conflict@releases/2.x
+        with:
+          dirtyLabel: "conflicts"
+          #removeOnDirtyLabel: "PR: ready to ship"
+          repoToken: "${{ secrets.GITHUB_TOKEN }}"
+          commentOnDirty: "This pull request has conflicts with the base branch, please resolve those so that we can review the pull request."
+          commentOnClean: "Conflicts have been resolved! 🎉 A maintainer will soon review the pull request."
+
+  size:
+    if: github.event_name == 'pull_request' || github.event_name == 'pull_request_target'
+    permissions:
+      issues: write
+      pull-requests: write
+    runs-on: ubuntu-latest
     steps:
       - uses: codelytv/pr-size-labeler@v1
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           xs_label: 'size/xs'
-          xs_max_size: '10'
+          xs_max_size: 2
           s_label: 'size/s'
-          s_max_size: '20'
+          s_max_size: 10
           m_label: 'size/m'
-          m_max_size: '50'
+          m_max_size: 50
           l_label: 'size/l'
-          l_max_size: '100'
+          l_max_size: 200
           xl_label: 'size/xl'
-          fail_if_xl: 'false'
           message_if_xl: >
-            This PR exceeds the recommended size of 100 lines.
-            Please ensure that you are NOT addressing multiple issues in one PR.
-            If the PR is atomic and focuses on a single change, it helps the maintainers.
-          github_api_url: 'api.github.com'
-          files_to_ignore: ''
+            This PR exceeds the recommended size of 200 lines.
+            Kindly ensure that you are NOT addressing multiple issues in one PR.
+            We recommend you to create atomic PRs which focus on a single change.
