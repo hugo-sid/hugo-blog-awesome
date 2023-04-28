@@ -2,7 +2,7 @@
 <html lang="{{ .Site.LanguageCode }}">
 {{- partial "head.html" . -}}
 
-<body data-theme="{{ .Site.Params.defaultColor }}" class="notransition">
+<body data-theme="{{ .Site.Params.defaultColor | default "auto" }}" class="notransition">
     {{- partial "scriptsBodyStart.html" . -}}
     {{- partial "header.html" . -}}
     <div class="wrapper">

@@ -1,6 +1,8 @@
-body[data-theme="dark"] {
-  color: $dark-text-base-color;
-  background-color: $dark-black;
+@mixin dark-mode {
+  body {
+    color: $dark-text-base-color;
+    background-color: $dark-black;
+  }
 
   // Headings
   h1,
@@ -41,6 +43,7 @@ body[data-theme="dark"] {
     h3 {
       border-color: $dark-light;
     }
+
     h1,
     h2,
     h3,
@@ -54,7 +57,7 @@ body[data-theme="dark"] {
   }
 
   // Inline code
-  p > code {
+  p>code {
     font-size: 0.9em;
     padding: 1px 3px;
     position: relative;
@@ -62,7 +65,7 @@ body[data-theme="dark"] {
     color: $dark-inline-code-text;
     background-color: $dark-inline-code-bg;
     border-radius: 2px;
-    border: 1px solid rgba(128,128,128,0.1);
+    border: 1px solid rgba(128, 128, 128, 0.1);
   }
 
   // kbd tag
@@ -127,11 +130,13 @@ body[data-theme="dark"] {
   // Navbar
   .navbar {
     border-color: $dark-light;
+
     .menu {
       a#mode {
         .mode-sunny {
           display: block;
         }
+
         .mode-moon {
           display: none;
         }
@@ -140,11 +145,12 @@ body[data-theme="dark"] {
       .menu-link {
         color: $dark-white;
       }
+
       @include media-query($on-mobile) {
         background-color: $dark-black;
         border-color: $dark-light;
 
-        input[type="checkbox"]:checked ~ .trigger {
+        input[type="checkbox"]:checked~.trigger {
           background: $dark-black;
         }
       }
@@ -160,6 +166,7 @@ body[data-theme="dark"] {
     .post-item-date {
       color: $dark-white;
     }
+
     .post-item-title {
       a {
         color: $dark-text-base-color;
@@ -208,9 +215,11 @@ body[data-theme="dark"] {
     span.footer_item {
       color: $dark-white;
     }
+
     a.footer_item:not(:last-child) {
       color: $dark-white;
     }
+
     .footer_copyright {
       color: $dark-gray;
       opacity: 1;
@@ -223,23 +232,39 @@ body[data-theme="dark"] {
       color: $dark-white;
       text-shadow: 1px 0px 0px $dark-text-link-blue;
     }
+
     .phrase {
       color: $dark-text-base-color;
     }
+
     .solution {
       color: $dark-text-link-blue;
     }
+
     .solution:hover {
       color: $dark-text-link-blue-active;
     }
-  }  
+  }
 
   .search-article {
     input[type="search"] {
       color: $dark-text-base-color;
+
       &::-webkit-input-placeholder {
-        color: rgba(128,128,128,0.8);
+        color: rgba(128, 128, 128, 0.8);
       }
     }
   }
+}
+
+// support JS disabled environment with media query
+@media (prefers-color-scheme: dark) {
+  // use "light" class to avoid style conflicts in js enabled environment
+  html:not(.light) {
+    @include dark-mode()
+  }
+}
+
+html.dark {
+  @include dark-mode()
 }
