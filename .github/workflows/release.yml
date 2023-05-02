@@ -1,0 +1,20 @@
+  on:
+    push:
+      branches:
+        - main
+
+  permissions:
+    contents: write
+    pull-requests: write
+
+  name: Create release PR
+
+  jobs:
+    release-please:
+      runs-on: ubuntu-latest
+      steps:
+        - uses: google-github-actions/release-please-action@v3
+          with:
+            release-type: simple
+            pull-request-header: ":rocket: New release :bookmark:"
+            changelog-types: '[{"type":"feat","section":":sparkles: Features","hidden":false},{"type":"fix","section":":bug: Bug Fixes","hidden":false},{"type":"chore","section":":hammer: Miscellaneous","hidden":false},{"type":"docs","section":":memo: Documentation","hidden":false},{"type":"ci","section":":construction_worker: CI/CD","hidden":false},{"type":"perf","section":":zap: Performance","hidden":false}]'
