@@ -9,6 +9,12 @@
                     <time datetime="{{ $ISO_time }}" itemprop="datePublished"> {{ .Date | time.Format ":date_medium" }} </time>
                 </div>
             </header>
+            {{- if or .Params.toc .Site.Params.toc }}
+            <details class="toc">
+                <summary><b>Table of Contents</b></summary>
+                {{ .TableOfContents }}
+            </details>
+            {{- end -}}
             <div class="page-content">
                 {{ .Content }}
             </div>

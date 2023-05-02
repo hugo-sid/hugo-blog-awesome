@@ -25,7 +25,7 @@ enableEmoji = true
     unsafe = true
 
 [menu]
-  [[menu.main]] 
+  [[menu.main]]
     # The page reference (pageRef) is useful for menu highlighting
     # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
     pageRef="/"
@@ -46,11 +46,12 @@ enableEmoji = true
 [params]
   sitename = "Awesome hugo blog"
   defaultColor = "dark" # set color mode: dark, light, auto
-  # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank, 
-  # the default value is set to 'auto'. 
+  # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
+  # the default value is set to 'auto'.
   # You can take a look at layouts/index.html for more information.
   description = "Minimal Hugo blog theme with light and dark mode support"
   mainSections = ['posts']
+  toc = true # set to false to disable table of contents 'globally'
 
 [params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
@@ -70,3 +71,9 @@ url = "https://twitter.com"
 [[params.socialIcons]]
 name = "Rss"
 url = "index.xml"
+
+[tableOfContents]
+startLevel = 2 # ToC starts from H2
+endLevel = 4 # ToC ends at H4
+ordered = false # generates <ul> instead of <ol>
+

@@ -56,6 +56,11 @@
     }
   }
 
+  // ToC
+  .toc {
+    background-color: $dark-toc-bg;
+  }
+
   // Inline code
   p>code {
     font-size: 0.9em;
