@@ -1,0 +1,123 @@
+# Changelog
+
+## 1.0.0 (2023-05-02)
+
+
+### :zap: Performance
+
+* resize and convert avatar image to webp ([e558c0b](https://github.com/hugo-sid/hugo-blog-awesome/commit/e558c0bb0123a39fd3e29a733273d6066136071f))
+
+
+### :sparkles: Features
+
+* add automatic dark and light mode detection ([#26](https://github.com/hugo-sid/hugo-blog-awesome/issues/26)) ([cfa6ca6](https://github.com/hugo-sid/hugo-blog-awesome/commit/cfa6ca6b5b41bc4f0138787bc1a9a4ef89d942be))
+* add date on blog list page ([#6](https://github.com/hugo-sid/hugo-blog-awesome/issues/6)) ([b6d1495](https://github.com/hugo-sid/hugo-blog-awesome/commit/b6d14958a134182d073798180bfd24d672366d89))
+* add repo visit counter ([fc55f17](https://github.com/hugo-sid/hugo-blog-awesome/commit/fc55f17603827f95179769490ba3b6f7af64e861))
+* add styles for abbr, sub, sup, kbd, mark HTML elements(tags) ([5efbd28](https://github.com/hugo-sid/hugo-blog-awesome/commit/5efbd2834bf425b91591779e96588d781e378326))
+* add support for Google analytics ([19bdd10](https://github.com/hugo-sid/hugo-blog-awesome/commit/19bdd103b050864413c998e0e1dd2e47b79e37db))
+* add table of content ([5d7c93b](https://github.com/hugo-sid/hugo-blog-awesome/commit/5d7c93bf0acb42c9378304d3daa70154e282299b))
+* change color of svgs & add hover effect ([bd24d0e](https://github.com/hugo-sid/hugo-blog-awesome/commit/bd24d0ee9d32d097e02d8f72fad05a614d78ca87))
+* enable KaTeX rendering with additional delimiters ([#19](https://github.com/hugo-sid/hugo-blog-awesome/issues/19)) ([eac6563](https://github.com/hugo-sid/hugo-blog-awesome/commit/eac6563d448b138b4b07f05b87ebdcab0a60da21))
+* enforce code formatting with .editorconfig ([025de05](https://github.com/hugo-sid/hugo-blog-awesome/commit/025de050967546c5af1c205cd1bd2d158f0abe11))
+* **favicons:** add support and docs for favicons ([9cb14af](https://github.com/hugo-sid/hugo-blog-awesome/commit/9cb14af7acf77e81c1344adf0eb2be3388686c61))
+* illustrate use of images in a leaf bundle directory ([a2888c9](https://github.com/hugo-sid/hugo-blog-awesome/commit/a2888c989383eea9b3c1a0fec2f52e73c2d58fa3))
+* **repo:** add stars history ([6a5b20e](https://github.com/hugo-sid/hugo-blog-awesome/commit/6a5b20eac87b47cbff4d46d9e642773e3dd2fc82))
+* setup PR labeler GitHub action ([f245613](https://github.com/hugo-sid/hugo-blog-awesome/commit/f245613caf8212d0bbfe3d0041ba7da18fec6af6))
+* **ui:** add support for emoji ([f5a0718](https://github.com/hugo-sid/hugo-blog-awesome/commit/f5a07184be533763b5818f462f1a87e60a97facc))
+* use config.toml to manage footer links & svgs ([b9fbdad](https://github.com/hugo-sid/hugo-blog-awesome/commit/b9fbdad8b3949b0672226387d18873c415597de9))
+* use hugo `dateFormat` function to show localized date string based on `defaultContentLanguage` ([#20](https://github.com/hugo-sid/hugo-blog-awesome/issues/20)) ([64195d2](https://github.com/hugo-sid/hugo-blog-awesome/commit/64195d2e5b785999e8fb8517f05e7e0f839416e9))
+
+
+### :memo: Documentation
+
+* add docs for enabling table of content ([c0824e3](https://github.com/hugo-sid/hugo-blog-awesome/commit/c0824e31f21d8ee1acb84493f11ebec9bc2040ac))
+* add documentation for new color scheme options ([ab263dd](https://github.com/hugo-sid/hugo-blog-awesome/commit/ab263ddb8e76c8042731c31ca1c24341a3c6c9b9))
+* add list of supported social icons ([ef30262](https://github.com/hugo-sid/hugo-blog-awesome/commit/ef30262f366354003ccaf63b194b49fa0a0630ac))
+* add more info on social icons ([2612e5a](https://github.com/hugo-sid/hugo-blog-awesome/commit/2612e5af585da699b09479f59f66ac598dce8776))
+* remove word 'link' to avoid any confusion ([7deb83c](https://github.com/hugo-sid/hugo-blog-awesome/commit/7deb83c95832c37b687cabf5b31d778120b6bd9e))
+
+
+### :hammer: Miscellaneous
+
+* add .gitattributes ([85ea4f2](https://github.com/hugo-sid/hugo-blog-awesome/commit/85ea4f209869695e1bc286f569ee0a04c2e051e9))
+* add info about theme ([515a25d](https://github.com/hugo-sid/hugo-blog-awesome/commit/515a25db0114c6a7b8736ba85e1597d63cb34728))
+* add lang attribute to HTML ([b3df60d](https://github.com/hugo-sid/hugo-blog-awesome/commit/b3df60d7c3623563952eed2f20ca469d0e7c5396))
+* add lang attribute to HTML ([ac8257c](https://github.com/hugo-sid/hugo-blog-awesome/commit/ac8257ce2507a36addee6df978d789d6f8a05542))
+* add list of websites using this theme ([ce9f89b](https://github.com/hugo-sid/hugo-blog-awesome/commit/ce9f89bda93816cc284561c9e4a5e30d389b830a))
+* add more info about theme ([e6cef51](https://github.com/hugo-sid/hugo-blog-awesome/commit/e6cef512e9022ce33748bc79585445b526b389e0))
+* add more info about theme ([c3f37cd](https://github.com/hugo-sid/hugo-blog-awesome/commit/c3f37cd8270dab89e4f6fcf575a9e5b3144b6fb6))
+* add more support methods ([d8fe3f9](https://github.com/hugo-sid/hugo-blog-awesome/commit/d8fe3f95df32b6bc2aa257d4dd81e033071ee23d))
+* add morre info on Hugo extended version ([0f12641](https://github.com/hugo-sid/hugo-blog-awesome/commit/0f1264192bca484a5f9a7f65848dde52c3b325ed))
+* add padding to year on listpage ([d7118b1](https://github.com/hugo-sid/hugo-blog-awesome/commit/d7118b1ee05359df599df1bd6715ff1197ca1093))
+* add screenshot and thumbnail ([44e53f6](https://github.com/hugo-sid/hugo-blog-awesome/commit/44e53f67ea5f35ce290eaa9776db092441d50acb))
+* align items to center in flexbox ([031aa94](https://github.com/hugo-sid/hugo-blog-awesome/commit/031aa941d51b10ecb4a0dc8a7259bea25d17e336))
+* change demo url ([054c26f](https://github.com/hugo-sid/hugo-blog-awesome/commit/054c26fdae3cb07c7eb78b163254d8144070d868))
+* change post title ([594687d](https://github.com/hugo-sid/hugo-blog-awesome/commit/594687de182088ace08fcbfd457725f5d143741e))
+* **CONTRIBUTING.md:** fix spelling mistake ([c77726c](https://github.com/hugo-sid/hugo-blog-awesome/commit/c77726c6abe898fbaa242247989808c7fe2fbc9e))
+* create CODE_OF_CONDUCT.md ([639a287](https://github.com/hugo-sid/hugo-blog-awesome/commit/639a2871183d345653c49be1a825f44325dfee4c))
+* fix grammatical errors in PULL_REQUEST_TEMPLATE.md ([a2c1ad7](https://github.com/hugo-sid/hugo-blog-awesome/commit/a2c1ad73d60c413565d12c005e9c3df382948d65))
+* **image:** specify height and width ([6464c5d](https://github.com/hugo-sid/hugo-blog-awesome/commit/6464c5d5f082a81f88c61623e340c6479bf0393a))
+* improvements for math page ([#22](https://github.com/hugo-sid/hugo-blog-awesome/issues/22)) ([1ad6eea](https://github.com/hugo-sid/hugo-blog-awesome/commit/1ad6eea797742dd1aa00c20331035ba4da8fe5cb))
+* initial commit ([526932b](https://github.com/hugo-sid/hugo-blog-awesome/commit/526932b5294bf40806911b7db97beefc21aa8d6d))
+* lint Markdown files ([b25cd46](https://github.com/hugo-sid/hugo-blog-awesome/commit/b25cd465bae85f54c98182e4b7b724d1a353c485))
+* make details toggle more accessible ([566475b](https://github.com/hugo-sid/hugo-blog-awesome/commit/566475b32ab4114a9b6bd0f1bd234993d82ca720))
+* modify repo visit counter ([66bd9b0](https://github.com/hugo-sid/hugo-blog-awesome/commit/66bd9b015c9d02f9b453088f338b32cae2aa17a7))
+* modify ToC style ([872b187](https://github.com/hugo-sid/hugo-blog-awesome/commit/872b1877c142e798e9844d267dfb3f8d00f6b7b2))
+* normalize all the line endings ([04b83b1](https://github.com/hugo-sid/hugo-blog-awesome/commit/04b83b18b32dbe384c9d5c7f8cc0dc4ee8411293))
+* **readme:** add link to contribution guideline ([dca0a53](https://github.com/hugo-sid/hugo-blog-awesome/commit/dca0a53a1ae9853158875bd7e61dc280c7522eba))
+* **readme:** add more info about theme ([d8870b3](https://github.com/hugo-sid/hugo-blog-awesome/commit/d8870b39cd1cf9f4262965ea052cd66b02f8238a))
+* **readme:** add support section ([5fd98c7](https://github.com/hugo-sid/hugo-blog-awesome/commit/5fd98c76ff8b0f13fbcd03e1bb192877b73c803e))
+* **readme:** fix spelling mistake ([d821b22](https://github.com/hugo-sid/hugo-blog-awesome/commit/d821b229384ec077d923f253778b41e97d653189))
+* **readme:** make statement about Hugo extended version more clear ([491430a](https://github.com/hugo-sid/hugo-blog-awesome/commit/491430a1ea55c6b353c2ab8358eb7b52fc03ad45))
+* **readme:** privacy checker url ([7e09732](https://github.com/hugo-sid/hugo-blog-awesome/commit/7e097324bcc6894b865b8958cb9b902f42beebda))
+* remove resources folder & generated assets ([86d2d44](https://github.com/hugo-sid/hugo-blog-awesome/commit/86d2d44ed771b9998e5fd083ef2ce018e8e3b207))
+* rename Markdown files ([26d5f8f](https://github.com/hugo-sid/hugo-blog-awesome/commit/26d5f8f51baf98357bec5ba2c775b98179fa67f1))
+* **repo:** add more sections to issue template ([eb0747b](https://github.com/hugo-sid/hugo-blog-awesome/commit/eb0747ba1e4517c46b67526d9926a698b4d01596))
+* **repo:** add pull request template ([133de72](https://github.com/hugo-sid/hugo-blog-awesome/commit/133de723a430e8911a59a18f66189e7b3fbf1211))
+* **repo:** create CONTRIBUTING.md ([9ed22ae](https://github.com/hugo-sid/hugo-blog-awesome/commit/9ed22ae831b2af124e036f73d5aa6cf98b008a03))
+* **repo:** create issue templates ([d2607bd](https://github.com/hugo-sid/hugo-blog-awesome/commit/d2607bdc2a2512f28b43c3c07e47bc62a36b47f6))
+* **repo:** improve contributing guidelines ([d194898](https://github.com/hugo-sid/hugo-blog-awesome/commit/d1948989816ab2df9338db0c94675ce5712d2a3a))
+* **repo:** improve pull request template ([dc5ed1d](https://github.com/hugo-sid/hugo-blog-awesome/commit/dc5ed1d96cf8bd28f969da457d8d6a6430d74e15))
+* **repo:** improve pull request template ([07e2ef2](https://github.com/hugo-sid/hugo-blog-awesome/commit/07e2ef216dd6889136483aabfbedd8843d747d48))
+* **repo:** improvise issue templates ([2979973](https://github.com/hugo-sid/hugo-blog-awesome/commit/29799735c037ac49acc1916bd27df185d7e50d85))
+* **repo:** improvise issue templates ([c2edf7b](https://github.com/hugo-sid/hugo-blog-awesome/commit/c2edf7b9ac99d86bec84e16a438fd759b8af89b5))
+* saving files before refreshing line endings ([1cddbee](https://github.com/hugo-sid/hugo-blog-awesome/commit/1cddbee043dff42f69a74a89fb1440348a4b7eda))
+* **UI:** change focus color ([3d324a2](https://github.com/hugo-sid/hugo-blog-awesome/commit/3d324a25a302485d5cc72521ca14cbf5c5a8e127))
+* update baseurl ([bcb0483](https://github.com/hugo-sid/hugo-blog-awesome/commit/bcb04838dcd72bd5ab7edbf57b2c022efc973097))
+* update credits ([e4c71b6](https://github.com/hugo-sid/hugo-blog-awesome/commit/e4c71b6e0c553376ec6648b9a0b666ed4c1baa77))
+* update links related to pagespeed ([321adad](https://github.com/hugo-sid/hugo-blog-awesome/commit/321adad3dd84dd5a55a74bde2cf38788d468d5a3))
+* update math-typesetting.md ([#21](https://github.com/hugo-sid/hugo-blog-awesome/issues/21)) ([b2fcfc5](https://github.com/hugo-sid/hugo-blog-awesome/commit/b2fcfc5da79621969554f48d0b75b3ba11128b1f))
+* update readme ([18f9a0f](https://github.com/hugo-sid/hugo-blog-awesome/commit/18f9a0f0e8c21f5093bc5ce751cd1204171cca17))
+* update screenshots ([7f35679](https://github.com/hugo-sid/hugo-blog-awesome/commit/7f35679e23c66a6dc4fd519002623ed5bb733ec6))
+* update theme info ([0a40494](https://github.com/hugo-sid/hugo-blog-awesome/commit/0a40494dd42ca2452a876599d2cb2ed9f6343ec5))
+* update websites using this theme ([fd3d59c](https://github.com/hugo-sid/hugo-blog-awesome/commit/fd3d59c4c9fc0f291d275cc4de17b32098e6c121))
+* use postcard partial on listpage ([dc83c3e](https://github.com/hugo-sid/hugo-blog-awesome/commit/dc83c3ea90a66597c7994b7ac73dd4301c493c1e))
+* use symantic HTML - &lt;time&gt; tag instead of <p> or <span> ([5ce5e25](https://github.com/hugo-sid/hugo-blog-awesome/commit/5ce5e25e30784565665779b5b7d7d31768c542ee))
+
+
+### :bug: Bug Fixes
+
+* add title for homepage ([89e35ff](https://github.com/hugo-sid/hugo-blog-awesome/commit/89e35ff2f71b868f6d1af2e07ddb482c53209e9c))
+* change baseURL to hba.sid.one ([d0ed717](https://github.com/hugo-sid/hugo-blog-awesome/commit/d0ed71798c3bd5f0ed795237564d03266f51f132))
+* **CI:** fix pr-labeler GitHub action ([3618655](https://github.com/hugo-sid/hugo-blog-awesome/commit/36186552efe196420270be1a810f5c363d96c9e6))
+* **CI:** Netlify non-deployment issue ([8427b9d](https://github.com/hugo-sid/hugo-blog-awesome/commit/8427b9d60e26034ac82745b8e690a488c6663f64))
+* **CI:** Netlify non-deployment issue ([918c84a](https://github.com/hugo-sid/hugo-blog-awesome/commit/918c84a1075eebc22cd15e2aa0653200b9667414))
+* **CI:** Netlify publish dir ([db63f5c](https://github.com/hugo-sid/hugo-blog-awesome/commit/db63f5c31d09eda4c7f1ea92e35a34043f938c9e))
+* **ci:** use Netlify `$DEPLOY_PRIME_URL` as `baseURL` for deploy previews ([64bfa09](https://github.com/hugo-sid/hugo-blog-awesome/commit/64bfa099743ca3cb1d3359d11ced5db0ab3678b1))
+* fix 404 page layout on small screens ([a9c1130](https://github.com/hugo-sid/hugo-blog-awesome/commit/a9c1130e46fe111ab8292c0eefcf45c83f4c890e))
+* fix abbr tag style ([f103396](https://github.com/hugo-sid/hugo-blog-awesome/commit/f103396409631b6e39183f16bafb5bb65108dd5c))
+* fix links and 404 page style ([#24](https://github.com/hugo-sid/hugo-blog-awesome/issues/24)) ([2e78155](https://github.com/hugo-sid/hugo-blog-awesome/commit/2e78155aa52ddeeb59207f4d575932d46abb89d0))
+* **html:** add href for &lt;a&gt; tag ([fc936ae](https://github.com/hugo-sid/hugo-blog-awesome/commit/fc936ae1374e11f9e3447acff73dae69d4eeb889))
+* link to license in readme ([91e0cd9](https://github.com/hugo-sid/hugo-blog-awesome/commit/91e0cd972c2c2f6c061c9c0ddd00712fbf7f0c69))
+* meta description ([340bd14](https://github.com/hugo-sid/hugo-blog-awesome/commit/340bd14a97dc9665d1b9d0749b9aa54be72690e5))
+* recent posts on home page is not correctly filtered ([#23](https://github.com/hugo-sid/hugo-blog-awesome/issues/23)) ([4afdfcb](https://github.com/hugo-sid/hugo-blog-awesome/commit/4afdfcbb47a302395929c3cf015f6b705978e48f))
+* stretched image ([87c7756](https://github.com/hugo-sid/hugo-blog-awesome/commit/87c775645a5b002e9c9c4e5e0581e11e87f78d54))
+* stretched image ([#3](https://github.com/hugo-sid/hugo-blog-awesome/issues/3)) ([5eb9b07](https://github.com/hugo-sid/hugo-blog-awesome/commit/5eb9b07e569fb04080d13a47c5cce4557f36a0f5))
+* template failure in bio.html when avatar is not found/defined ([#15](https://github.com/hugo-sid/hugo-blog-awesome/issues/15)) ([295c8a1](https://github.com/hugo-sid/hugo-blog-awesome/commit/295c8a13cdf3f5e928cbc1275dc19e053585d232))
+* theme name ([58d6bae](https://github.com/hugo-sid/hugo-blog-awesome/commit/58d6bae8e0cdb296f784d5494386931e39c93e8e))
+
+
+### :construction_worker: CI/CD
+
+* setup CI based release ([6b68d1e](https://github.com/hugo-sid/hugo-blog-awesome/commit/6b68d1eb9ed83c8fab13bbb3b284b542e28de98d))
+* use GitHub PAT ([f2d98c8](https://github.com/hugo-sid/hugo-blog-awesome/commit/f2d98c8245a38a297855aff158979a4064e0b35c))
