@@ -11,4 +11,15 @@ We prefer to use issues for reporting real 'issues' or bugs. For feature request
 
 ## Pull requests (PR)
 
-Please ensure that you have filled answers to as many questions as applicable while creating a PR.
+- Please ensure that you have filled answers to as many questions as applicable, while creating a PR.
+- We recommend you to create atomic PRs which focus on a single change.
+- We do recommend PRs to not exceed 200 lines (includes additions and deletions) of code.
+- Kindly ensure that you are **NOT** addressing multiple issues in one PR.
+
+## Commits
+
+This project adheres to [Conventional Commits specification](https://www.conventionalcommits.org/en/v1.0.0/).
+
+## Releases
+
+We use [Semantic Versioning](https://semver.org/) for releases.
