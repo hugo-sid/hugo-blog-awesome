@@ -8,7 +8,6 @@ Following the contribution guidelines helps both owners and contributors. The gu
 
 We prefer to use issues for reporting real 'issues' or bugs. For feature requests you can visit the [feature request section](https://github.com/hugo-sid/hugo-blog-awesome/discussions/categories/feature-requests) of Discussions and start a new thread.
 
-
 ## Pull requests (PR)
 
 - Please ensure that you have filled answers to as many questions as applicable, while creating a PR.
