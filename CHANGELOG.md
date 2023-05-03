@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.0.1](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.0.0...v1.0.1) (2023-05-03)
+
+
+### :construction_worker: CI/CD
+
+* include style, test, refactor commits in changelog ([7cc8174](https://github.com/hugo-sid/hugo-blog-awesome/commit/7cc8174bf3eb473a443a811a0a89e669bf0de52c))
+
+
+### :recycle: Refactoring
+
+* remove space at EOL ([3db832c](https://github.com/hugo-sid/hugo-blog-awesome/commit/3db832cb57ca89b416ea774d1820b36e3fdcd8f3))
+
+
+### :hammer: Miscellaneous
+
+* **maintenance:** update contribution guidelines ([c1cf69c](https://github.com/hugo-sid/hugo-blog-awesome/commit/c1cf69c1c0a8d939b281714cdb9a9bd6638a5470))
+* merge branch 'main' of hugo-sid/hugo-blog-awesome ([1e21fce](https://github.com/hugo-sid/hugo-blog-awesome/commit/1e21fce1d1c224b78ac6f021107db270db6fc49c))
+
 ## 1.0.0 (2023-05-02)
 
 
