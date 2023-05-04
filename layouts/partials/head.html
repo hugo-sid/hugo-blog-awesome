@@ -2,7 +2,7 @@
     {{ partial "meta/main.html" . }}
     {{ hugo.Generator }}
 
-    {{/* <!-- Permalink & RSSlink --> */}}
+    {{/* Canonical link, RSS */}}
 
     <link rel="canonical" href="{{ .Permalink }}">
     {{- with .OutputFormats.Get "RSS" }}
