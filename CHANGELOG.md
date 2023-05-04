@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.0.2](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.0.1...v1.0.2) (2023-05-04)
+
+
+### :hammer: Miscellaneous
+
+* remove custom funding link ([b914ca1](https://github.com/hugo-sid/hugo-blog-awesome/commit/b914ca1a904b2a15aa7381f4de280328611b853f))
+
+
+### :recycle: Refactoring
+
+* fix Markdown formatting ([1343d9c](https://github.com/hugo-sid/hugo-blog-awesome/commit/1343d9cd1e7419a11bc6583472e04e85e6decff9))
+* fix typo ([550de8b](https://github.com/hugo-sid/hugo-blog-awesome/commit/550de8bb840e35d869d6f73be32faeb1182225c1))
+* format code as per .editorconfig rules ([7bd4021](https://github.com/hugo-sid/hugo-blog-awesome/commit/7bd40210d5d0d2b85def44a6652a791304261f8a))
+* format scss file ([ba07ef9](https://github.com/hugo-sid/hugo-blog-awesome/commit/ba07ef94f1baa69c0d630bcebaa6072862ecd9ce))
+* improve comment ([6fb74c7](https://github.com/hugo-sid/hugo-blog-awesome/commit/6fb74c791fc0dda8f2e556a6540193109d1a460e))
+* manage ToC styles in separate scss file ([f18f133](https://github.com/hugo-sid/hugo-blog-awesome/commit/f18f13376cbe58ad5cfc3cebd78f50bce177bc05))
+
 ## [1.0.1](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.0.0...v1.0.1) (2023-05-03)
 
 
