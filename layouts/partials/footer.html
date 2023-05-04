@@ -12,3 +12,9 @@
         <a href="https://gohugo.io" target="_blank" rel="noreferrer noopener">Hugo</a>.
     </small>
 </footer>
+
+{{- if .Site.Params.goToTop -}}
+<a href="#" title="Go to top" id="totop">
+    {{ partial "svgs/arrowUp.svg" (dict "height" 48 "width" 48) . }}
+</a>
+{{- end -}}

@@ -7,6 +7,8 @@ $blockquote-text: #525b66;
 $inline-code-text: #333638;
 $inline-code-bg: #d8dbe2;
 $toc-bg: #edecec;
+$go-top-bg: #dfe0e397;
+$go-top-bg-hover: #dfe0e3;
 
 $black: #0d122b;
 $light: #ececec;
@@ -23,6 +25,8 @@ $dark-blockquote-text: #9b9ba3;
 $dark-inline-code-text: #c2c4ca;
 $dark-inline-code-bg: #2d2d2d;
 $dark-toc-bg: #323232;
+$dark-go-top-bg: #676767b3;
+$dark-go-top-bg-hover: #676767;
 
 $dark-black: #131418;
 $dark-white: #eaeaea;
@@ -76,6 +80,12 @@ $on-widescreen: 1152px;
 @import "layout";
 @import "post";
 @import "code";
+
+@import "tableOfContent";
 @import "miscellaneous";
 @import "dark";
 @import "listpage";
+
+{{ with .Site.Params.goToTop }}
+@import "goToTop";
+{{ end }}
