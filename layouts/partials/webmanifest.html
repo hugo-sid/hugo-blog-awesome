@@ -1,6 +1,6 @@
 {{ define "partials/hugo-blog-awesome/manifest-background-color" }}
     {{ $bg := ""}}
-    {{ if isset .Site.Params.webmanifest "background_color" }}
+    {{ if .Site.Params.webmanifest.background_color }}
         {{ $bg = .Site.Params.webmanifest.background_color }}
     {{ else if eq .Site.Params.defaultColor "dark" }}
         {{ $bg = "#131418" }}

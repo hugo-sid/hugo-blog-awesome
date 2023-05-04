@@ -16,6 +16,7 @@ googleAnalytics = '' # G-MEASUREMENT_ID
 
 # Enable emojis globally
 enableEmoji = true
+ignoreErrors = ["additional-script-loading-error"] # ignore error of loading additional scripts.
 
 # set markup.highlight.noClasses=false to enable code highlight
 [markup]
@@ -53,6 +54,11 @@ enableEmoji = true
   mainSections = ['posts']
   toc = true # set to false to disable table of contents 'globally'
   goToTop = true # set to false to disable 'go to top' button
+  # Will try to load 'assets/js/custom.js' and 'assets/js/custom-2.js'.
+  # Your custom scripts will be concatinated to one file `custom.js`.
+  # When building for production it will be minified.
+  # Then your customs scripts will append on each page to `body`
+  additionalScripts = ['js/custom.js', 'js/custom-2.js']
 
 [params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
