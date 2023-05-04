@@ -91,7 +91,7 @@ url = "index.xml"
 
 <details>
   <summary>List of available icons (click to expand)</summary>
-  
+
 | Name            | Platform                        |
 | --------------- | ------------------------------- |
 | `123rf`         | 123rf.com                       |
@@ -175,6 +175,15 @@ url = "index.xml"
 
 If you are trying to add an icon that is not listed above, you can modify `layouts\partials\svgs\svgs.html` to include your icon (SVG). You are encouraged to submit your icon by creating a pull request, so that others can benefit.
 
+### Enable go to top button
+
+To enable go to top button on blog posts, set `goToTop` to `true` in `config.toml` file.
+
+```toml
+[params]
+  goToTop = true
+```
+
 ## Content
 
 ### Posts
@@ -193,12 +202,12 @@ Please read [CONTRIBUTING.md](https://github.com/hugo-sid/hugo-blog-awesome/blob
 
 If you are using this theme for any website, feel free to list the website here. You can submit a pull request (PR) to include your website.
 
-- https://krisnova.net/
-- https://paddy-exe.github.io/
-- https://www.siggijons.net/
-- https://debanwita27.github.io/
-- https://mrizkimaulidan.vercel.app/
-- https://www.ariesnine.cn/
+- <https://krisnova.net/>
+- <https://paddy-exe.github.io/>
+- <https://www.siggijons.net/>
+- <https://debanwita27.github.io/>
+- <https://mrizkimaulidan.vercel.app/>
+- <https://www.ariesnine.cn/>
 
 ## Support
 

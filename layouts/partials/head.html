@@ -1,6 +1,6 @@
 <head>
-    {{ partial "meta/main.html" . }}
-    {{ hugo.Generator }}
+    {{- partial "meta/main.html" . }}
+    {{- hugo.Generator }}
 
     {{/* Canonical link, RSS */}}
 
@@ -8,13 +8,13 @@
     {{- with .OutputFormats.Get "RSS" }}
     <link href="{{ .RelPermalink }}" rel="alternate" type="application/rss+xml" title="{{ $.Site.Title }}">
     <link href="{{ .RelPermalink }}" rel="feed" type="application/rss+xml" title="{{ $.Site.Title }}">
-    {{- end -}}
+    {{- end }}
 
-    {{/* Styles */}}
+    {{- /* Styles */ -}}
 
-    {{- $style := resources.Get "sass/main.scss" | toCSS | minify | fingerprint -}}
+    {{- $style := resources.Get "sass/main.scss" | resources.ExecuteAsTemplate "style.scss" . | toCSS | minify | fingerprint }}
     <link href="{{ $style.RelPermalink }}" rel="stylesheet">
-    {{- $code_syntax_highlight_css := resources.Get "code-highlight.css" | minify | fingerprint -}}
+    {{- $code_syntax_highlight_css := resources.Get "code-highlight.css" | minify | fingerprint }}
     <link href="{{ $code_syntax_highlight_css.RelPermalink }}" rel="stylesheet">
 
     {{/* Favicons */}}

@@ -52,6 +52,7 @@ enableEmoji = true
   description = "Minimal Hugo blog theme with light and dark mode support"
   mainSections = ['posts']
   toc = true # set to false to disable table of contents 'globally'
+  goToTop = true # set to false to disable 'go to top' button
 
 [params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width

@@ -1,2 +1,11 @@
-{{ $script_main := resources.Get "js/themeSwitchnMenu.js" | minify | fingerprint }}
-<script src="{{ $script_main.RelPermalink }}"></script>
+{{ $theme := resources.Get "js/themeSwitchnMenu.js" }}
+
+{{ if .Site.Params.goToTop }}
+    {{ $goToTop := resources.Get "js/goToTop.js" }}
+    {{ $js := slice $theme $goToTop | resources.Concat "js/script.js" }}
+    {{ $js := $js | resources.Minify | resources.Fingerprint }}
+    <script src="{{ $js.Permalink }}" {{ if not .Site.IsServer }}integrity="{{ $js.Data.Integrity }}"{{ end }}></script>
+{{ else }}
+    {{ $js := $theme | resources.Minify | resources.Fingerprint }}
+    <script src="{{  $js.Permalink }}" {{ if not .Site.IsServer }}integrity="{{ $js.Data.Integrity }}"{{ end }}></script>
+{{ end }}

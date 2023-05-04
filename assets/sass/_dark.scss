@@ -61,6 +61,16 @@
     background-color: $dark-toc-bg;
   }
 
+  // Go to top
+  #totop {
+    color: $dark-text-base-color;
+    background-color: $dark-go-top-bg;
+
+    &:hover {
+      background-color: $dark-go-top-bg-hover;
+    }
+  }
+
   // Inline code
   p>code {
     font-size: 0.9em;
