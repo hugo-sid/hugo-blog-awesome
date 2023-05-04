@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.0.2...v1.1.0) (2023-05-04)
+
+
+### :sparkles: Features
+
+* add go to top button ([#34](https://github.com/hugo-sid/hugo-blog-awesome/issues/34)) ([170da4f](https://github.com/hugo-sid/hugo-blog-awesome/commit/170da4f84038a764e90fc5e006dab6018a5adbe2))
+
 ## [1.0.2](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.0.1...v1.0.2) (2023-05-04)
 
 
