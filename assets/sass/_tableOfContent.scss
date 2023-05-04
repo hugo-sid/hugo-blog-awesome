@@ -1,0 +1,22 @@
+/* Table of contents */
+details {
+    cursor: pointer;
+}
+
+.toc {
+    margin: 1.1rem 0 1rem 0;
+    padding: .5rem 1rem .5rem 1rem;
+    border-radius: .3rem;
+    background-color: $toc-bg;
+
+    ul {
+        padding-top: 1rem;
+        margin-left: 1rem;
+        padding-left: 1rem;
+
+        li {
+        margin-bottom: 0.5em;
+        line-height: 1.4;
+        }
+    }
+}
