@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<browserconfig>
+    <msapplication>
+        <tile>
+            <square70x70logo src="{{ (resources.Get "/icons/mstile-70x70.png").RelPermalink }}"/>
+            <square150x150logo src="{{ (resources.Get "/icons/mstile-150x150.png").RelPermalink }}"/>
+            <square310x310logo src="{{ (resources.Get "/icons/mstile-310x310.png").RelPermalink }}"/>
+            <wide310x150logo src="{{ (resources.Get "/icons/mstile-310x150.png").RelPermalink }}"/>
+            <TileColor>{{ .TileColor | default "#2d89ef" }}</TileColor>
+        </tile>
+    </msapplication>
+</browserconfig>

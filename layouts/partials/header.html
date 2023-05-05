@@ -1,6 +1,6 @@
 <div class="navbar" role="navigation">
     <nav class="menu" aria-label="Main Navigation">
-        <a href="/" class="logo">
+        <a href="{{ .Site.Home.Permalink }}" class="logo">
             {{ partial "svgs/home.svg" (dict "height" 25 "width" 25) . }}
         </a>
         <input type="checkbox" id="menu-trigger" class="menu-trigger" />

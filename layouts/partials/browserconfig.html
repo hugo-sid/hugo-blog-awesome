@@ -1,0 +1,8 @@
+{{
+    $ctx := merge (.Site.Params.browserconfig | default dict)
+    (dict
+        "TileColor" (.Site.Params.browserconfig.TileColor | default "#2d89ef" )
+    )
+}}
+<meta name="msapplication-config" content="{{ (resources.Get "icons/browserconfig.xml" | resources.ExecuteAsTemplate "browserconfig.xml" $ctx).RelPermalink }}">
+<meta name="msapplication-TileColor" content="{{ $ctx.TileColor }}">

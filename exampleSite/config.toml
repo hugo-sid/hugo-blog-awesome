@@ -61,6 +61,19 @@ enableEmoji = true
   name = "Sidharth R"
   description = "A fast, minimalistic Hugo theme with light and dark mode support, for running a personal site or blog"
 
+# Allow to override webmanifest options
+[params.webmanifest]
+  name = "sitename" # will use "params.sitename" or "title" by default
+  short_name = "sitename" # same as name
+  start_url = "/" # will use homepage url by default
+  theme_color = "#434648" # default is "#434648" (base color of text). Also will override html `<meta name="theme-color" />`
+  background_color = "#fff" # by default depend on "params.defaultColor" for "light" or "auto" will be set to "#fff" for dark will be "#131418" (color of dark mode background)
+  display = "standalone"
+
+# Allow to override `browserconfig.xml` params (configuration for windows embeded browsers)
+[params.browserconfig]
+  TileColor = "#2d89ef" # default windows 10 blue tile color
+
 [[params.socialIcons]]
 name = "github"
 url = "https://github.com/hugo-sid"
