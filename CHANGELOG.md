@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.1](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.1.0...v1.1.1) (2023-05-05)
+
+
+### :bug: Bug Fixes
+
+* handle relative non-root baseURL ([#25](https://github.com/hugo-sid/hugo-blog-awesome/issues/25)) ([058560e](https://github.com/hugo-sid/hugo-blog-awesome/commit/058560ec08252295acd10385d8c5db5302dff9e9))
+
 ## [1.1.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.0.2...v1.1.0) (2023-05-04)
 
 
