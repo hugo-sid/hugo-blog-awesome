@@ -17,7 +17,9 @@
             {{ end }}
             {{ if gt (len $posts) 5 }}
             <p>
-                <a href="{{ .Site.Home.Permalink }}posts/">See all posts</a>
+                {{ range $firstSection := (where .Site.Sections "Section" "in" (first 1 (.Site.Params.mainSections))) }}
+                <a href="{{ $firstSection.Permalink }}">See all posts</a>
+                {{ end }}
             </p>
             {{ end }}
         </main>
