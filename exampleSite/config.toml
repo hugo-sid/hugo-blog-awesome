@@ -54,11 +54,11 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
   mainSections = ['posts']
   toc = true # set to false to disable table of contents 'globally'
   goToTop = true # set to false to disable 'go to top' button
+  additionalScripts = ['js/custom.js', 'js/custom-2.js']
   # Will try to load 'assets/js/custom.js' and 'assets/js/custom-2.js'.
   # Your custom scripts will be concatinated to one file `custom.js`.
   # When building for production it will be minified.
-  # Then your customs scripts will append on each page to `body`
-  additionalScripts = ['js/custom.js', 'js/custom-2.js']
+  # The file `custom.js` is loaded on each page (before body tag ends).
 
 [params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
