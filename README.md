@@ -1,4 +1,7 @@
-<h1 align=center> Awesome hugo blog | <a href="https://hba.sid.one" target="_blank" rel="nofollow">Demo</a></h1>
+<div align=center> 
+    <img src="https://github.com/hugo-sid/hugo-blog-awesome/blob/a674bf96f1ac192b1b955e61944261d4553ab2d0/assets/icons/mstile-70x70.png" /> 
+</div>
+<h1 align=center> Hugo Blog Awesome | <a href="https://hba.sid.one" target="_blank" rel="nofollow">Demo</a></h1>
 
 <h4 align=center>⚡ Fast | 📰 Clean UI | 🌙 Dark mode support | 📱 Responsive design </h4>
 
