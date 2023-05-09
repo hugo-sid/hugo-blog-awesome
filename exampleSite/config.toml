@@ -10,12 +10,15 @@ theme = "hugo-blog-awesome"
 defaultContentLanguage = "en-gb"
 
 # To enable Google Analytics 4 (gtag.js) provide G-MEASUREMENT_ID below.
-# To disable  Google Analytics, simply leave the field empty or remove the next line
+# To disable Google Analytics, simply leave the field empty or remove the next line
 googleAnalytics = '' # G-MEASUREMENT_ID
-
 
 # Enable emojis globally
 enableEmoji = true
+
+# To enable Disqus comments, provide Disqus Shortname below.
+# To disable Disqus comments, simply leave the field empty or remove the next line
+disqusShortname = ''
 
 # set markup.highlight.noClasses=false to enable code highlight
 [markup]
