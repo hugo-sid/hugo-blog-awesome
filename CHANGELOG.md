@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.2.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.1.2...v1.2.0) (2023-05-10)
+
+
+### :sparkles: Features
+
+* add support for comments ([#44](https://github.com/hugo-sid/hugo-blog-awesome/issues/44)) ([685ebf6](https://github.com/hugo-sid/hugo-blog-awesome/commit/685ebf62bdfd8d1fc3f9add78a6aa2b5190eacfb))
+
+
+### :hammer: Miscellaneous
+
+* **repo:** add info regarding changelog ([82eee54](https://github.com/hugo-sid/hugo-blog-awesome/commit/82eee5423fc9ca1bbef0e784ebc87548a7f866f9))
+* **repo:** update CONTRIBUTING.md ([4abd77b](https://github.com/hugo-sid/hugo-blog-awesome/commit/4abd77b2f573ac593246a7cd35539979e1e63055))
+* **repo:** update README.md ([225237f](https://github.com/hugo-sid/hugo-blog-awesome/commit/225237f69fd292bd10d5ffc6a9fc342734120dfc))
+
 ## [1.1.2](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.1.1...v1.1.2) (2023-05-09)
 
 
