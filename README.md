@@ -197,6 +197,12 @@ To create a new post, run the following command:
 
 Then, edit the `my-first-post.md` file to suit your needs.
 
+### Comments
+
+To enable Disqus comments, set `disqusShortname` in your site's `config.toml`.
+
+To use another comments system, provide your own `comments.html` partial in `layouts\partials\comments.html`.
+
 ## Contributing
 
 Please read [CONTRIBUTING.md](https://github.com/hugo-sid/hugo-blog-awesome/blob/main/CONTRIBUTING.md).
