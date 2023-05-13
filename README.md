@@ -70,7 +70,7 @@ It is recommended that you copy the `config.toml` file from the `exampleSite` di
 
 ### Adding favicon
 
-I used [realfavicongenerator.net](https://realfavicongenerator.net/) to generate the favicons. You can place the resulting files in the `static\images\favicon` folder. That should get your favicon working.
+I used [realfavicongenerator.net](https://realfavicongenerator.net/) to generate the favicons. You can place the resulting files in the `assets\icons` folder. That should get your favicon working.
 
 If you want to customize anything further, you can modify `layouts\partials\head.html`.
 
