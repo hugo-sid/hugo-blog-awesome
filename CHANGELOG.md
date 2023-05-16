@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.2.1](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.2.0...v1.2.1) (2023-05-16)
+
+
+### :memo: Documentation
+
+* update instructions for adding favicon ([4438214](https://github.com/hugo-sid/hugo-blog-awesome/commit/4438214567c515feeabaa61204c4c3b1c1f0da02))
+
+
+### :hammer: Housekeeping
+
+* **ci:** add comments for GitHub action workflow trigger ([4e83639](https://github.com/hugo-sid/hugo-blog-awesome/commit/4e83639c42cec577c8e592a6dbc930b296348ffc))
+* **ci:** change emojis used in changelog ([2514abd](https://github.com/hugo-sid/hugo-blog-awesome/commit/2514abdb6e5274167509a892b10244f336fff290))
+
+
+### :bug: Bug Fixes
+
+* baseURL variable on See all posts button ([#38](https://github.com/hugo-sid/hugo-blog-awesome/issues/38)) ([6e12b25](https://github.com/hugo-sid/hugo-blog-awesome/commit/6e12b25c988a9770d954451ecb8cef848436408a))
+
 ## [1.2.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.1.2...v1.2.0) (2023-05-10)
 
 
