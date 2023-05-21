@@ -23,11 +23,11 @@
         <script src="{{  $custom.Permalink }}" integrity="{{ $custom.Data.Integrity }}"></script>
     {{ end }}
 {{ else }}
-    {{ $main = $main | resources.Concat "js/main.js" | resources.Fingerprint }}
+    {{ $main = $main | resources.Concat "js/main.js" }}
     <script async src="{{  $main.Permalink }}" ></script>
 
     {{ if gt (len $custom) 0 }}
-        {{ $custom = $custom | resources.Concat "js/custom.js" | resources.Fingerprint }}
+        {{ $custom = $custom | resources.Concat "js/custom.js" }}
         <script async src="{{  $custom.Permalink }}" ></script>
     {{ end }}
 {{ end }}
