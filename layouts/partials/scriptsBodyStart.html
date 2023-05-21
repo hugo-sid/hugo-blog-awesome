@@ -2,6 +2,6 @@
 {{ $theme_script := resources.Get "js/theme.js" | minify | fingerprint }}
 <script src="{{ $theme_script.RelPermalink }}" integrity="{{ $theme_script.Data.Integrity }}"></script>
 {{ else }}
-{{ $theme_script := resources.Get "js/theme.js" | fingerprint }}
+{{ $theme_script := resources.Get "js/theme.js" }}
 <script src="{{ $theme_script.RelPermalink }}"></script>
 {{ end}}
