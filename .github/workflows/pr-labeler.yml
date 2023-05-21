@@ -35,15 +35,15 @@ jobs:
         with:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           xs_label: 'size/xs'
-          xs_max_size: 2
+          xs_max_size: 35
           s_label: 'size/s'
-          s_max_size: 10
+          s_max_size: 75
           m_label: 'size/m'
-          m_max_size: 50
+          m_max_size: 150
           l_label: 'size/l'
-          l_max_size: 200
+          l_max_size: 300
           xl_label: 'size/xl'
           message_if_xl: >
-            This PR exceeds the recommended size of 200 lines.
+            This PR exceeds the recommended size of 300 lines (counting both additions & deletions).
             Kindly ensure that you are NOT addressing multiple issues in one PR.
             We recommend you to create atomic PRs which focus on a single change.
