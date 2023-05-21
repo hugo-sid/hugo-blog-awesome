@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.2](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.2.1...v1.2.2) (2023-05-21)
+
+
+### :recycle: Refactoring
+
+* refactor JS ([#39](https://github.com/hugo-sid/hugo-blog-awesome/issues/39)) ([9d9f2bc](https://github.com/hugo-sid/hugo-blog-awesome/commit/9d9f2bc46589f017dbfca714380bcc017de5ea49))
+
+
+### :construction_worker: CI/CD
+
+* increase PR labeler warning limit ([e5f4bf8](https://github.com/hugo-sid/hugo-blog-awesome/commit/e5f4bf8241edf0bac70b3cf326025f5e66f06893))
+
 ## [1.2.1](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.2.0...v1.2.1) (2023-05-16)
 
 
