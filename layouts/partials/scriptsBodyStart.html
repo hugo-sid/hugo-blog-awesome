@@ -1,2 +1,7 @@
-{{ $script_main := resources.Get "js/themeLoader.js" | minify | fingerprint }}
-<script src="{{ $script_main.RelPermalink }}"></script>
+{{ if hugo.IsProduction }}
+{{ $theme_script := resources.Get "js/theme.js" | minify | fingerprint }}
+<script src="{{ $theme_script.RelPermalink }}" integrity="{{ $theme_script.Data.Integrity }}"></script>
+{{ else }}
+{{ $theme_script := resources.Get "js/theme.js" }}
+<script src="{{ $theme_script.RelPermalink }}"></script>
+{{ end}}

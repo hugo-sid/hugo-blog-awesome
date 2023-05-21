@@ -1,11 +1,33 @@
-{{ $theme := resources.Get "js/themeSwitchnMenu.js" }}
+{{ $main := slice (resources.Get "js/main.js") }}
 
 {{ if .Site.Params.goToTop }}
-    {{ $goToTop := resources.Get "js/goToTop.js" }}
-    {{ $js := slice $theme $goToTop | resources.Concat "js/script.js" }}
-    {{ $js := $js | resources.Minify | resources.Fingerprint }}
-    <script src="{{ $js.Permalink }}" {{ if not .Site.IsServer }}integrity="{{ $js.Data.Integrity }}"{{ end }}></script>
+    {{ $main = $main | append (resources.Get "js/goToTop.js") }}
+{{ end }}
+
+{{ $custom := slice }}
+{{ range $script := .Site.Params.additionalScripts }}
+    {{ $script_res := resources.Get $script }}
+    {{ if not $script_res}}
+        {{ erroridf "additional-script-loading-error" "Failed to load script \"%s\"" $script }}
+    {{ else }}
+        {{ $custom = $custom | append (resources.Get .) }}
+    {{ end }}
+{{ end }}
+
+{{ if hugo.IsProduction }}
+    {{ $main = $main | resources.Concat "js/main.js" | resources.Minify | resources.Fingerprint }}
+    <script src="{{  $main.Permalink }}" integrity="{{ $main.Data.Integrity }}"></script>
+
+    {{ if gt (len $custom) 0 }}
+        {{ $custom = $custom | resources.Concat "js/custom.js" | resources.Minify | resources.Fingerprint }}
+        <script src="{{  $custom.Permalink }}" integrity="{{ $custom.Data.Integrity }}"></script>
+    {{ end }}
 {{ else }}
-    {{ $js := $theme | resources.Minify | resources.Fingerprint }}
-    <script src="{{  $js.Permalink }}" {{ if not .Site.IsServer }}integrity="{{ $js.Data.Integrity }}"{{ end }}></script>
+    {{ $main = $main | resources.Concat "js/main.js" }}
+    <script async src="{{  $main.Permalink }}" ></script>
+
+    {{ if gt (len $custom) 0 }}
+        {{ $custom = $custom | resources.Concat "js/custom.js" }}
+        <script async src="{{  $custom.Permalink }}" ></script>
+    {{ end }}
 {{ end }}
