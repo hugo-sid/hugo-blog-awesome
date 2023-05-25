@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.3](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.2.2...v1.2.3) (2023-05-25)
+
+
+### :bug: Bug Fixes
+
+* inline code not being stylized in list items ([#52](https://github.com/hugo-sid/hugo-blog-awesome/issues/52)) ([2585ddb](https://github.com/hugo-sid/hugo-blog-awesome/commit/2585ddb39c3a98bb7612a21ffa8f6bf1965de704))
+
 ## [1.2.2](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.2.1...v1.2.2) (2023-05-21)
 
 
