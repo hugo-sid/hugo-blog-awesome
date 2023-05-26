@@ -240,6 +240,10 @@
       color: $dark-gray;
       opacity: 1;
     }
+
+    &_social-icons a svg {
+      color: $dark-blockquote-text;
+    }
   }
 
   // 404 Page

@@ -115,26 +115,27 @@
     font-size: $small-font-size - 1;
     display: block;
     color: $gray;
-    opacity: 0.8;
     margin-top: .7rem;
     padding: .3rem .95rem;
   }
 
   &_social-icons {
     a {
+      display: inline-block;
+      opacity: .7;
       text-decoration: none;
       margin-right: .31rem;
 
-    }
-    svg {
-      color: #888a90;
-      height: 24px;
-      width: 24px;
+      svg {
+        color: $black;
+        height: 24px;
+        width: 24px;
+      }
+
       &:hover {
-        color: rgb(221, 221, 221);
+        opacity: 1;
       }
     }
-
   }
 }
 
