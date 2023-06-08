@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.4](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.2.3...v1.2.4) (2023-06-08)
+
+
+### :construction_worker: CI/CD
+
+* setup OpenSSF scorecard ([23b9c0d](https://github.com/hugo-sid/hugo-blog-awesome/commit/23b9c0d04a20aa4633e3bcdd8fe0fa8661dd433a))
+
+
+### :bug: Bug Fixes
+
+* resolve theme toggle race condition ([#55](https://github.com/hugo-sid/hugo-blog-awesome/issues/55)) ([1c41cce](https://github.com/hugo-sid/hugo-blog-awesome/commit/1c41cce98eb22bd3fbdfe1a2423f29aa09debb34))
+
 ## [1.2.3](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.2.2...v1.2.3) (2023-05-25)
 
 
