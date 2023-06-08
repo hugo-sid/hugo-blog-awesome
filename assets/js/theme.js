@@ -46,32 +46,30 @@
     // init theme ASAP, then do the rest.
     initTheme(getThemeState());
     requestAnimationFrame(() => body.classList.remove("notransition"))
-    setTimeout(() => {
-        const toggleTheme = () => {
-            const state = getThemeState();
-            if (state === THEMES.DARK) {
-                localStorage.setItem(LS_THEME_KEY, THEMES.LIGHT);
-                initTheme(THEMES.LIGHT);
-            } else if (state === THEMES.LIGHT) {
-                localStorage.setItem(LS_THEME_KEY, THEMES.DARK);
-                initTheme(THEMES.DARK);
-            }
-        };
+    const toggleTheme = () => {
+        const state = getThemeState();
+        if (state === THEMES.DARK) {
+            localStorage.setItem(LS_THEME_KEY, THEMES.LIGHT);
+            initTheme(THEMES.LIGHT);
+        } else if (state === THEMES.LIGHT) {
+            localStorage.setItem(LS_THEME_KEY, THEMES.DARK);
+            initTheme(THEMES.DARK);
+        }
+    };
 
-        window.addEventListener("DOMContentLoaded", () => {
-            // Theme switch
-            const lamp = document.getElementById("mode");
+    window.addEventListener("DOMContentLoaded", () => {
+        // Theme switch
+        const lamp = document.getElementById("mode");
 
-            lamp.addEventListener("click", () => toggleTheme());
+        lamp.addEventListener("click", () => toggleTheme());
 
-            // Blur the content when the menu is open
-            const cbox = document.getElementById("menu-trigger");
+        // Blur the content when the menu is open
+        const cbox = document.getElementById("menu-trigger");
 
-            cbox.addEventListener("change", function () {
-                const area = document.querySelector(".wrapper");
-                if (this.checked) return area.classList.add("blurry");
-                area.classList.remove("blurry");
-            });
+        cbox.addEventListener("change", function () {
+            const area = document.querySelector(".wrapper");
+            if (this.checked) return area.classList.add("blurry");
+            area.classList.remove("blurry");
         });
-    }, 0)
+    });
 })();
