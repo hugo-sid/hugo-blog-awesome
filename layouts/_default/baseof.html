@@ -5,6 +5,9 @@
         {{- partial "scriptsBodyStart.html" . -}}
         {{- partial "header.html" . -}}
         {{- block "main" . }}{{- end }}
+        {{ if .Site.Params.show_tag }}
+        {{- partial "tags.html" . -}}
+        {{ end }}
         {{- partial "footer.html" . -}}
         {{- partial "scriptsBodyEnd.html" . -}}
     </body>
