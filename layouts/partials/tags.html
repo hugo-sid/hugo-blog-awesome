@@ -1,0 +1,13 @@
+<div class="wrapper">
+    <main aria-label="Content">
+        <h3 class="posts-item-note" aria-label="Recent Posts">All Tags:🏷️ </h3>
+        <ul>
+            {{ range $name, $taxonomy := .Site.Taxonomies.tags }}
+            <li>
+                <a href="{{ "/tags/" | relLangURL }}{{ $name | urlize }}">{{ $name }}</a>
+            </li>
+          {{ end }}
+        </ul>
+
+    </main>
+</div>
