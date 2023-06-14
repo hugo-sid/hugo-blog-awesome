@@ -217,6 +217,7 @@ If you are using this theme for any website, feel free to list the website here.
 - <https://debanwita27.github.io/>
 - <https://mrizkimaulidan.vercel.app/>
 - <https://www.ariesnine.cn/>
+- <https://www.yukizr.com/>
 
 ## Support
 
