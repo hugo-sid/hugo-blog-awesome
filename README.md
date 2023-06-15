@@ -218,6 +218,10 @@ If you are using this theme for any website, feel free to list the website here.
 - <https://mrizkimaulidan.vercel.app/>
 - <https://www.ariesnine.cn/>
 - <https://www.yukizr.com/>
+- <http://liamdalg.co.uk/>
+- <http://pratham-mishra.in/>
+- <https://chriscodes.net/>
+- <https://ruiper.es/>
 
 ## Support
 
