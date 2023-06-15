@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.2.5](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.2.4...v1.2.5) (2023-06-15)
+
+
+### :hammer: Housekeeping
+
+* **README:** add websites using this theme ([#60](https://github.com/hugo-sid/hugo-blog-awesome/issues/60)) ([109b200](https://github.com/hugo-sid/hugo-blog-awesome/commit/109b2007bad4ebc5cb2e45f8fb0c82eaad5484dd))
+* **README:** add yukizr.com to the list of websites using this theme ([#57](https://github.com/hugo-sid/hugo-blog-awesome/issues/57)) ([42e9b95](https://github.com/hugo-sid/hugo-blog-awesome/commit/42e9b95868c90bf263a0c7622adcffe1ef57cc4a))
+
 ## [1.2.4](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.2.3...v1.2.4) (2023-06-08)
 
 
