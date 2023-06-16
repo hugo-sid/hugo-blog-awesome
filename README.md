@@ -222,6 +222,7 @@ If you are using this theme for any website, feel free to list the website here.
 - <http://pratham-mishra.in/>
 - <https://chriscodes.net/>
 - <https://ruiper.es/>
+- <https://www.magicplace.de/>
 
 ## Support
 
