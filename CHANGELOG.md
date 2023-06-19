@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.3.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.2.7...v1.3.0) (2023-06-19)
+
+
+### :sparkles: Features
+
+* **ui:** add link hover transition ([112c59b](https://github.com/hugo-sid/hugo-blog-awesome/commit/112c59b991be66ca1dc247125af2991b14f57b5b))
+
 ## [1.2.7](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.2.6...v1.2.7) (2023-06-19)
 
 
