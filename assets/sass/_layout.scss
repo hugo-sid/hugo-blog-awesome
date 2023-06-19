@@ -74,6 +74,7 @@
 
     a {
       color: $text-base-color;
+      transition: all 150ms ease-in 0s;
 
       &:hover,
       &focus {
@@ -124,7 +125,7 @@
     a {
       text-decoration: none;
       margin-right: .31rem;
-      
+
     }
     svg {
       color: #888a90;
