@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.7](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.2.6...v1.2.7) (2023-06-19)
+
+
+### :bug: Bug Fixes
+
+* move tableOfContents to appropriate section in `config.toml` file ([#64](https://github.com/hugo-sid/hugo-blog-awesome/issues/64)) ([aa199ce](https://github.com/hugo-sid/hugo-blog-awesome/commit/aa199ceffff6a46cb75e1b440245a37cbddd4702))
+
 ## [1.2.6](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.2.5...v1.2.6) (2023-06-16)
 
 
