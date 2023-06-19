@@ -27,6 +27,10 @@ disqusShortname = ''
     noClasses = false
   [markup.goldmark.renderer]
     unsafe = true
+	[markup.tableOfContents]
+		startLevel = 2 # ToC starts from H2
+		endLevel = 4 # ToC ends at H4
+		ordered = false # generates <ul> instead of <ol>
 
 [menu]
   [[menu.main]]
@@ -94,9 +98,4 @@ url = "https://twitter.com"
 [[params.socialIcons]]
 name = "Rss"
 url = "index.xml"
-
-[tableOfContents]
-startLevel = 2 # ToC starts from H2
-endLevel = 4 # ToC ends at H4
-ordered = false # generates <ul> instead of <ol>
 
