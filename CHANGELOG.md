@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.4.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.3.0...v1.4.0) (2023-06-21)
+
+
+### :bug: Bug Fixes
+
+* deprecated Twitter post format ([#67](https://github.com/hugo-sid/hugo-blog-awesome/issues/67)) ([8968732](https://github.com/hugo-sid/hugo-blog-awesome/commit/8968732dd0bda3b4995ba40b34dec168be1767e7))
+
+
+### :sparkles: Features
+
+* add forgejo icon ([#69](https://github.com/hugo-sid/hugo-blog-awesome/issues/69)) ([468682a](https://github.com/hugo-sid/hugo-blog-awesome/commit/468682aee873f03a0ebf2564d79ec05731590c2d))
+
 ## [1.3.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.2.7...v1.3.0) (2023-06-19)
 
 
