@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.1](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.4.0...v1.4.1) (2023-06-23)
+
+
+### :hammer: Housekeeping
+
+* add bskdany.com to readme ([#71](https://github.com/hugo-sid/hugo-blog-awesome/issues/71)) ([d4a0889](https://github.com/hugo-sid/hugo-blog-awesome/commit/d4a08891d5c5b1598f3b57fe15ade331f94e8fdb))
+
 ## [1.4.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.3.0...v1.4.0) (2023-06-21)
 
 
