@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.4.2](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.4.1...v1.4.2) (2023-06-26)
+
+
+### :hammer: Housekeeping
+
+* update list of websites using this theme ([#73](https://github.com/hugo-sid/hugo-blog-awesome/issues/73)) ([de04339](https://github.com/hugo-sid/hugo-blog-awesome/commit/de04339aca28087969821b04ccf349dfc56c9449))
+
 ## [1.4.1](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.4.0...v1.4.1) (2023-06-23)
 
 
