@@ -212,6 +212,14 @@ To use another comments system, provide your own `comments.html` partial in `lay
 
 Please read [CONTRIBUTING.md](https://github.com/hugo-sid/hugo-blog-awesome/blob/main/CONTRIBUTING.md).
 
+## Contributors
+
+Thanks to these wonderful people for contributing to Hugo blog awesome:
+
+<a href="https://github.com/hugo-sid/hugo-blog-awesome/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=hugo-sid/hugo-blog-awesome" />
+</a>
+
 ## Websites using this theme
 
 If you are using this theme for any website, feel free to list the website here. You can submit a pull request (PR) to include your website.
