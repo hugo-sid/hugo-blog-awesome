@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.5.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.4.2...v1.5.0) (2023-07-12)
+
+
+### :sparkles: Features
+
+* update favicons ([#81](https://github.com/hugo-sid/hugo-blog-awesome/issues/81)) ([c3d2f26](https://github.com/hugo-sid/hugo-blog-awesome/commit/c3d2f260c38cadf2052d7f355167ae8aab3ba01b))
+
+
+### :hammer: Housekeeping
+
+* update logo ([#79](https://github.com/hugo-sid/hugo-blog-awesome/issues/79)) ([d8dfc4d](https://github.com/hugo-sid/hugo-blog-awesome/commit/d8dfc4dfc299d65a84a287cd623fdaa95ee342ed))
+* update README.md - add contributors ([#82](https://github.com/hugo-sid/hugo-blog-awesome/issues/82)) ([677f465](https://github.com/hugo-sid/hugo-blog-awesome/commit/677f4652e9dcdbc90275dcbeab448893e6121a71))
+
 ## [1.4.2](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.4.1...v1.4.2) (2023-06-26)
 
 
