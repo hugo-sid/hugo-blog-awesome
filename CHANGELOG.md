@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.1](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.5.0...v1.5.1) (2023-07-12)
+
+
+### :bug: Bug Fixes
+
+* make specifying date optional ([#83](https://github.com/hugo-sid/hugo-blog-awesome/issues/83)) ([864f523](https://github.com/hugo-sid/hugo-blog-awesome/commit/864f523143b35b65e64a2b85182b1a269451da5a))
+
 ## [1.5.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.4.2...v1.5.0) (2023-07-12)
 
 
