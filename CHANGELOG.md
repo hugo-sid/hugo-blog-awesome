@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.5.3](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.5.2...v1.5.3) (2023-07-28)
+
+
+### :bug: Bug Fixes
+
+* bold font on active menu item ([#88](https://github.com/hugo-sid/hugo-blog-awesome/issues/88)) ([88cfd5d](https://github.com/hugo-sid/hugo-blog-awesome/commit/88cfd5dfd097b9c43ea4a91351ee8c739d318862))
+
 ## [1.5.2](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.5.1...v1.5.2) (2023-07-26)
 
 
