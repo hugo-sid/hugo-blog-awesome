@@ -15,7 +15,7 @@
                 {{ $currentPage := . }}
                 {{ range .Site.Menus.main }}
                 <li>
-                    <a class="menu-link {{ if or ($currentPage.IsMenuCurrent " main" .)
+                    <a class="menu-link {{ if or ($currentPage.IsMenuCurrent "main" .)
                         ($currentPage.HasMenuCurrent "main" .) }}active{{ end }}" href="{{ .URL }}">
                         {{ .Name }}
                     </a>
@@ -23,7 +23,7 @@
                     <ul>
                         {{ range .Children }}
                         <li>
-                            <a class="menu-link {{ if $currentPage.IsMenuCurrent " main" . }}active{{ end }}"
+                            <a class="menu-link {{ if $currentPage.IsMenuCurrent "main" . }}active{{ end }}"
                                 href="{{ .URL }}">
                                 {{ .Name }}
                             </a>
