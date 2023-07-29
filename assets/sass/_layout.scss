@@ -1,37 +1,56 @@
 // Author
 .author {
-  margin-top: 6.3rem;
-  margin-bottom: 7.2rem;
+  padding-top: 4.3rem;
+  padding-bottom: 5.2rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
   text-align: center;
-
+  position: relative;
+  background-image: url("background.jpg");
+  background-size: cover;
+  background-position: center;
+  
   @include media-query($on-mobile) {
     margin-bottom: 3em;
   }
 
   .author-avatar {
-    width: 70px;
-    height: 70px;
+    width: 100px;
+    height: 100px;
     border-radius: 100%;
     user-select: none;
-    background-color: $black;
+    background-color: $dark-black;
     -ms-user-select: none;
     -webkit-user-select: none;
-    -webkit-animation: 0.5s ease-in forwards fadein;
-    animation: 0.5s ease-in forwards fadein;
+    -webkit-animation: 0.5s ease-in forwards fadein_bio;
+    animation: 0.5s ease-in forwards fadein_bio;
     opacity: 1;
     object-fit: cover;
+    border: 8px solid $dark-black;
   }
 
   .author-name {
+    -webkit-animation: 0.5s ease-in forwards fadein_bio;
+    animation: 0.5s ease-in forwards fadein_bio;
+    max-width: fit-content;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin: 0 auto;
     font-size: 1.7em;
     margin-bottom: 2px;
+    background-color: $dark-black;
+    border-radius: 10px;
   }
 
   .author-bio {
+    -webkit-animation: 0.5s ease-in forwards fadein_bio;
+    animation: 0.5s ease-in forwards fadein_bio;
     margin: 0 auto;
-    opacity: 0.9;
+    //opacity: 0.9;
     max-width: 393px;
     line-height: 1.688;
+    background-color: $dark-black;
+    border-radius: 10px;
   }
 }
 
