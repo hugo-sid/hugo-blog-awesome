@@ -1,5 +1,10 @@
 <div align=center> 
-    <img src="https://github.com/hugo-sid/hugo-blog-awesome/blob/a674bf96f1ac192b1b955e61944261d4553ab2d0/assets/icons/mstile-70x70.png" /> 
+ <picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/feat/logo-change/assets/icons/book-icon-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/feat/logo-change/assets/icons/book-icon-light.svg">
+  <img alt="Hashnode logo" src="https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/feat/logo-change/assets/icons/book-icon-light.svg" />
+</picture>
+ 
 </div>
 <h1 align=center> Hugo Blog Awesome | <a href="https://hba.sid.one" target="_blank" rel="nofollow">Demo</a></h1>
 
@@ -207,6 +212,14 @@ To use another comments system, provide your own `comments.html` partial in `lay
 
 Please read [CONTRIBUTING.md](https://github.com/hugo-sid/hugo-blog-awesome/blob/main/CONTRIBUTING.md).
 
+## Contributors
+
+Thanks to these wonderful people for contributing to Hugo blog awesome:
+
+<a href="https://github.com/hugo-sid/hugo-blog-awesome/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=hugo-sid/hugo-blog-awesome" />
+</a>
+
 ## Websites using this theme
 
 If you are using this theme for any website, feel free to list the website here. You can submit a pull request (PR) to include your website.
@@ -216,7 +229,6 @@ If you are using this theme for any website, feel free to list the website here.
 - <https://www.siggijons.net/>
 - <https://debanwita27.github.io/>
 - <https://mrizkimaulidan.vercel.app/>
-- <https://www.ariesnine.cn/>
 - <https://www.yukizr.com/>
 - <http://liamdalg.co.uk/>
 - <http://pratham-mishra.in/>

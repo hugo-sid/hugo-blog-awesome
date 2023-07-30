@@ -1,5 +1,54 @@
 # Changelog
 
+## [1.5.3](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.5.2...v1.5.3) (2023-07-28)
+
+
+### :bug: Bug Fixes
+
+* bold font on active menu item ([#88](https://github.com/hugo-sid/hugo-blog-awesome/issues/88)) ([88cfd5d](https://github.com/hugo-sid/hugo-blog-awesome/commit/88cfd5dfd097b9c43ea4a91351ee8c739d318862))
+
+## [1.5.2](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.5.1...v1.5.2) (2023-07-26)
+
+
+### :bug: Bug Fixes
+
+* allow setting default theme(color mode) in no-script browsers closes [#50](https://github.com/hugo-sid/hugo-blog-awesome/issues/50) (PR [#85](https://github.com/hugo-sid/hugo-blog-awesome/issues/85)) ([970bdd9](https://github.com/hugo-sid/hugo-blog-awesome/commit/970bdd9f85b3ad2641bb26724f0b2eb7515c570b))
+* change `fadein` keyframe value from 0.8 to 1 (for opacity 100%) ([#86](https://github.com/hugo-sid/hugo-blog-awesome/issues/86)) ([79a3101](https://github.com/hugo-sid/hugo-blog-awesome/commit/79a31018c35e9991c50ddce435e1c2ed129ffa0b))
+
+## [1.5.1](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.5.0...v1.5.1) (2023-07-12)
+
+
+### :bug: Bug Fixes
+
+* make specifying date optional ([#83](https://github.com/hugo-sid/hugo-blog-awesome/issues/83)) ([864f523](https://github.com/hugo-sid/hugo-blog-awesome/commit/864f523143b35b65e64a2b85182b1a269451da5a))
+
+## [1.5.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.4.2...v1.5.0) (2023-07-12)
+
+
+### :sparkles: Features
+
+* update favicons ([#81](https://github.com/hugo-sid/hugo-blog-awesome/issues/81)) ([c3d2f26](https://github.com/hugo-sid/hugo-blog-awesome/commit/c3d2f260c38cadf2052d7f355167ae8aab3ba01b))
+
+
+### :hammer: Housekeeping
+
+* update logo ([#79](https://github.com/hugo-sid/hugo-blog-awesome/issues/79)) ([d8dfc4d](https://github.com/hugo-sid/hugo-blog-awesome/commit/d8dfc4dfc299d65a84a287cd623fdaa95ee342ed))
+* update README.md - add contributors ([#82](https://github.com/hugo-sid/hugo-blog-awesome/issues/82)) ([677f465](https://github.com/hugo-sid/hugo-blog-awesome/commit/677f4652e9dcdbc90275dcbeab448893e6121a71))
+
+## [1.4.2](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.4.1...v1.4.2) (2023-06-26)
+
+
+### :hammer: Housekeeping
+
+* update list of websites using this theme ([#73](https://github.com/hugo-sid/hugo-blog-awesome/issues/73)) ([de04339](https://github.com/hugo-sid/hugo-blog-awesome/commit/de04339aca28087969821b04ccf349dfc56c9449))
+
+## [1.4.1](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.4.0...v1.4.1) (2023-06-23)
+
+
+### :hammer: Housekeeping
+
+* add bskdany.com to readme ([#71](https://github.com/hugo-sid/hugo-blog-awesome/issues/71)) ([d4a0889](https://github.com/hugo-sid/hugo-blog-awesome/commit/d4a08891d5c5b1598f3b57fe15ade331f94e8fdb))
+
 ## [1.4.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.3.0...v1.4.0) (2023-06-21)
 
 
