@@ -6,10 +6,6 @@
   margin-top: 2rem;
   margin-bottom: 2rem;
   text-align: center;
-  position: relative;
-  background-image: url("background.jpg");
-  background-size: cover;
-  background-position: center;
   
   @include media-query($on-mobile) {
     margin-bottom: 3em;

@@ -6,7 +6,7 @@
 {{ $background_img_alt := "My Custom Image" }}
 {{ $background := resources.Get $background_img }}
 
-<div class="author">
+<div class="author" style="background-image: url({{ $background.RelPermalink }}); background-size: cover; background-position: center" />
 
     {{ with $image }}
     {{ $image := $image.Fill "100x100 webp" }}
