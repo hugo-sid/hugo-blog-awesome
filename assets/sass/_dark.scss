@@ -109,6 +109,14 @@
       border-color: $dark-light;
     }
   }
+  
+  .author > *  {
+    background-color: $dark-black;
+  }
+
+  .author-avatar {
+    border: 8px solid $dark-black;
+  }
 
   // Link
   a {

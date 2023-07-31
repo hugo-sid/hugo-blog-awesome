@@ -16,14 +16,12 @@
     height: 100px;
     border-radius: 100%;
     user-select: none;
-    background-color: $dark-black;
     -ms-user-select: none;
     -webkit-user-select: none;
     -webkit-animation: 0.5s ease-in forwards fadein_bio;
     animation: 0.5s ease-in forwards fadein_bio;
     opacity: 1;
     object-fit: cover;
-    border: 8px solid $dark-black;
   }
 
   .author-name {
@@ -35,7 +33,6 @@
     margin: 0 auto;
     font-size: 1.7em;
     margin-bottom: 2px;
-    background-color: $dark-black;
     border-radius: 10px;
   }
 
@@ -46,7 +43,6 @@
     //opacity: 0.9;
     max-width: 393px;
     line-height: 1.688;
-    background-color: $dark-black;
     border-radius: 10px;
   }
 }

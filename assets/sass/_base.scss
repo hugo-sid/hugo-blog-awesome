@@ -202,6 +202,14 @@ a {
   }
 }
 
+.author > *  {
+  background-color: $light;
+}
+
+.author-avatar {
+  border: 8px solid $light;
+}
+
 // Del
 del {
   color: inherit;
