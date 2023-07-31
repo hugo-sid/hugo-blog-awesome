@@ -1,8 +1,18 @@
 <!DOCTYPE html>
+{{- $defaultColor := .Site.Params.defaultColor | default "auto" -}}
+
+{{/* allow website developer to enforce default dark mode */}}
+{{- if eq $defaultColor "dark" -}}
+<html lang="{{ .Site.LanguageCode }}" class="dark">
+{{- else if eq $defaultColor "light" -}}
+<html lang="{{ .Site.LanguageCode }}" class="light">
+{{- else -}}
 <html lang="{{ .Site.LanguageCode }}">
+{{- end -}}
+
 {{- partial "head.html" . -}}
 
-<body data-theme="{{ .Site.Params.defaultColor | default "auto" }}" class="notransition">
+<body data-theme="{{ $defaultColor }}" class="notransition">
     {{- partial "scriptsBodyStart.html" . -}}
     {{- partial "header.html" . -}}
     <div class="wrapper">
