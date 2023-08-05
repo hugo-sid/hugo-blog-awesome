@@ -173,6 +173,7 @@ url = "index.xml"
 | `twitch`        | twitch.tv                       |
 | `twitter`       | twitter.com                     |
 | `unsplash`      | unsplash.com                    |
+| `x`             | x.com                           |
 | `xda`           | xda-developers.com              |
 | `xing`          | xing.com                        |
 | `ycombinator`   | ycombinator.com                 |
