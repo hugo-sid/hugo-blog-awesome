@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.6.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.5.3...v1.6.0) (2023-08-21)
+
+
+### :sparkles: Features
+
+* add IRC and health icon ([#96](https://github.com/hugo-sid/hugo-blog-awesome/issues/96)) ([beb30ce](https://github.com/hugo-sid/hugo-blog-awesome/commit/beb30ceadcba1a5872c2df95402373ea3dc44aa3))
+* add support for x.com logo/icon ([#91](https://github.com/hugo-sid/hugo-blog-awesome/issues/91)) ([20c2ea8](https://github.com/hugo-sid/hugo-blog-awesome/commit/20c2ea89287bcd1d5c5129cd0d4cfc3dcb0e9356))
+
 ## [1.5.3](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.5.2...v1.5.3) (2023-07-28)
 
 
