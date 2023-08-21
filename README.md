@@ -171,9 +171,9 @@ url = "index.xml"
 | `telegram`      | telegram.org                    |
 | `tiktok`        | tiktok.com                      |
 | `twitch`        | twitch.tv                       |
-| `twitter`       | twitter.com                     |
+| `twitter` (the blue bird logo)       | twitter.com                     |
 | `unsplash`      | unsplash.com                    |
-| `x`             | x.com                           |
+| `x` (formerly Twitter)             | x.com                           |
 | `xda`           | xda-developers.com              |
 | `xing`          | xing.com                        |
 | `ycombinator`   | ycombinator.com                 |
