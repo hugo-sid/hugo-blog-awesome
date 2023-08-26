@@ -85,6 +85,7 @@ $on-widescreen: 1152px;
 @import "miscellaneous";
 @import "dark";
 @import "listpage";
+@import "custom";
 
 {{ with .Site.Params.goToTop }}
 @import "goToTop";
