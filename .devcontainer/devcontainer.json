@@ -40,8 +40,14 @@
 		1313
 	],
 
-	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "uname -a",
+	// Use 'postAttachCommand' to run each time a tool has successfully attached to the container.
+	// Note that, postCreateCommand, postStartCommand, postAttachCommand, and initializeCommand all have 3 types:
+	// 		Array: Passed to the OS for execution without going through a shell
+	// 		String: Goes through a shell (it needs to be parsed into command and arguments)
+	// 		Object: All lifecycle scripts have been extended to support object types to allow for parallel execution
+	// See https://containers.dev/implementors/json_reference/#formatting-string-vs-array-properties for more details.
+	// The following line uses string format.
+    "postAttachCommand": "echo 🌲 Git version: $(git --version) && echo 🌲 Hugo version: $(hugo version) && echo 🌲 Node.js version: $(node -v) && echo 🌲 Golang version: $(go version)",
 
 	// Comment out to connect as root instead. More info: https://aka.ms/vscode-remote/containers/non-root.
 	"remoteUser": "node",

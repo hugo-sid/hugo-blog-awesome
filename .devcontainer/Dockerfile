@@ -25,12 +25,6 @@ RUN apt-get update && apt-get install -y ca-certificates openssl git curl && \
 # Expose the port that the Hugo development server will use.
 EXPOSE 1313
 
-# Print the versions of Git, Hugo, Node.js, and Golang
-RUN echo "Git version: $(git --version)" && \
-    echo "Hugo version: ${hugo version}" && \
-    echo "Node.js version: $(node -v)" && \
-    echo "Golang version: $(go version)"
-
 # [Optional] Uncomment this section to install additional OS packages you may want.
 #
 # RUN apt-get update && export DEBIAN_FRONTEND=noninteractive \
