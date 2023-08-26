@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.7.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.6.0...v1.7.0) (2023-08-26)
+
+
+### :sparkles: Features
+
+* add config for Dev containers ([#102](https://github.com/hugo-sid/hugo-blog-awesome/issues/102)) ([fb4ebca](https://github.com/hugo-sid/hugo-blog-awesome/commit/fb4ebca661c75d24145307b70bf95e8956bd21df))
+* add social icon for Nostr ([#100](https://github.com/hugo-sid/hugo-blog-awesome/issues/100)) ([eb20024](https://github.com/hugo-sid/hugo-blog-awesome/commit/eb200246e13484e06da65320be59ddc3466000fe))
+
 ## [1.6.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.5.3...v1.6.0) (2023-08-21)
 
 
