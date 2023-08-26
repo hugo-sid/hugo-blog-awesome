@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.8.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.7.0...v1.8.0) (2023-08-26)
+
+
+### :sparkles: Features
+
+* include `_custom.scss` to facilitate quick and simple CSS adjustments, closes [#93](https://github.com/hugo-sid/hugo-blog-awesome/issues/93) ([#104](https://github.com/hugo-sid/hugo-blog-awesome/issues/104)) ([c95d4e7](https://github.com/hugo-sid/hugo-blog-awesome/commit/c95d4e79e95d6dcdc273d472e23911bb5e110854))
+
+
+### :bug: Bug Fixes
+
+* avatar with transparent bg is always black closes [#92](https://github.com/hugo-sid/hugo-blog-awesome/issues/92) ([a64bffd](https://github.com/hugo-sid/hugo-blog-awesome/commit/a64bffdcf4659eea145263808ed25ea0e43ce700))
+
+
+### :hammer: Housekeeping
+
+* **README:** update logo alt text ([#105](https://github.com/hugo-sid/hugo-blog-awesome/issues/105)) ([67f6473](https://github.com/hugo-sid/hugo-blog-awesome/commit/67f6473c56e2b0ce5e8a40b875c72232b56b0e95))
+
 ## [1.7.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.6.0...v1.7.0) (2023-08-26)
 
 
