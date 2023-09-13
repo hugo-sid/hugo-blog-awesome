@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.9.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.8.0...v1.9.0) (2023-09-13)
+
+
+### :sparkles: Features
+
+* add support for custom date formatting ([09a204c](https://github.com/hugo-sid/hugo-blog-awesome/commit/09a204cebca09bc76bc76abebb856b2eb27c010c))
+
+
+### :bug: Bug Fixes
+
+* logo not displaying in readme, closes [#106](https://github.com/hugo-sid/hugo-blog-awesome/issues/106), PR ([#107](https://github.com/hugo-sid/hugo-blog-awesome/issues/107)) ([7042eaf](https://github.com/hugo-sid/hugo-blog-awesome/commit/7042eaf4d5df7e2be70ddce44db2f658f5af75af))
+
+
+### :hammer: Housekeeping
+
+* update list of websites using this theme ([#110](https://github.com/hugo-sid/hugo-blog-awesome/issues/110)) ([366a762](https://github.com/hugo-sid/hugo-blog-awesome/commit/366a76299d6daebd1d8fd31fc05897d9b5a52a74))
+* update post title ([e0abd99](https://github.com/hugo-sid/hugo-blog-awesome/commit/e0abd993c32bc7381fc4942d6565baa1bc6ba087))
+
 ## [1.8.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.7.0...v1.8.0) (2023-08-26)
 
 
