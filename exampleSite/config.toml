@@ -67,7 +67,11 @@ disqusShortname = ''
   # When building for production it will be minified.
   # The file `custom.js` is loaded on each page (before body tag ends).
   dateFormat = "January 2, 2006" # default date format used on various pages
-  # See https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference for available date formats
+  # See https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference for available date formats.
+  rssFeedDescription = "summary" # available options: 1) summary 2) full
+  # summary - includes a short summary of the blog post in the RSS feed. Generated using Hugo .Summary .
+  # full - includes full blog post in the RSS feed. Generated using Hugo .Content .
+  # By default (or if nothing is specified), summary is used.
 
 [params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
