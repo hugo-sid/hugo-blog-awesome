@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.10.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.9.0...v1.10.0) (2023-09-18)
+
+
+### :sparkles: Features
+
+* **RSS:** add support for full post content in RSS feed, closes [#109](https://github.com/hugo-sid/hugo-blog-awesome/issues/109) ([b7a4e4c](https://github.com/hugo-sid/hugo-blog-awesome/commit/b7a4e4cca192258135d2645b5d87a82fa31d9255))
+
+
+### :hammer: Housekeeping
+
+* **README:** update list of websites using this theme ([#116](https://github.com/hugo-sid/hugo-blog-awesome/issues/116)) ([deffb2c](https://github.com/hugo-sid/hugo-blog-awesome/commit/deffb2ce703c981e06177f877a6d3bc9eb69364d))
+
+
+### :construction_worker: CI/CD
+
+* update Hugo version for Netlify builds ([aa7630b](https://github.com/hugo-sid/hugo-blog-awesome/commit/aa7630b4295384b3ecddb14f826dbd1ab1535c52))
+
 ## [1.9.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.8.0...v1.9.0) (2023-09-13)
 
 
