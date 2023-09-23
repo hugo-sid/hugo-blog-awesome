@@ -47,7 +47,7 @@ Built with Hugo, SCSS, and vanilla JavaScript.
 ## Setup
 
 > **Note**
-> Text: You must have have the Hugo extended version installed in order to use this theme. This theme uses SCSS for styling. With the Hugo extended version, SCSS can be compiled to CSS without any additional tools.
+> You must have have the Hugo extended version installed in order to use this theme. This theme uses SCSS for styling. With the Hugo extended version, SCSS can be compiled to CSS without any additional tools.
 
 To create a new Hugo site with this theme, run the following command:
 
