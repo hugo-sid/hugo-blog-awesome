@@ -28,7 +28,7 @@ The result shown above was last confirmed on September 23, 2023. You can check t
 ## Features
 
 - Minimal design
-- Light and dark modes
+- Light and dark mode
 - Syntax highlighting
 - RSS feed
 - No jQuery, no Bootstrap
@@ -46,7 +46,8 @@ Built with Hugo, SCSS, and vanilla JavaScript.
 
 ## Setup
 
-> **Note**: You need to have the Hugo extended version installed in order to use this theme. This theme uses SCSS for styling. With the Hugo extended version, SCSS can be compiled to CSS without any additional tools.
+> **Note**
+> Text: You must have have the Hugo extended version installed in order to use this theme. This theme uses SCSS for styling. With the Hugo extended version, SCSS can be compiled to CSS without any additional tools.
 
 To create a new Hugo site with this theme, run the following command:
 
