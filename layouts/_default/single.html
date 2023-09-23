@@ -11,11 +11,13 @@
                 </div>
                 {{ end }}
             </header>
-            {{- if or .Params.toc .Site.Params.toc }}
-            <details class="toc">
-                <summary><b>Table of Contents</b></summary>
-                {{ .TableOfContents }}
-            </details>
+            {{- if .Site.Params.toc -}}
+                {{ if not (eq .Params.toc false) }}
+                <details class="toc">
+                    <summary><b>Table of Contents</b></summary>
+                    {{ .TableOfContents }}
+                </details>
+                {{ end }}
             {{- end -}}
             <div class="page-content">
                 {{ .Content }}
