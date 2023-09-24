@@ -19,7 +19,7 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
 
 # To enable Disqus comments, provide Disqus Shortname below.
 # To disable Disqus comments, simply leave the field empty or remove the next line
-disqusShortname = 'fmaida'
+disqusShortname = ''
 
 # set markup.highlight.noClasses=false to enable code highlight
 [markup]
@@ -128,7 +128,7 @@ disqusShortname = 'fmaida'
   # the default value is set to 'auto'.
   # You can take a look at layouts/index.html for more information.
   description = "Un tema Hugo veloce e minimalista con supporto per la modalità chiara e scura, per la gestione di un sito o di un blog personale"
-  mainSections = ['articoli']
+  mainSections = ['posts']
   toc = true # set to false to disable table of contents 'globally'
   goToTop = true # set to false to disable 'go to top' button
   additionalScripts = ['js/custom.js', 'js/custom-2.js']
