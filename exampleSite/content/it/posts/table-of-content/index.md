@@ -4,37 +4,37 @@ date: 2023-05-02
 description: Setup table of content in Hugo blog awesome theme
 ---
 
-## Table of content
+## Sommario
 
-This theme supports displaying table of content (ToC) in blog posts.
+Questo tema supporta la visualizzazione di un sommario (Table Of Content - ToC) all'interno degli articoli.
 
-## Enable table of content on all posts
+## Abilitare il sommario in tutti gli articoli
 
-To enable ToC on all posts (globally) set parameter `toc` to `true` in `config.toml`.
+Per abilitare il sommario in tutti gli articoli (globalmente) è necessario impostare il parametro `toc` a `true` in `config.toml`.
 
 ```toml
 [params]
   toc = true
 ```
 
-To disable ToC globally, simply ignore the `toc` parameter or set it to `false`.
+Per disabilitare il sommario globalmente invece, basta semplicemente cancellare il parametro `toc` oppure impostarlo a `false`.
  
-## Disable table of content on certain posts
+## Disabilitare il sommario solo in alcuni articoli
 
-To disable ToC on certain posts, you have to follow two steps.
+Per disabilitare il sommario solamente in alcuni articoli selezionati, è necessario seguire questi due passi.
 
-1.  Set parameter `toc` to `true` in `config.toml`.
+1.  Impostate il parametro `toc` a `true` in `config.toml`.
 
     ```toml
     [params]
       toc = true
     ```
 
-2.  Add `toc = false` to the front matter of the post for which you wish to disable ToC.
+2.  Aggiungete `toc = false` al front matter dell'articolo nel quale volete disabilitare il sommario.
 
     ```yaml
     ---
-    title: How to enable table of content
+    title: Come abilitare il sommario
     date: 2023-05-02
     toc: false
     ---

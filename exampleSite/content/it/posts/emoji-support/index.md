@@ -7,21 +7,21 @@ tags:
   - emoji
 ---
 
-Emoji can be enabled in a Hugo project in a number of ways. 
+Le emoji possono essere abilitate in un progetto Hugo in diversi modi.
 <!--more-->
-The [`emojify`](https://gohugo.io/functions/emojify/) function can be called directly in templates or [Inline Shortcodes](https://gohugo.io/templates/shortcode-templates/#inline-shortcodes). 
+La funzione [`emojify`](https://gohugo.io/functions/emojify/) può essere richiamata direttamente nei modelli oppure negli [Shortcodes Inline](https://gohugo.io/templates/shortcode-templates/#inline-shortcodes). 
 
-To enable emoji globally, set `enableEmoji` to `true` in your site's `config.toml`. You can type emoji shorthand codes directly in content files; e.g.
+Per abilitare le emoji globalmente, impostate `enableEmoji` a `true` nel file `config.toml` del vostro sito. Potete digitare a mano le scorciatoie per le emoji direttamente nei file di contenuto; es.
 
 `:see_no_evil:` :see_no_evil: `:hear_no_evil:` :hear_no_evil: `:speak_no_evil:` :speak_no_evil:
 
-I :heart: Hugo! 😁
+Io :heart: Hugo! 😁
 
-The [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/) is a useful reference for emoji shorthand codes.
+La [Emoji cheat sheet](http://www.emoji-cheat-sheet.com/) è un utile documento di riferimento per le codici di scorciatoia alle emoji.
 
 ***
 
-**N.B.** The above steps enable Unicode Standard emoji characters and sequences in Hugo, however the rendering of these glyphs depends on the browser and the platform. To style the emoji you can either use a third party emoji font or a font stack; e.g.
+**N.B.** I passi sopra menzionati abilitano gli emoji standard Unicode e le sequenze in Hugo, tuttavia il modo in cui questi glifi vengono rappresentati dipende dal browser e dalla piattaforma. Per applicare il vostro stile personale alle emoji potete a scelta utilizzare un font di terze parti per Emoji oppure un font stack; es.
 
 {{< highlight css >}}
 .emoji {
