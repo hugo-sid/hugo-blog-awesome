@@ -111,9 +111,9 @@ disqusShortname = ''
     url = '/'
     weight = 10
   [[Languages.it.menu.main]]
-    pageRef="articoli"
+    pageRef="posts"
     name = 'Articoli'
-    url = '/articoli/'
+    url = '/posts/'
     weight = 20
   [[Languages.it.menu.main]]
     pageRef="about"
