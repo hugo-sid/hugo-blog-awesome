@@ -6,15 +6,15 @@ description: A brief guide to setup KaTeX
 math: true
 ---
 
-Mathematical notation in a Hugo project can be enabled by using
-[third party JavaScript libraries](https://github.com/hugo-sid/hugo-blog-awesome/blob/main/layouts/partials/helpers/katex.html).
+La notazione matematica in un progetto Hugo può essere abilitata utilizzando delle
+[librerie JavaScript di terze parti](https://github.com/hugo-sid/hugo-blog-awesome/blob/main/layouts/partials/helpers/katex.html).
 
 <!--more-->
 
-In this example we will be using [KaTeX](https://katex.org/).
+In questo esempio utilizzeremo [KaTeX](https://katex.org/).
 
-- To enable KaTeX globally, set the parameter `math` to `true` in a project's
-  configuration file as follows.
+- Per abilitare KaTeX a livello globale, impostate il parametro `math` a `true` nella configurazione di un progretto come segue.
+
   - `config.toml`
     ```toml
     [params]
@@ -25,8 +25,8 @@ In this example we will be using [KaTeX](https://katex.org/).
     params:
       math: true
     ```
-- To enable KaTeX on a per page basis, include the parameter `math: true` in
-  Front Matter of Markdown content file as follows.
+- Per abilitare KaTeX solamente in alcune pagine, includete il parametro `math: true` nel
+  Front Matter del file markdown come segue.
 
   ```
   ---
@@ -34,17 +34,17 @@ In this example we will be using [KaTeX](https://katex.org/).
   ---
   ```
 
-**Note:** The online reference of
-[Supported TeX Functions](https://katex.org/docs/supported.html) is a helpful resource.
+**Nota:** La guida di riferimento online
+[Supported TeX Functions](https://katex.org/docs/supported.html) è un'utile risorsa di informazioni.
 
-### Examples
+### Esempi
 
-- Block math:
+- Blocco matematico:
 
   $$
   \varphi = 1+\frac{1} {1+\frac{1} {1+\frac{1} {1+\cdots} } }
   $$
 
-- Inline math:
+- Matematica inline:
 
-  This is an inline polynomial: $5x^2 + 2y -7$.
+  Questo è un polinomiale inline: $5x^2 + 2y -7$.
