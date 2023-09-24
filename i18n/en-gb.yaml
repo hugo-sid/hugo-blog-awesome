@@ -1,0 +1,27 @@
+## HOME ##
+- id: "home.home"
+  translation: "Home"
+  
+- id: "home.recent_posts"
+  translation: "Recent Posts"
+
+- id: "home.see_all_posts"
+  translation: "See all posts"
+
+## SINGLE ##
+- id: "single.table_of_contents"
+  translation: "Table of Contents"
+
+## FOOTER ##
+- id: "footer.go_to_top"
+  translation: "Go to top"
+
+- id: "footer.disclaimer"
+  translation: "Powered by <a href=\"https://github.com/hugo-sid/hugo-blog-awesome\" target=\"_blank\" rel=\"noopener\">Hugo blog awesome</a>."
+
+## ERRORS ##
+- id: "errors.404"
+  translation: "404 NOT FOUND"
+
+- id: "errors.404_description"
+  translation: "You just hit a route that doesn't exist."
