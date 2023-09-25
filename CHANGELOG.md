@@ -1,5 +1,40 @@
 # Changelog
 
+## [1.11.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.10.0...v1.11.0) (2023-09-25)
+
+
+### :sparkles: Features
+
+* add multilingual mode (websites with multiple languages side by side) ([#127](https://github.com/hugo-sid/hugo-blog-awesome/issues/127)) ([b7644e2](https://github.com/hugo-sid/hugo-blog-awesome/commit/b7644e2cf1c112ee85a1e8d889f48e8f739802db))
+
+
+### :bug: Bug Fixes
+
+* hugo error when dateFormat parameter is not set, closes [#128](https://github.com/hugo-sid/hugo-blog-awesome/issues/128) ([730ced7](https://github.com/hugo-sid/hugo-blog-awesome/commit/730ced7716e909d904ba058a2748f3eeb77a431e))
+* ToC setting bug, closes [#120](https://github.com/hugo-sid/hugo-blog-awesome/issues/120) ([cb695b1](https://github.com/hugo-sid/hugo-blog-awesome/commit/cb695b19d8bf3be30cd61029bd28e3f86f9af9b5))
+
+
+### :hammer: Housekeeping
+
+* add link, fix typo in readme ([ab16ba1](https://github.com/hugo-sid/hugo-blog-awesome/commit/ab16ba14b3bfbf365c86ae151241fef3f9b16292))
+* add rel='noopener' for external link ([6c767d1](https://github.com/hugo-sid/hugo-blog-awesome/commit/6c767d167d28febcc1971c5f0b8bb7ea1f7d0af5))
+* fix typo in `README.md` ([46147ae](https://github.com/hugo-sid/hugo-blog-awesome/commit/46147ae8348c1a517b0cd3361ab73d246377d601))
+* modify footer branding text ([41e6f8e](https://github.com/hugo-sid/hugo-blog-awesome/commit/41e6f8e8342a776356d75bef737da86d7fb58aad))
+* update bug report issue template ([923ddfd](https://github.com/hugo-sid/hugo-blog-awesome/commit/923ddfd4de684c0637ad11440035b9c06c87f480))
+* update links in `README.md` [skip ci] ([e414a38](https://github.com/hugo-sid/hugo-blog-awesome/commit/e414a382069efe7065365eed347bff2836621c16))
+* update note ([59d4b68](https://github.com/hugo-sid/hugo-blog-awesome/commit/59d4b6810226a0aef25b52b72e3f44fc79b994cc))
+
+
+### :memo: Documentation
+
+* add docs for setting ToC ([b0ffc61](https://github.com/hugo-sid/hugo-blog-awesome/commit/b0ffc61be6e7369b875586e9b3a3e54549509620))
+* add documentation regarding default date format ([97ccc77](https://github.com/hugo-sid/hugo-blog-awesome/commit/97ccc77bf81c0d2b00184a9287cb59b1837950b5))
+
+
+### :construction_worker: CI/CD
+
+* pin third-party GitHub actions by hash ([#119](https://github.com/hugo-sid/hugo-blog-awesome/issues/119)) ([218ea44](https://github.com/hugo-sid/hugo-blog-awesome/commit/218ea44a1a66e0c9a9ab0b5764576ba4fa92bc03))
+
 ## [1.10.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.9.0...v1.10.0) (2023-09-18)
 
 
