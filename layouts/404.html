@@ -5,8 +5,8 @@
 {{ define "main"}}
 <div class="wrapper">
     <main class="main-404" aria-label="Content">
-        <h1>404 NOT FOUND</h1>
-        <p>You just hit a route that doesn't exist.</p>
+        <h1>{{ T "errors.404" }}</h1>
+        <p>{{ T "errors.404_description" }}</p>
     </main>
 </div>
 {{ end }}

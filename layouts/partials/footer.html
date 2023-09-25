@@ -7,12 +7,12 @@
     </div>
     <small class="footer_copyright">
         © {{ now.Format "2006" }} {{ .Site.Params.author.name }}.
-        Powered by <a href="https://github.com/hugo-sid/hugo-blog-awesome" target="_blank"  rel="noopener">Hugo blog awesome</a>.
+        {{ T "footer.disclaimer" | safeHTML }}
     </small>
 </footer>
 
 {{- if .Site.Params.goToTop -}}
-<a href="#" title="Go to top" id="totop">
+<a href="#" title="{{ T "footer.go_to_top" }}" id="totop">
     {{ partial "svgs/arrowUp.svg" (dict "height" 48 "width" 48) . }}
 </a>
 {{- end -}}

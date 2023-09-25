@@ -14,7 +14,7 @@
             {{- if .Site.Params.toc -}}
                 {{ if not (eq .Params.toc false) }}
                 <details class="toc">
-                    <summary><b>Table of Contents</b></summary>
+                    <summary><b>{{ T "single.table_of_contents" }}</b></summary>
                     {{ .TableOfContents }}
                 </details>
                 {{ end }}
