@@ -39,7 +39,7 @@
                 <!-- Language List -->
                 {{ if .IsTranslated }}
                     <li>
-                        <select class="lang-list" id="select-language" onchange="location = this.value;">
+                        <select aria-label="Select Language" class="lang-list" id="select-language" onchange="location = this.value;">
                             {{ $siteLanguages := .Site.Languages}}
                             {{ $pageLang := .Page.Lang}}
                             {{ range .Page.AllTranslations }}
