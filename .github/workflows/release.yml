@@ -16,6 +16,6 @@
         - uses: google-github-actions/release-please-action@ca6063f4ed81b55db15b8c42d1b6f7925866342d # v3.7.11
           with:
             release-type: simple
-            token: ${{ secrets.GH_PAT }}
+            token: ${{ secrets.HBA_RELEASE_PLEASE_TOKEN }}
             pull-request-header: ":rocket: New release"
             changelog-types: '[{"type":"feat","section":":sparkles: Features","hidden":false},{"type":"fix","section":":bug: Bug Fixes","hidden":false},{"type":"chore","section":":hammer: Housekeeping","hidden":false},{"type":"docs","section":":memo: Documentation","hidden":false},{"type":"ci","section":":construction_worker: CI/CD","hidden":false},{"type":"perf","section":":zap: Performance","hidden":false},{"type":"refactor","section":":recycle: Refactoring","hidden":false},{"type":"style","section":":art: Style","hidden":false},{"type":"test","section":":white_check_mark: Tests","hidden":false}]'
