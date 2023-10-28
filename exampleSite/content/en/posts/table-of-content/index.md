@@ -39,3 +39,22 @@ To disable ToC on certain posts, you have to follow two steps.
     toc: false
     ---
     ```
+
+## Open table of content
+
+By default, ToC is closed. To open it by default, set parameter `tocOpen` to `true` in `config.toml`.
+
+```toml
+[params]
+  tocOpen = true
+```
+
+Or simply add the `tocOpen` parameter to the front matter of the post.
+
+```yaml
+---
+title: How to enable table of content
+date: 2023-05-02
+tocOpen: true
+---
+```
