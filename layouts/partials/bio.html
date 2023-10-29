@@ -3,7 +3,7 @@
 {{ $image := resources.Get $avatar_img }}
 <div class="author">
     {{ with $image }}
-    {{ $image := $image.Fill "100x100 webp" }}
+    {{ $image := $image.Fill "1000x1000 webp" }}
     <img class="author-avatar" src="{{ $image.RelPermalink }}" alt="{{ $avatar_img_alt }}" width="{{ .Width }}"
         height="{{ .Height }}" />
     {{ end }}
