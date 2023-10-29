@@ -4,7 +4,10 @@ licenselink = "https://github.com/hugo-sid/hugo-blog-awesome/blob/main/LICENSE"
 description = "Minimal Hugo blog theme with light and dark mode support"
 
 # The home page of the theme, where the source can be found.
-homepage = "https://github.com/hugo-sid/hugo-blog-awesome/"
+# homepage = "https://github.com/hugo-sid/hugo-blog-awesome/"
+
+# The forked version of the theme that I'm using
+homepage = "https://github.com/jlingford/modified-hugo-blog"
 
 # If you have a running demo of the theme.
 demosite = "https://hugo-blog-awesome.netlify.app/"
