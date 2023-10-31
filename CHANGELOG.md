@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.12.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.11.0...v1.12.0) (2023-10-31)
+
+
+### :sparkles: Features
+
+* add parameter to open ToC globally or in frontmatter of post ([#138](https://github.com/hugo-sid/hugo-blog-awesome/issues/138)) ([a6ece0e](https://github.com/hugo-sid/hugo-blog-awesome/commit/a6ece0e3804b1b98cc29f359169de03c14f0e980))
+
+
+### :bug: Bug Fixes
+
+* improve accessibility of language selector ([#131](https://github.com/hugo-sid/hugo-blog-awesome/issues/131)) ([5f52bb2](https://github.com/hugo-sid/hugo-blog-awesome/commit/5f52bb241503fea11b33b3b1376378accb9024f1))
+
+
+### :construction_worker: CI/CD
+
+* update GitHub access token for release please ([#134](https://github.com/hugo-sid/hugo-blog-awesome/issues/134)) ([94f92a6](https://github.com/hugo-sid/hugo-blog-awesome/commit/94f92a6cf3acb756b2a3c89fb908b7f2b05ba0f1))
+
 ## [1.11.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.10.0...v1.11.0) (2023-09-25)
 
 
