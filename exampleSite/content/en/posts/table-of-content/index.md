@@ -8,6 +8,14 @@ description: Setup table of content in Hugo blog awesome theme
 
 This theme supports displaying table of content (ToC) in blog posts.
 
+## Parameters
+
+You can manage a ToC with two parameters:
+- global `toc` parameter;
+- post `toc` parameter.
+
+The post `toc` parameter has higher priority than the global `toc` parameter.
+
 ## Enable table of content on all posts
 
 To enable ToC on all posts (globally) set parameter `toc` to `true` in `config.toml`.
@@ -19,6 +27,18 @@ To enable ToC on all posts (globally) set parameter `toc` to `true` in `config.t
 
 To disable ToC globally, simply ignore the `toc` parameter or set it to `false`.
  
+## Enable table of content on certain posts
+
+To enable ToC on certain posts set parameter `toc` to `true` in post settings.
+
+    ```yaml
+    ---
+    title: How to enable table of content
+    date: 2023-05-02
+    toc: true
+    ---
+    ```
+
 ## Disable table of content on certain posts
 
 To disable ToC on certain posts, you have to follow two steps.
