@@ -43,6 +43,8 @@ To enable ToC on certain posts set parameter `toc` to `true` in post settings.
 
 To disable ToC on certain posts, you have to follow two steps.
 
+Notice: `.Params.toc` in the post will overide `.Site.Params.toc`. After these steps, parameter `toc`  in the post will be `false`.
+
 1.  Set parameter `toc` to `true` in `config.toml`.
 
     ```toml
