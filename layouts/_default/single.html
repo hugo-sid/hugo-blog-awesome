@@ -11,20 +11,7 @@
                 </div>
                 {{ end }}
             </header>
-            {{- if .Site.Params.toc -}}
-                {{ if not (eq .Params.toc false) }}
-                {{ $tocOpen := "" }}
-                {{ if or .Site.Params.tocOpen .Params.tocOpen }}
-                    {{ if not (eq .Params.tocOpen false) }}
-                        {{ $tocOpen = "open" }}
-                    {{ end }}
-                {{ end }}
-                <details class="toc" {{ $tocOpen }}>
-                    <summary><b>{{ T "single.table_of_contents" }}</b></summary>
-                    {{ .TableOfContents }}
-                </details>
-                {{ end }}
-            {{- end -}}
+            {{ partial "toc.html" .}}
             <div class="page-content">
                 {{ .Content }}
             </div>
