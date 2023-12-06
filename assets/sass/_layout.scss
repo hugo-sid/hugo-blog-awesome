@@ -71,6 +71,10 @@
     font-weight: normal;
     letter-spacing: 0.1px;
 
+    @include media-query($on-mobile) {
+      max-width: 15rem;
+    }
+
     a {
       color: $text-base-color;
       transition: all 150ms ease-in 0s;
