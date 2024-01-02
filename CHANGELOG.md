@@ -1,5 +1,24 @@
 # Changelog
 
+## [1.13.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.12.0...v1.13.0) (2023-12-22)
+
+
+### :sparkles: Features
+
+* add ability to enable toc on certain posts ignore global toc settings ([#143](https://github.com/hugo-sid/hugo-blog-awesome/issues/143)) ([d2a95ac](https://github.com/hugo-sid/hugo-blog-awesome/commit/d2a95acfa909796b555f29f46fe27f257798263a))
+* add Russian language support ([#145](https://github.com/hugo-sid/hugo-blog-awesome/issues/145)) ([fc80687](https://github.com/hugo-sid/hugo-blog-awesome/commit/fc806873c8dbdce13840ee46dbef2ae45eaed2a6))
+
+
+### :bug: Bug Fixes
+
+* inconsistent appearance of inline code, in lists, in light theme ([#159](https://github.com/hugo-sid/hugo-blog-awesome/issues/159)) ([a0129f7](https://github.com/hugo-sid/hugo-blog-awesome/commit/a0129f79306556a752b5e20a2fe94f8efe5d8b3d))
+* post title width on small screens, closes [#136](https://github.com/hugo-sid/hugo-blog-awesome/issues/136) ([#153](https://github.com/hugo-sid/hugo-blog-awesome/issues/153)) ([b8b4753](https://github.com/hugo-sid/hugo-blog-awesome/commit/b8b4753e4db009a59ed81616c2a127b10243d8b8))
+
+
+### :construction_worker: CI/CD
+
+* update stale.yml GitHub action ([#150](https://github.com/hugo-sid/hugo-blog-awesome/issues/150)) ([e96f650](https://github.com/hugo-sid/hugo-blog-awesome/commit/e96f650d055d7a011f9f3569c4af5fc574cb1a1e))
+
 ## [1.12.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.11.0...v1.12.0) (2023-10-31)
 
 
