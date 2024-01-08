@@ -1,0 +1,27 @@
+## HOME ##
+- id: "home.home"
+  translation: "Startseite"
+  
+- id: "home.recent_posts"
+  translation: "Letzte Beiträge"
+
+- id: "home.see_all_posts"
+  translation: "Alle Beiträge anzeigen"
+
+## SINGLE ##
+- id: "single.table_of_contents"
+  translation: "Inhaltsverzeichnis"
+
+## FOOTER ##
+- id: "footer.go_to_top"
+  translation: "Zum Seitenanfang"
+
+- id: "footer.disclaimer"
+  translation: "Unterstützt durch <a href=\"https://github.com/hugo-sid/hugo-blog-awesome\" target=\"_blank\" rel=\"noopener\">Hugo blog awesome</a>."
+
+## ERRORS ##
+- id: "errors.404"
+  translation: "404 NICHT GEFUNDEN"
+
+- id: "errors.404_description"
+  translation: "Die Seite konnte nicht gefunden werden."
