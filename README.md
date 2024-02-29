@@ -205,7 +205,7 @@ Then, edit the `my-first-post.md` file to suit your needs.
 
 ### Comments
 
-To enable Disqus comments, set `disqusShortname` in your site's `config.toml`.
+To enable Disqus comments, set `services.disqus.shortname` in your site's `hugo.toml`.
 
 To use another comments system, provide your own `comments.html` partial in `layouts\partials\comments.html`.
 

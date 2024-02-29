@@ -1,3 +1,5 @@
 .hugo_build.lock
+.hvm
+exampleSite/public/
 exampleSite/resources/
 exampleSite/.hugo_build.lock

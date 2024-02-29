@@ -1,4 +1,4 @@
-{{- if .Site.DisqusShortname -}}
+{{- if .Site.Config.Services.Disqus.Shortname -}}
 <hr style="margin-top: 40px; margin-bottom: 40px;" />
 {{ template "_internal/disqus.html" . }}
 {{- end -}}
