@@ -74,7 +74,7 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
   goToTop = true # set to false to disable 'go to top' button
   additionalScripts = ['js/custom.js', 'js/custom-2.js']
   # Will try to load 'assets/js/custom.js' and 'assets/js/custom-2.js'.
-  # Your custom scripts will be concatinated to one file `custom.js`.
+  # Your custom scripts will be concatenated to one file `custom.js`.
   # When building for production it will be minified.
   # The file `custom.js` is loaded on each page (before body tag ends).
   dateFormat = "" # date format used to show dates on various pages. If nothing is specified, then "2 Jan 2006" format is used.
@@ -138,7 +138,7 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
   goToTop = true # set to false to disable 'go to top' button
   additionalScripts = ['js/custom.js', 'js/custom-2.js']
   # Will try to load 'assets/js/custom.js' and 'assets/js/custom-2.js'.
-  # Your custom scripts will be concatinated to one file `custom.js`.
+  # Your custom scripts will be concatenated to one file `custom.js`.
   # When building for production it will be minified.
   # The file `custom.js` is loaded on each page (before body tag ends).
   dateFormat = "2 January 2006" # default date format used on various pages
@@ -203,7 +203,7 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
   goToTop = true # set to false to disable 'go to top' button
   additionalScripts = ['js/custom.js', 'js/custom-2.js']
   # Will try to load 'assets/js/custom.js' and 'assets/js/custom-2.js'.
-  # Your custom scripts will be concatinated to one file `custom.js`.
+  # Your custom scripts will be concatenated to one file `custom.js`.
   # When building for production it will be minified.
   # The file `custom.js` is loaded on each page (before body tag ends).
   dateFormat = "" # date format used to show dates on various pages. If nothing is specified, then "2 Jan 2006" format is used.
@@ -268,7 +268,7 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
   goToTop = true # set to false to disable 'go to top' button
   additionalScripts = ['js/custom.js', 'js/custom-2.js']
   # Will try to load 'assets/js/custom.js' and 'assets/js/custom-2.js'.
-  # Your custom scripts will be concatinated to one file `custom.js`.
+  # Your custom scripts will be concatenated to one file `custom.js`.
   # When building for production it will be minified.
   # The file `custom.js` is loaded on each page (before body tag ends).
   dateFormat = "" # date format used to show dates on various pages. If nothing is specified, then "2 Jan 2006" format is used.
@@ -296,7 +296,7 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
 
 ###################################################################
 
-# Allow to override `browserconfig.xml` params (configuration for windows embeded browsers)
+# Allow to override `browserconfig.xml` params (configuration for windows embedded browsers)
 [params.browserconfig]
   TileColor = "#2d89ef" # default windows 10 blue tile color
 
