@@ -15,12 +15,12 @@ In this example we will be using [KaTeX](https://katex.org/).
 
 - To enable KaTeX globally, set the parameter `math` to `true` in a project's
   configuration file as follows.
-  - `config.toml`
+  - `hugo.toml`
     ```toml
     [params]
       math = true
     ```
-  - `config.yaml`
+  - `hugo.yaml`
     ```yaml
     params:
       math: true

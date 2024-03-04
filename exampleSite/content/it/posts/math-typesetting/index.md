@@ -15,12 +15,12 @@ In questo esempio utilizzeremo [KaTeX](https://katex.org/).
 
 - Per abilitare KaTeX a livello globale, impostate il parametro `math` a `true` nella configurazione di un progretto come segue.
 
-  - `config.toml`
+  - `hugo.toml`
     ```toml
     [params]
       math = true
     ```
-  - `config.yaml`
+  - `hugo.yaml`
     ```yaml
     params:
       math: true

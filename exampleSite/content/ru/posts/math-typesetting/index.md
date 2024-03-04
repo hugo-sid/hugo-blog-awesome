@@ -14,12 +14,12 @@ math: true
 В этом примере, мы будем использовать [KaTeX](https://katex.org/).
 
 - Для включения KaTeX глобально, установите параметр `math` в `true` в конфигурационный файл проекта в формате, который вы используете.
-  - `config.toml`
+  - `hugo.toml`
     ```toml
     [params]
       math = true
     ```
-  - `config.yaml`
+  - `hugo.yaml`
     ```yaml
     params:
       math: true
