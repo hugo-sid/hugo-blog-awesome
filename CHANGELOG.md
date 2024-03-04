@@ -297,7 +297,7 @@
 
 ### :construction_worker: CI/CD
 
-* add stale sction ([154883e](https://github.com/hugo-sid/hugo-blog-awesome/commit/154883ed2851861f090988a7fdd826cf1fe99f20))
+* add stale section ([154883e](https://github.com/hugo-sid/hugo-blog-awesome/commit/154883ed2851861f090988a7fdd826cf1fe99f20))
 
 ## [1.1.1](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.1.0...v1.1.1) (2023-05-05)
 
