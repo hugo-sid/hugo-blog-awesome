@@ -4,14 +4,26 @@ baseURL = 'https://hba.sid.one/'
 # This is what goes in <html lang="">
 languageCode = 'en-us'
 
-theme = "hugo-blog-awesome"
-
 # This defines how dates are formatted
 defaultContentLanguage = "en-gb"
 
 # Enable emojis globally
 enableEmoji = true
 ignoreErrors = ["additional-script-loading-error"] # ignore error of loading additional scripts.
+
+# traditional way: theme component resides in directory 'themes' 
+theme = "hugo-blog-awesome"
+
+# modern way: pull in theme component as hugo module
+#[module]
+  # Uncomment the next line to build and serve using local theme clone declared in the named Hugo workspace:
+  # workspace = "hugo-blog-awesome.work"
+  #[module.hugoVersion]
+    #extended = true
+    #min = "0.87.0"
+  #[[module.imports]]
+    #path = "github.com/hugo-sid/hugo-blog-awesome"
+    #disable = false
 
 [services]
 # To enable Google Analytics 4 (gtag.js) provide G-MEASUREMENT_ID below.
@@ -311,3 +323,4 @@ url = "https://twitter.com"
 [[params.socialIcons]]
 name = "Rss"
 url = "/index.xml"
+

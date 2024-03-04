@@ -11,7 +11,7 @@ tags:
 <!--more-->
 [`emojify`](https://gohugo.io/functions/emojify/) функция может быть напрямую вызвана в шаблоне или [встроенный короткий код](https://gohugo.io/templates/shortcode-templates/#inline-shortcodes). 
 
-Для включения смайликов на весь проект, установите значение `enableEmoji = true` в файле `config.toml` вашего сайта. Вы можете набрать смайлик shorthand codes непосредственно в файле с содержимым; К примеру, 
+Для включения смайликов на весь проект, установите значение `enableEmoji = true` в файле `hugo.toml` вашего сайта. Вы можете набрать смайлик shorthand codes непосредственно в файле с содержимым; К примеру, 
 
 `:see_no_evil:` :see_no_evil: `:hear_no_evil:` :hear_no_evil: `:speak_no_evil:` :speak_no_evil:
 

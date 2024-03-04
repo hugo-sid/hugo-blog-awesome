@@ -11,7 +11,7 @@ Le emoji possono essere abilitate in un progetto Hugo in diversi modi.
 <!--more-->
 La funzione [`emojify`](https://gohugo.io/functions/emojify/) può essere richiamata direttamente nei modelli oppure negli [Shortcodes Inline](https://gohugo.io/templates/shortcode-templates/#inline-shortcodes). 
 
-Per abilitare le emoji globalmente, impostate `enableEmoji` a `true` nel file `config.toml` del vostro sito. Potete digitare a mano le scorciatoie per le emoji direttamente nei file di contenuto; es.
+Per abilitare le emoji globalmente, impostate `enableEmoji` a `true` nel file `hugo.toml` del vostro sito. Potete digitare a mano le scorciatoie per le emoji direttamente nei file di contenuto; es.
 
 `:see_no_evil:` :see_no_evil: `:hear_no_evil:` :hear_no_evil: `:speak_no_evil:` :speak_no_evil:
 

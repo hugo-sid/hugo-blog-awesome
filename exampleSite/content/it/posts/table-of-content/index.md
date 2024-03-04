@@ -10,7 +10,7 @@ Questo tema supporta la visualizzazione di un sommario (Table Of Content - ToC) 
 
 ## Abilitare il sommario in tutti gli articoli
 
-Per abilitare il sommario in tutti gli articoli (globalmente) è necessario impostare il parametro `toc` a `true` in `config.toml`.
+Per abilitare il sommario in tutti gli articoli (globalmente) è necessario impostare il parametro `toc` a `true` in `hugo.toml`.
 
 ```toml
 [params]
@@ -23,7 +23,7 @@ Per disabilitare il sommario globalmente invece, basta semplicemente cancellare 
 
 Per disabilitare il sommario solamente in alcuni articoli selezionati, è necessario seguire questi due passi.
 
-1.  Impostate il parametro `toc` a `true` in `config.toml`.
+1.  Impostate il parametro `toc` a `true` in `hugo.toml`.
 
     ```toml
     [params]
