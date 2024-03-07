@@ -19,7 +19,7 @@ Hugo поставляется с несколькими [встроенными 
 
 ## Простой шорт код для Twitter
 
-{{< twitter_simple DesignReviewed 1085870671291310081 >}}
+{{< twitter_simple user="DesignReviewed" id="1085870671291310081" >}}
 
 <br>
 
