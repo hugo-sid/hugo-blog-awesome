@@ -2,6 +2,7 @@
 {{ if eq .Section "posts" }}
     {{ $ISO_date := dateFormat "2006-01-02T15:04:05Z0700" .Date | safeHTML }}
     <!-- Pagination meta tags for list pages only -->
+    {{ if ne .Page.Kind "page" }}
     {{ $paginator := .Paginate (where .Pages "Section" "blog") }}
     {{ if $paginator }}
     <link rel="first" href="{{ $paginator.First.URL }}" />
@@ -11,6 +12,7 @@
     {{end }}
     {{ if $paginator.HasNext }}
     <link rel="next" href="{{ $paginator.Next.URL }}" />
+    {{end }}
     {{end }}
     {{end }}
 
