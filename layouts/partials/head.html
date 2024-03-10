@@ -36,7 +36,7 @@
 
     {{- if or .Params.math .Site.Params.math }}{{ partial "helpers/katex.html" . -}}{{- end -}}
 
-    {{/* Google analytics script. See config.toml to enable/disable this. */}}
+    {{/* Google analytics script. See hugo.toml to enable/disable this. */}}
     {{- if hugo.IsProduction | or (eq site.Params.env "production") }}
     {{ template "_internal/google_analytics.html" . }}
     {{- end -}}

@@ -49,7 +49,33 @@ Built with Hugo, SCSS, and vanilla JavaScript.
 > **Note**
 > You must have the [Hugo extended version](https://gohugo.io/installation/linux/#editions) installed in order to use this theme. This theme uses SCSS for styling. With the Hugo extended version, SCSS can be compiled to CSS without any additional tools.
 
-To create a new Hugo site with this theme, run the following command:
+### Using the theme as Hugo module
+
+First create a new Hugo site by running the following command:
+
+    hugo new site myblog
+
+Initialize your new Hugo site as hugo module by running the following command:
+
+    hugo mod init github.com/USER/REPO
+
+Afterwards, run this command to add hugo-blog-awesome as module to your site:
+
+    hugo mod get github.com/hugo-sid/hugo-blog-awesome
+
+To make use of the theme, add this module configuration to your site's `hugo.toml`:
+
+    [module]
+      [[module.imports]]
+        path = "github.com/hugo-sid/hugo-blog-awesome"
+
+To preview the theme with example content, run the following command from the `exampleSite` directory:
+
+    hugo server
+
+### Using the theme as Git submodule
+
+To create a new Hugo site with this theme as Git submodule, run the following command:
 
     hugo new site myblog
 
@@ -62,16 +88,14 @@ To preview the theme with example content, run the following command from the `e
 
     hugo server --themesDir ../..
 
-## Usage
-
-To use this theme, set the `theme` variable in your site's `config.toml` to `hugo-blog-awesome`:
+To use this theme, set the `theme` variable in your site's `hugo.toml` to `hugo-blog-awesome`:
 
     theme = "hugo-blog-awesome"
 
 ## Configuration
 
-You can take a look at the `config.toml` file in the `exampleSite` directory for an example configuration.
-It is recommended that you copy the `config.toml` file from the `exampleSite` directory to the root directory of your Hugo site. You can then edit the `config.toml` file to suit your needs.
+You can take a look at the `hugo.toml` file in the `exampleSite` directory for an example configuration.
+It is recommended that you copy the `hugo.toml` file from the `exampleSite` directory to the root directory of your Hugo site. You can then edit the `hugo.toml` file to suit your needs.
 
 ### Adding favicon
 
@@ -81,7 +105,7 @@ If you want to customize anything further, you can modify `layouts\partials\head
 
 ### Adding Social icons
 
-Social icons can be added by congifuring `config.toml` file in the following manner.
+Social icons can be added by configuring `hugo.toml` file in the following manner.
 
 ```toml
 [[params.socialIcons]]
@@ -186,7 +210,7 @@ If you are trying to add an icon that is not listed above, you can modify `layou
 
 ### Enable go to top button
 
-To enable go to top button on blog posts, set `goToTop` to `true` in `config.toml` file.
+To enable go to top button on blog posts, set `goToTop` to `true` in `hugo.toml` file.
 
 ```toml
 [params]
