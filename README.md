@@ -47,7 +47,7 @@ Built with Hugo, SCSS, and vanilla JavaScript.
 ## Setup
 
 > **Note**
-> You must have the [Hugo extended version](https://gohugo.io/installation/linux/#editions) installed in order to use this theme. This theme uses SCSS for styling. With the Hugo extended version, SCSS can be compiled to CSS without any additional tools.
+> You must have the [Hugo extended version](https://gohugo.io/installation/linux/#editions) installed in order to use this theme. This theme uses Sass for styling. With the Hugo extended version, Sass can be transpiled to CSS without any additional tools.
 
 ### Using the theme as Hugo module
 
