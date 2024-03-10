@@ -1,5 +1,33 @@
 # Changelog
 
+## [1.14.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.13.0...v1.14.0) (2024-03-10)
+
+
+### :sparkles: Features
+
+* add support for German language ([13974fe](https://github.com/hugo-sid/hugo-blog-awesome/commit/13974fed8eccebdcf479a6f6987a817f09af4221))
+* **deps:** upgrade KaTeX to `0.16.9` ([#168](https://github.com/hugo-sid/hugo-blog-awesome/issues/168)) ([8ef1756](https://github.com/hugo-sid/hugo-blog-awesome/commit/8ef1756dfe2e61f983ccf60685ee3497563e9f80))
+* enable theme to be used as Hugo module ([#169](https://github.com/hugo-sid/hugo-blog-awesome/issues/169)) ([3356999](https://github.com/hugo-sid/hugo-blog-awesome/commit/3356999b5bf2dde792c41842ac858b35588655b2))
+
+
+### :bug: Bug Fixes
+
+* Disqus deprecation warning, upgrade Hugo version ([#166](https://github.com/hugo-sid/hugo-blog-awesome/issues/166)) ([9f9c93a](https://github.com/hugo-sid/hugo-blog-awesome/commit/9f9c93a2ccbc0a765b750faf1654dc335a56a3ff))
+* RSS link on post pages, closes [#160](https://github.com/hugo-sid/hugo-blog-awesome/issues/160) ([#173](https://github.com/hugo-sid/hugo-blog-awesome/issues/173)) ([f321f1c](https://github.com/hugo-sid/hugo-blog-awesome/commit/f321f1c1d5f05b1e275a0b0caad20b19ac609153))
+* twitter_simple shortcode, paginator issue since hugo `v0.123.0` ([#170](https://github.com/hugo-sid/hugo-blog-awesome/issues/170)) ([9f042a8](https://github.com/hugo-sid/hugo-blog-awesome/commit/9f042a81f72ce4d2045ec4eb89948523297feccc))
+* typos ([#167](https://github.com/hugo-sid/hugo-blog-awesome/issues/167)) ([0ca8845](https://github.com/hugo-sid/hugo-blog-awesome/commit/0ca88453c4b1e0a2085621368a1679450d813c91))
+
+
+### :hammer: Housekeeping
+
+* update contribution guideline, issue template ([#175](https://github.com/hugo-sid/hugo-blog-awesome/issues/175)) ([1983d64](https://github.com/hugo-sid/hugo-blog-awesome/commit/1983d6433bd34a452a4ddcd548461b4e8c000afb))
+* update list of websites using this theme ([#164](https://github.com/hugo-sid/hugo-blog-awesome/issues/164)) ([3493495](https://github.com/hugo-sid/hugo-blog-awesome/commit/34934950ab7c6963dab2b421bbefbfa8dced673c))
+
+
+### :construction_worker: CI/CD
+
+* run stale.yml workflow manually ([4c79934](https://github.com/hugo-sid/hugo-blog-awesome/commit/4c799345b5c8daa186baf5ce22a306d5b84ca9c4))
+
 ## [1.13.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.12.0...v1.13.0) (2023-12-22)
 
 
