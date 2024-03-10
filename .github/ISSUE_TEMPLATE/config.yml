@@ -2,7 +2,7 @@ blank_issues_enabled: false
 contact_links:
   - name: Questions or support
     url: https://github.com/hugo-sid/hugo-blog-awesome/discussions/
-    about: Please use Discussions to ask and answer questions.
+    about: Please use GitHub discussions to ask and answer questions.
   - name: Feature request
     url: https://github.com/hugo-sid/hugo-blog-awesome/discussions/categories/feature-requests
     about: Please use the feature requests section in GitHub discussions to propose new features or ideas.

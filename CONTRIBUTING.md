@@ -16,6 +16,16 @@ For questions you can visit [Q&A section](https://github.com/hugo-sid/hugo-blog-
 - We do recommend PRs to not exceed 200 lines (includes additions and deletions) of code.
 - Kindly ensure that you are **NOT** addressing multiple issues in one PR.
 
+## Adding a new language
+
+If you are adding support for a new language, you have to do the following:
+
+1. Add language specific configuration and parameters in `exampleSite/hugo.toml`
+2. Translate specific terms by creating a new language-specific file in the `i18n` directory
+3. Add translated content in `exampleSite/content` directory
+
+You can take a look at this [Pull request](https://github.com/hugo-sid/hugo-blog-awesome/pull/145) for reference.
+
 ## Commits
 
 This project adheres to [Conventional Commits specification](https://www.conventionalcommits.org/en/v1.0.0/).
