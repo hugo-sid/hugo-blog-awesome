@@ -190,6 +190,7 @@ url = "index.xml"
 | `snapchat`      | snapchat.com/add                |
 | `spotify`       | spotify.com                     |
 | `stackoverflow` | stackoverflow.com               |
+| `stackshare`    | stackshare.io                   |
 | `steam`         | steampowered.com                |
 | `strava`        | strava.com                      |
 | `telegram`      | telegram.org                    |
