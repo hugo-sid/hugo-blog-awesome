@@ -486,7 +486,7 @@
 * **html:** add href for &lt;a&gt; tag ([fc936ae](https://github.com/hugo-sid/hugo-blog-awesome/commit/fc936ae1374e11f9e3447acff73dae69d4eeb889))
 * link to license in readme ([91e0cd9](https://github.com/hugo-sid/hugo-blog-awesome/commit/91e0cd972c2c2f6c061c9c0ddd00712fbf7f0c69))
 * meta description ([340bd14](https://github.com/hugo-sid/hugo-blog-awesome/commit/340bd14a97dc9665d1b9d0749b9aa54be72690e5))
-* recent posts on home page is not correctly filtered ([#23](https://github.com/hugo-sid/hugo-blog-awesome/issues/23)) ([4afdfcb](https://github.com/hugo-sid/hugo-blog-awesome/commit/4afdfcbb47a302395929c3cf015f6b705978e48f))
+* Posts on home page is not correctly filtered ([#23](https://github.com/hugo-sid/hugo-blog-awesome/issues/23)) ([4afdfcb](https://github.com/hugo-sid/hugo-blog-awesome/commit/4afdfcbb47a302395929c3cf015f6b705978e48f))
 * stretched image ([87c7756](https://github.com/hugo-sid/hugo-blog-awesome/commit/87c775645a5b002e9c9c4e5e0581e11e87f78d54))
 * stretched image ([#3](https://github.com/hugo-sid/hugo-blog-awesome/issues/3)) ([5eb9b07](https://github.com/hugo-sid/hugo-blog-awesome/commit/5eb9b07e569fb04080d13a47c5cce4557f36a0f5))
 * template failure in bio.html when avatar is not found/defined ([#15](https://github.com/hugo-sid/hugo-blog-awesome/issues/15)) ([295c8a1](https://github.com/hugo-sid/hugo-blog-awesome/commit/295c8a13cdf3f5e928cbc1275dc19e053585d232))

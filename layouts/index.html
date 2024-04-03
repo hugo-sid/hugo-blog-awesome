@@ -18,20 +18,15 @@
     <div class="wrapper">
         {{ partial "bio" . }}
         <main aria-label="Content">
-            <h3 class="posts-item-note" aria-label="Recent Posts">{{ T "home.recent_posts" }}</h3>
-            {{/* Show last 5 posts in reverse date order */}}
+            <h3 class="posts-item-note" aria-label="Posts">{{ T "home.recent_posts" }}</h3>
             {{ $pagesToShow := where .Site.RegularPages "Type" "in" site.Params.mainSections }}
             {{ $posts := $pagesToShow.ByDate.Reverse }}
-            {{ range first 5 $posts }}
+            {{ range $posts }}
             {{ partial "postCard" . }}
             {{ end }}
-            {{ if gt (len $posts) 5 }}
-            <p>
-                {{ range $firstSection := (where .Site.Sections "Section" "in" (first 1 (.Site.Params.mainSections))) }}
-                <a href="{{ $firstSection.Permalink }}">{{ T "home.see_all_posts" }}</a>
-                {{ end }}
-            </p>
-            {{ end }}
+
+            {{/* I edited this so it shows all posts, original has 5 recent posts*/}}
+            
         </main>
     </div>
     {{- partial "footer.html" . -}}

@@ -3,7 +3,7 @@
   translation: "Home"
   
 - id: "home.recent_posts"
-  translation: "Recent Posts"
+  translation: "Posts"
 
 - id: "home.see_all_posts"
   translation: "See all posts"
