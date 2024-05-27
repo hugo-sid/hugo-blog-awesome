@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.15.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.14.0...v1.15.0) (2024-03-21)
+
+
+### :sparkles: Features
+
+* add stackshare.io icon ([#179](https://github.com/hugo-sid/hugo-blog-awesome/issues/179)) ([7069c5a](https://github.com/hugo-sid/hugo-blog-awesome/commit/7069c5a145efa443bfca8322ed1f3f22ee8a218d))
+
+
+### :hammer: Housekeeping
+
+* **README.md:** use better technical terms (Sass, transpile) [skip ci] ([04b8dfd](https://github.com/hugo-sid/hugo-blog-awesome/commit/04b8dfd49a9d4627fe7ef2200bc7b90403663648))
+
 ## [1.14.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.13.0...v1.14.0) (2024-03-10)
 
 
