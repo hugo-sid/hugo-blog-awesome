@@ -24,6 +24,9 @@
     <meta property="og:article:author" content="{{ .name }}" />
     <meta property="article:author" content="{{ .name }}" />
     <meta name="author" content="{{ .name }}" />
+    {{ with.fediverseAccount }}
+    <meta name="fediverse:creator" content="{{ . }}" />{{/* ref https://blog.joinmastodon.org/2024/07/highlighting-journalism-on-mastodon/ */}}
+    {{ end}}
     {{ end }}
 
     {{ with.Params.category }}
