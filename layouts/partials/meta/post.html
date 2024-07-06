@@ -20,10 +20,10 @@
     <meta property="og:article:published_time" content={{ $ISO_date | safeHTML }} />
     <meta property="article:published_time" content={{ $ISO_date | safeHTML }} />
 
-    {{ with.Params.author }}
-    <meta property="og:article:author" content="{{humanize . }}" />
-    <meta property="article:author" content="{{humanize . }}" />
-    <meta name="author" content="{{humanize . }}" />
+    {{ with.Site.Params.author }}
+    <meta property="og:article:author" content="{{ .name }}" />
+    <meta property="article:author" content="{{ .name }}" />
+    <meta name="author" content="{{ .name }}" />
     {{ end }}
 
     {{ with.Params.category }}
