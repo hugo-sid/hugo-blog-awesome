@@ -31,14 +31,20 @@
   <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.LanguageName }}" />
 {{ end }}
 
-{{ with .Params.image }}
-  <meta itemprop="image" content="{{ . | absURL }}" />
-  <meta property="og:image" content="{{ . | absURL }}" />
-  <meta name="twitter:image" content="{{ . | absURL }}" />
-  <meta name="twitter:image:src" content="{{ . | absURL }}" />
-{{ else }}
-  <meta itemprop="image" content="{{ .Site.Params.ogimage | absURL }}" />
-  <meta property="og:image" content="{{ .Site.Params.ogimage | absURL }}" />
-  <meta name="twitter:image" content="{{ .Site.Params.ogimage | absURL }}" />
-  <meta name="twitter:image:src" content="{{ .Site.Params.ogimage | absURL }}" />
-{{ end }}
+{{/*  Define empty variable image  */}}
+{{- $image := "" -}}
+
+{{/*  If image is defined in front matter, use it  */}}
+{{- if .Params.image -}}
+  {{- $image = .Params.image -}}
+{{/*  If image is not defined in front matter, use site ogimage  */}}
+{{- else if .Site.Params.ogimage -}}
+  {{- $image = .Site.Params.ogimage -}}
+{{- end -}}
+
+{{- if $image -}}
+<meta itemprop="image" content="{{ $image | absURL }}" />
+<meta property="og:image" content="{{ $image | absURL }}" />
+<meta name="twitter:image" content="{{ $image | absURL }}" />
+<meta name="twitter:image:src" content="{{ $image | absURL }}" />
+{{- end -}}
