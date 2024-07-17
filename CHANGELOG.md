@@ -1,5 +1,45 @@
 # Changelog
 
+## [1.15.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.14.0...v1.15.0) (2024-07-17)
+
+
+### :sparkles: Features
+
+* add `og:url` meta tag as per https://ogp.me/ ([#191](https://github.com/hugo-sid/hugo-blog-awesome/issues/191)) ([4416f92](https://github.com/hugo-sid/hugo-blog-awesome/commit/4416f92503154970bbd1464896661160b6d1d80c))
+* add Fediverse account attribution if present ([#186](https://github.com/hugo-sid/hugo-blog-awesome/issues/186)) ([99421a3](https://github.com/hugo-sid/hugo-blog-awesome/commit/99421a303434510c35c126cdda3ce2eae9b60dd0))
+* add stackshare.io icon ([#179](https://github.com/hugo-sid/hugo-blog-awesome/issues/179)) ([7069c5a](https://github.com/hugo-sid/hugo-blog-awesome/commit/7069c5a145efa443bfca8322ed1f3f22ee8a218d))
+* Use site image in absence of page image ([#188](https://github.com/hugo-sid/hugo-blog-awesome/issues/188)) ([4b962af](https://github.com/hugo-sid/hugo-blog-awesome/commit/4b962afc450c62b63d02b5c3feab81f1c1917112))
+
+
+### :bug: Bug Fixes
+
+* remove unnecessary .DS_Store files ([#190](https://github.com/hugo-sid/hugo-blog-awesome/issues/190)) ([52a988a](https://github.com/hugo-sid/hugo-blog-awesome/commit/52a988a91b7785b57856b4c6b720f4ff5958a0f9))
+* syntax for post image URL ([#187](https://github.com/hugo-sid/hugo-blog-awesome/issues/187)) ([6b33ee0](https://github.com/hugo-sid/hugo-blog-awesome/commit/6b33ee045646e47ada6deb08cb0bbc376213520e))
+* use author from site rather than post and don't humanize author name ([#189](https://github.com/hugo-sid/hugo-blog-awesome/issues/189)) ([1f44e9f](https://github.com/hugo-sid/hugo-blog-awesome/commit/1f44e9f725bb0a185b1092ab9038a66dd392c807))
+
+
+### :hammer: Housekeeping
+
+* add https://www.boniface.me/ to the websites list ([#184](https://github.com/hugo-sid/hugo-blog-awesome/issues/184)) ([db346b0](https://github.com/hugo-sid/hugo-blog-awesome/commit/db346b0d13bc1c6d13697e5f66be7fc7b65600ec))
+* **deps:** revert google-github-actions/release-please-action ([#207](https://github.com/hugo-sid/hugo-blog-awesome/issues/207)) ([a777712](https://github.com/hugo-sid/hugo-blog-awesome/commit/a777712fa2227184d3a6539b747d53df310036e1))
+* **deps:** update actions/checkout action to v4 ([#201](https://github.com/hugo-sid/hugo-blog-awesome/issues/201)) ([3ddd7df](https://github.com/hugo-sid/hugo-blog-awesome/commit/3ddd7df588575bd55e9ebb77561f534f14682478))
+* **deps:** update actions/stale action to v9 ([#202](https://github.com/hugo-sid/hugo-blog-awesome/issues/202)) ([3a0e33f](https://github.com/hugo-sid/hugo-blog-awesome/commit/3a0e33f89598d20f572e8067ba427b64bae45cdc))
+* **deps:** update actions/upload-artifact action to v3.1.3 ([#194](https://github.com/hugo-sid/hugo-blog-awesome/issues/194)) ([96dfff6](https://github.com/hugo-sid/hugo-blog-awesome/commit/96dfff6f9ad3d5128fd27b259e39367d80dbc584))
+* **deps:** update actions/upload-artifact action to v4 ([#203](https://github.com/hugo-sid/hugo-blog-awesome/issues/203)) ([a460e9c](https://github.com/hugo-sid/hugo-blog-awesome/commit/a460e9c54b7e9e287894bbb5d94c12a1f553d495))
+* **deps:** update codelytv/pr-size-labeler action to v1.10.0 ([#198](https://github.com/hugo-sid/hugo-blog-awesome/issues/198)) ([da91ad5](https://github.com/hugo-sid/hugo-blog-awesome/commit/da91ad5a11e58630f2167cf831f89b97b1b30758))
+* **deps:** update eps1lon/actions-label-merge-conflict digest to a4f3bd7 ([#193](https://github.com/hugo-sid/hugo-blog-awesome/issues/193)) ([8ff2c52](https://github.com/hugo-sid/hugo-blog-awesome/commit/8ff2c52be595eb312f295c5f627924d23e80c56d))
+* **deps:** update github/codeql-action action to v3 ([#204](https://github.com/hugo-sid/hugo-blog-awesome/issues/204)) ([cdc1d4b](https://github.com/hugo-sid/hugo-blog-awesome/commit/cdc1d4b8b8cdc8bf4f1df829bc257c50ed52c969))
+* **deps:** update google-github-actions/release-please-action action to v3.7.13 ([#196](https://github.com/hugo-sid/hugo-blog-awesome/issues/196)) ([3dcf0fe](https://github.com/hugo-sid/hugo-blog-awesome/commit/3dcf0febc224ea88fc64ce3be36bcf9fc332ff8b))
+* **deps:** update google-github-actions/release-please-action action to v4 ([#205](https://github.com/hugo-sid/hugo-blog-awesome/issues/205)) ([7645753](https://github.com/hugo-sid/hugo-blog-awesome/commit/76457538174293afb6b83c0d70d79b0777e5aa4e))
+* **deps:** update ossf/scorecard-action action to v2.3.3 ([#200](https://github.com/hugo-sid/hugo-blog-awesome/issues/200)) ([4662de8](https://github.com/hugo-sid/hugo-blog-awesome/commit/4662de8ccc5ad3580c69eb6c86cb9a47bd472315))
+* **README.md:** use better technical terms (Sass, transpile) [skip ci] ([04b8dfd](https://github.com/hugo-sid/hugo-blog-awesome/commit/04b8dfd49a9d4627fe7ef2200bc7b90403663648))
+* **readme:** add https://jmbhughes.com/ to the list of websites using this theme ([#183](https://github.com/hugo-sid/hugo-blog-awesome/issues/183)) ([8e3ab59](https://github.com/hugo-sid/hugo-blog-awesome/commit/8e3ab59923a42480461f41303269d7f0e3072f03))
+
+
+### :construction_worker: CI/CD
+
+* setup renovate ([#192](https://github.com/hugo-sid/hugo-blog-awesome/issues/192)) ([06f82cd](https://github.com/hugo-sid/hugo-blog-awesome/commit/06f82cda0e444b142cd140c6dc017c6562e66261))
+
 ## [1.14.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.13.0...v1.14.0) (2024-03-10)
 
 
