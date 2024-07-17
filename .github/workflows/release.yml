@@ -13,7 +13,7 @@
     release-please:
       runs-on: ubuntu-latest
       steps:
-        - uses: google-github-actions/release-please-action@ca6063f4ed81b55db15b8c42d1b6f7925866342d # v3.7.11
+        - uses: google-github-actions/release-please-action@db8f2c60ee802b3748b512940dde88eabd7b7e01 # v3.7.13
           with:
             release-type: simple
             token: ${{ secrets.HBA_RELEASE_PLEASE_TOKEN }}
