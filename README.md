@@ -187,7 +187,7 @@ url = "index.xml"
 | `serverfault`   | serverfault.com                 |
 | `soundcloud`    | soundcloud.com                  |
 | `shutterstock`  | shutterstock.com                |
-| `signal`        | signal.me                       |
+| `signal`        | signal.org                      |
 | `slack`         | slack.com                       |
 | `snapchat`      | snapchat.com/add                |
 | `spotify`       | spotify.com                     |
