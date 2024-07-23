@@ -132,6 +132,7 @@ url = "index.xml"
 | `behance`       | behance.net                     |
 | `bilibili`      | bilibili.com                    |
 | `bitcoin`       | -                               |
+| `bluesky`       | bsky.app                        |
 | `buymeacoffee`  | buymeacoffee.com                |
 | `codepen`       | codepen.io                      |
 | `cryptohack`    | cryptohack.org                  |
@@ -186,6 +187,7 @@ url = "index.xml"
 | `serverfault`   | serverfault.com                 |
 | `soundcloud`    | soundcloud.com                  |
 | `shutterstock`  | shutterstock.com                |
+| `signal`        | signal.org                      |
 | `slack`         | slack.com                       |
 | `snapchat`      | snapchat.com/add                |
 | `spotify`       | spotify.com                     |
