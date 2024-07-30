@@ -61,13 +61,11 @@ Initialize your new Hugo site as hugo module by running the following command:
 
 Afterwards, run this command to add hugo-blog-awesome as module to your site:
 
-    hugo mod get github.com/hugo-sid/hugo-blog-awesome
+    git submodule add https://github.com/hugo-sid/hugo-blog-awesome.git themes/hugo-blog-awesome
 
 To make use of the theme, add this module configuration to your site's `hugo.toml`:
 
-    [module]
-      [[module.imports]]
-        path = "github.com/hugo-sid/hugo-blog-awesome"
+    theme = "hugo-blog-awesome"
 
 To preview the theme with example content, run the following command from the `exampleSite` directory:
 
