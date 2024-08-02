@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.16.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.15.0...v1.16.0) (2024-08-02)
+
+
+### :sparkles: Features
+
+* add Social Previews ([#216](https://github.com/hugo-sid/hugo-blog-awesome/issues/216)) ([51636b7](https://github.com/hugo-sid/hugo-blog-awesome/commit/51636b72d93dd01b73e65442d22c4fd06fff991a))
+
+
+### :hammer: Housekeeping
+
+* add Bluesky and Signal icons with README update ([#210](https://github.com/hugo-sid/hugo-blog-awesome/issues/210)) ([8aae27c](https://github.com/hugo-sid/hugo-blog-awesome/commit/8aae27c08708a9134c552429f690bfb036c944d6))
+* add meanii.dev to the list of websites using this theme ([#218](https://github.com/hugo-sid/hugo-blog-awesome/issues/218)) ([a1bb7cf](https://github.com/hugo-sid/hugo-blog-awesome/commit/a1bb7cf8bbff3a81a8429fe48ae83c3ae80cfcc3))
+* **deps:** update github/codeql-action action to v3.25.13 ([#209](https://github.com/hugo-sid/hugo-blog-awesome/issues/209)) ([d79502e](https://github.com/hugo-sid/hugo-blog-awesome/commit/d79502e933438c404c28fd5875e3ac9b9c319eaf))
+
 ## [1.15.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.14.0...v1.15.0) (2024-07-17)
 
 
