@@ -1,5 +1,23 @@
 # Changelog
 
+## [1.16.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.15.0...v1.16.0) (2024-08-29)
+
+
+### :sparkles: Features
+
+* add Social Previews ([#216](https://github.com/hugo-sid/hugo-blog-awesome/issues/216)) ([51636b7](https://github.com/hugo-sid/hugo-blog-awesome/commit/51636b72d93dd01b73e65442d22c4fd06fff991a))
+* enable posts to be starred ([#223](https://github.com/hugo-sid/hugo-blog-awesome/issues/223)) ([48ffc30](https://github.com/hugo-sid/hugo-blog-awesome/commit/48ffc30faec49e701352c40432b510720f68258c))
+
+
+### :hammer: Housekeeping
+
+* add Bluesky and Signal icons with README update ([#210](https://github.com/hugo-sid/hugo-blog-awesome/issues/210)) ([8aae27c](https://github.com/hugo-sid/hugo-blog-awesome/commit/8aae27c08708a9134c552429f690bfb036c944d6))
+* add meanii.dev to the list of websites using this theme ([#218](https://github.com/hugo-sid/hugo-blog-awesome/issues/218)) ([a1bb7cf](https://github.com/hugo-sid/hugo-blog-awesome/commit/a1bb7cf8bbff3a81a8429fe48ae83c3ae80cfcc3))
+* **deps:** update actions/upload-artifact action to v4.3.6 ([#219](https://github.com/hugo-sid/hugo-blog-awesome/issues/219)) ([26e6c26](https://github.com/hugo-sid/hugo-blog-awesome/commit/26e6c2634c386dd46003d33de4d2d7cf9438cfac))
+* **deps:** update eps1lon/actions-label-merge-conflict digest to 657e437 ([#206](https://github.com/hugo-sid/hugo-blog-awesome/issues/206)) ([36dbc0f](https://github.com/hugo-sid/hugo-blog-awesome/commit/36dbc0f392d8bd4f76ae3ded8524fcddab85d289))
+* **deps:** update github/codeql-action action to v3.25.13 ([#209](https://github.com/hugo-sid/hugo-blog-awesome/issues/209)) ([d79502e](https://github.com/hugo-sid/hugo-blog-awesome/commit/d79502e933438c404c28fd5875e3ac9b9c319eaf))
+* **deps:** update github/codeql-action action to v3.26.4 ([#212](https://github.com/hugo-sid/hugo-blog-awesome/issues/212)) ([4ca50f8](https://github.com/hugo-sid/hugo-blog-awesome/commit/4ca50f87cadc87e4b980a6a3edbad042309cfebc))
+
 ## [1.15.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.14.0...v1.15.0) (2024-07-17)
 
 
