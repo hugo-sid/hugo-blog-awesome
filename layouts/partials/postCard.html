@@ -5,6 +5,11 @@
     {{/* format date string to create an ISO 8601 string */}}
     {{ $ISO_date := "2006-01-02T15:04:05Z0700" }}
     {{ $configDateFormat := .Site.Params.dateFormat | default "2 Jan 2006" }}
+    {{ if .Params.isStarred }}
+    <div class="post-item-right">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="currentColor" class="icon-star"><path d="M16 23.027L24.24 28l-2.187-9.373 7.28-6.307-9.587-.827-3.747-8.827-3.747 8.827-9.587.827 7.267 6.307L7.759 28l8.24-4.973z"></path></svg>
+    </div>
+    {{ end }}
     <time class="post-item-meta" datetime="{{ dateFormat $ISO_date .Date }}">
         {{ time.Format $configDateFormat .Date }}
         {{/* OLD FORMAT: .Date.Format $configDateFormat */}}
