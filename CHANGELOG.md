@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.16.1](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.16.0...v1.16.1) (2024-09-01)
+
+
+### :bug: Bug Fixes
+
+* style of long inline code ([#228](https://github.com/hugo-sid/hugo-blog-awesome/issues/228)) ([86582d5](https://github.com/hugo-sid/hugo-blog-awesome/commit/86582d5c9da6d9d25afb96955a9a51fa6afa9eb0))
+
+
+### :hammer: Housekeeping
+
+* **deps:** update actions/upload-artifact action to v4.4.0 ([#229](https://github.com/hugo-sid/hugo-blog-awesome/issues/229)) ([53fcc2f](https://github.com/hugo-sid/hugo-blog-awesome/commit/53fcc2f589eb57a1ec9a8f18fd908d655cf3ac58))
+* **deps:** update github/codeql-action action to v3.26.6 ([#221](https://github.com/hugo-sid/hugo-blog-awesome/issues/221)) ([ed34ead](https://github.com/hugo-sid/hugo-blog-awesome/commit/ed34eadd739cd777b86cd2951754a90762ec81e4))
+
 ## [1.16.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.15.0...v1.16.0) (2024-08-29)
 
 
