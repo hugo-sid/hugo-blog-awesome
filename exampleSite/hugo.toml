@@ -90,7 +90,6 @@ theme = "hugo-blog-awesome"
   # When building for production it will be minified.
   # The file `custom.js` is loaded on each page (before body tag ends).
   dateFormat = "" # date format used to show dates on various pages. If nothing is specified, then "2 Jan 2006" format is used.
-  postDateFormat = "" # date format used to show the published date at the beginning of each post. If nothing is specified, then ":date_medium" format is used.
   # See https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference for available date formats.
   rssFeedDescription = "summary" # available options: 1) summary 2) full
   # summary - includes a short summary of the blog post in the RSS feed. Generated using Hugo .Summary .
@@ -155,7 +154,6 @@ theme = "hugo-blog-awesome"
   # When building for production it will be minified.
   # The file `custom.js` is loaded on each page (before body tag ends).
   dateFormat = "2 January 2006" # default date format used on various pages
-  postDateFormat = "" # date format used to show the published date at the beginning of each post. If nothing is specified, then ":date_medium" format is used.
   # See https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference for available date formats.
   rssFeedDescription = "summary" # available options: 1) summary 2) full
   # summary - includes a short summary of the blog post in the RSS feed. Generated using Hugo .Summary .
@@ -221,7 +219,6 @@ theme = "hugo-blog-awesome"
   # When building for production it will be minified.
   # The file `custom.js` is loaded on each page (before body tag ends).
   dateFormat = "" # date format used to show dates on various pages. If nothing is specified, then "2 Jan 2006" format is used.
-  postDateFormat = "" # date format used to show the published date at the beginning of each post. If nothing is specified, then ":date_medium" format is used.
   # See https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference for available date formats.
   rssFeedDescription = "summary" # available options: 1) summary 2) full
   # summary - includes a short summary of the blog post in the RSS feed. Generated using Hugo .Summary .
@@ -287,7 +284,6 @@ theme = "hugo-blog-awesome"
   # When building for production it will be minified.
   # The file `custom.js` is loaded on each page (before body tag ends).
   dateFormat = "" # date format used to show dates on various pages. If nothing is specified, then "2 Jan 2006" format is used.
-  postDateFormat = "" # date format used to show the published date at the beginning of each post. If nothing is specified, then ":date_medium" format is used.
   # See https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference for available date formats.
   rssFeedDescription = "summary" # available options: 1) summary 2) full
   # summary - includes a short summary of the blog post in the RSS feed. Generated using Hugo .Summary .
