@@ -306,6 +306,71 @@ theme = "hugo-blog-awesome"
   background_color = "#fff" # by default depend on "params.defaultColor" for "light" or "auto" will be set to "#fff" for dark will be "#131418" (color of dark mode background)
   display = "standalone"
 
+############################## Brazilian language ################################
+[Languages.pt-br]
+  languageName = "Brazilian"
+  languageCode = "pt-br"
+  contentDir = "content/br"
+  weight = 1
+
+  [Languages.pt-br.menu]
+  [[Languages.pt-br.menu.main]]
+    # The page reference (pageRef) is useful for menu highlighting
+    # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
+    pageRef="/"
+    name = 'Início'
+    url = '/'
+    weight = 10
+  [[Languages.pt-br.menu.main]]
+    pageRef="posts"
+    name = 'Publicações'
+    url = '/posts/'
+    weight = 20
+  [[Languages.pt-br.menu.main]]
+    pageRef="about"
+    name = 'Sobre'
+    url = '/about/'
+    weight = 30
+
+[Languages.pt-br.params]
+  sitename = "Awesome hugo blog"
+  defaultColor = "dark" # set color mode: dark, light, auto
+  # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
+  # the default value is set to 'auto'.
+  # You can take a look at layouts/index.html for more information.
+  description = "Um tema Hugo veloz e minimalista com suporte a modo claro e escuro para rodar um blog ou site pessoal"
+  mainSections = ['posts']
+  toc = true # set to false to disable table of contents 'globally'
+  tocOpen = false # set to true to open table of contents by default
+  goToTop = true # set to false to disable 'go to top' button
+  additionalScripts = ['js/custom.js', 'js/custom-2.js']
+  # Will try to load 'assets/js/custom.js' and 'assets/js/custom-2.js'.
+  # Your custom scripts will be concatenated to one file `custom.js`.
+  # When building for production it will be minified.
+  # The file `custom.js` is loaded on each page (before body tag ends).
+  dateFormat = "2 January 2006" # date format used to show dates on various pages. If nothing is specified, then "2 Jan 2006" format is used.
+  # See https://gohugo.io/functions/format/#hugo-date-and-time-templating-reference for available date formats.
+  rssFeedDescription = "summary" # available options: 1) summary 2) full
+  # summary - includes a short summary of the blog post in the RSS feed. Generated using Hugo .Summary .
+  # full - includes full blog post in the RSS feed. Generated using Hugo .Content .
+  # By default (or if nothing is specified), summary is used.
+
+[Languages.pt-br.params.author]
+  avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
+  # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
+  intro = "Awesome hugo blog"
+  name = "Sidharth R"
+  description = "Um tema Hugo veloz e minimalista com suporte a modo claro e escuro para rodar um blog ou site pessoal"
+
+# Allow to override webmanifest options
+[Languages.pt-br.params.webmanifest]
+  name = "sitename" # will use "params.sitename" or "title" by default
+  short_name = "sitename" # same as name
+  start_url = "/" # will use homepage url by default
+  theme_color = "#434648" # default is "#434648" (base color of text). Also will override html `<meta name="theme-color" />`
+  background_color = "#fff" # by default depend on "params.defaultColor" for "light" or "auto" will be set to "#fff" for dark will be "#131418" (color of dark mode background)
+  display = "standalone"
+
 ###################################################################
 
 # Allow to override `browserconfig.xml` params (configuration for windows embedded browsers)
