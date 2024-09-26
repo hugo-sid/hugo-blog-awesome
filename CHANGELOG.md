@@ -1,5 +1,28 @@
 # Changelog
 
+## [1.17.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.16.1...v1.17.0) (2024-09-26)
+
+
+### :sparkles: Features
+
+* add svg author image support ([#214](https://github.com/hugo-sid/hugo-blog-awesome/issues/214)) ([20c3fe4](https://github.com/hugo-sid/hugo-blog-awesome/commit/20c3fe4a1c94cc2d42de5af4ca34a579405374d8))
+
+
+### :bug: Bug Fixes
+
+* date on post is not following dateFormat  ([#234](https://github.com/hugo-sid/hugo-blog-awesome/issues/234)) ([c95d246](https://github.com/hugo-sid/hugo-blog-awesome/commit/c95d24626f139ec649f565eaa1d5ba0768c6f1a7))
+
+
+### :hammer: Housekeeping
+
+* add pt-br translation ([#233](https://github.com/hugo-sid/hugo-blog-awesome/issues/233)) ([06317c8](https://github.com/hugo-sid/hugo-blog-awesome/commit/06317c8eb0ff545a2a6199faf4e12575a73793da))
+* **deps:** update actions/checkout action to v4.2.0 ([#239](https://github.com/hugo-sid/hugo-blog-awesome/issues/239)) ([bf9481a](https://github.com/hugo-sid/hugo-blog-awesome/commit/bf9481a50cf6629aab1a4884bb224b0cadf62b27))
+* **deps:** update codelytv/pr-size-labeler action to v1.10.1 ([#232](https://github.com/hugo-sid/hugo-blog-awesome/issues/232)) ([588ad28](https://github.com/hugo-sid/hugo-blog-awesome/commit/588ad28538b4e86cba7ccb8db1c5040a87b23323))
+* **deps:** update github/codeql-action action to v3.26.8 ([#235](https://github.com/hugo-sid/hugo-blog-awesome/issues/235)) ([adecf04](https://github.com/hugo-sid/hugo-blog-awesome/commit/adecf041e00080b286bc49bf2919ddc22c82d066))
+* **deps:** update github/codeql-action action to v3.26.9 ([#238](https://github.com/hugo-sid/hugo-blog-awesome/issues/238)) ([e363f48](https://github.com/hugo-sid/hugo-blog-awesome/commit/e363f48fcc0c688374677075772cd21f46aedb28))
+* **deps:** update ossf/scorecard-action action to v2.4.0 ([#213](https://github.com/hugo-sid/hugo-blog-awesome/issues/213)) ([3b3af04](https://github.com/hugo-sid/hugo-blog-awesome/commit/3b3af04a61a000b0958814c997295b84b6602eaf))
+* **readme:** add journeytolunar.com ([#237](https://github.com/hugo-sid/hugo-blog-awesome/issues/237)) ([34273ab](https://github.com/hugo-sid/hugo-blog-awesome/commit/34273aba1de8c9bf012cab7e2a305629b51ba1ff))
+
 ## [1.16.1](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.16.0...v1.16.1) (2024-09-01)
 
 
