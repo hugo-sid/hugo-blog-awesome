@@ -47,4 +47,8 @@
     {{ template "_internal/google_analytics.html" . }}
     {{- end -}}
 
+    {{/* Extend head with user supplied partial */}}
+    {{ if templates.Exists "partials/custom-head.html" }}
+      {{ partial "custom-head.html" . }}
+    {{ end }}
 </head>

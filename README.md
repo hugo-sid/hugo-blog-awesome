@@ -1,10 +1,10 @@
-<div align=center> 
+<div align=center>
  <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/main/assets/icons/book-icon-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/main/assets/icons/book-icon-light.svg">
   <img alt="Hugo blog awesome logo" src="https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/feat/logo-change/assets/icons/book-icon-light.svg" />
 </picture>
- 
+
 </div>
 <h1 align=center> Hugo Blog Awesome | <a href="https://hba.sid.one" target="_blank" rel="nofollow">Demo link</a></h1>
 
@@ -219,6 +219,11 @@ To enable go to top button on blog posts, set `goToTop` to `true` in `hugo.toml`
 [params]
   goToTop = true
 ```
+
+### Add custom HTML to `<head>` section
+
+To add custom HTML to the `<head>` section, create a partial named `custom-head.html`.
+The contents of this partial will be inserted at the end of the `<head>` section.
 
 ## Content
 
