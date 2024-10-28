@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.18.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.17.0...v1.18.0) (2024-10-28)
+
+
+### :sparkles: Features
+
+* **i18n:** add French translation ([#241](https://github.com/hugo-sid/hugo-blog-awesome/issues/241)) ([f26d7a2](https://github.com/hugo-sid/hugo-blog-awesome/commit/f26d7a228e9fa4dcd8d6c7c4f8a53a1a8c33f73b))
+* support user-supplied head partial ([#244](https://github.com/hugo-sid/hugo-blog-awesome/issues/244)) ([6b0e47a](https://github.com/hugo-sid/hugo-blog-awesome/commit/6b0e47ad2c053b8d8b40e83f74ad7387641ca8a0))
+
+
+### :hammer: Housekeeping
+
+* **deps:** update actions/checkout action to v4.2.2 ([#243](https://github.com/hugo-sid/hugo-blog-awesome/issues/243)) ([21b814b](https://github.com/hugo-sid/hugo-blog-awesome/commit/21b814bb08c22f033f22dd021a392af7b0a6b6a7))
+* **deps:** update actions/upload-artifact action to v4.4.3 ([#242](https://github.com/hugo-sid/hugo-blog-awesome/issues/242)) ([2dfc5c9](https://github.com/hugo-sid/hugo-blog-awesome/commit/2dfc5c9ab79b0a16f31620a4d47f9404384a3f11))
+
 ## [1.17.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.16.1...v1.17.0) (2024-09-26)
 
 
