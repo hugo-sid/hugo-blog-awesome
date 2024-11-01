@@ -57,6 +57,7 @@ First create a new Hugo site by running the following command:
 
 Initialize your new Hugo site as hugo module by running the following command:
 
+    cd myblog
     hugo mod init github.com/USER/REPO
 
 Afterwards, run this command to add hugo-blog-awesome as module to your site:
@@ -86,6 +87,7 @@ Then, clone this repository into the `themes` directory of your new site:
 
 To preview the theme with example content, run the following command from the `exampleSite` directory:
 
+    cd themes/hugo-blog-awesome/exampleSite
     hugo server --themesDir ../..
 
 To use this theme, set the `theme` variable in your site's `hugo.toml` to `hugo-blog-awesome`:
