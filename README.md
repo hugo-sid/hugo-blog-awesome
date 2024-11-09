@@ -198,6 +198,7 @@ url = "index.xml"
 | `steam`         | steampowered.com                |
 | `strava`        | strava.com                      |
 | `telegram`      | telegram.org                    |
+| `threads`       | threads.net                     |
 | `tiktok`        | tiktok.com                      |
 | `twitch`        | twitch.tv                       |
 | `twitter` (the blue bird logo)       | twitter.com                     |
