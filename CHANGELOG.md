@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.19.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.18.0...v1.19.0) (2024-11-09)
+
+
+### :sparkles: Features
+
+* add threads social media icon ([#255](https://github.com/hugo-sid/hugo-blog-awesome/issues/255)) ([090b3e8](https://github.com/hugo-sid/hugo-blog-awesome/commit/090b3e825c7f343f6297b1897d39ff039cdbf70d))
+
+
+### :memo: Documentation
+
+* add missing `chdir` commands in setup section ([#247](https://github.com/hugo-sid/hugo-blog-awesome/issues/247)) ([#250](https://github.com/hugo-sid/hugo-blog-awesome/issues/250)) ([e35e758](https://github.com/hugo-sid/hugo-blog-awesome/commit/e35e75800f96cc00c8f0923618eec5f96711b8f7))
+
 ## [1.18.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.17.0...v1.18.0) (2024-10-28)
 
 
