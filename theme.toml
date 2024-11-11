@@ -9,7 +9,7 @@ homepage = "https://github.com/hugo-sid/hugo-blog-awesome/"
 # If you have a running demo of the theme.
 demosite = "https://hugo-blog-awesome.netlify.app/"
 
-tags = ["blog", "responsive", "minimal", "dark", "light"]
+tags = ["blog", "responsive", "minimal", "dark", "light", "multilingual"]
 features = ["blog", "sass", "dark"]
 
 min_version = "0.87.0"
