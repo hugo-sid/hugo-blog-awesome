@@ -49,46 +49,50 @@ Vous pouvez également inclure des images provenant de sources externes.
 
 ![Image](https://source.unsplash.com/random/600x400/?tech)
 
-## Blockquotes
+## Citations
 
-The blockquote element represents content that is quoted from another source, optionally with a citation which must be within a `footer` or `cite` element, and optionally with in-line changes such as annotations and abbreviations.
+L'élément de citation représente un contenu cité d'une autre source, éventuellement avec une attribution qui doit être dans un élément `footer` ou `cite`, et éventuellement avec des modifications en ligne telles que des annotations et des abréviations.
 
-### Blockquote without attribution
 
-> You can use Markdown syntax within a blockquote, like **bold**,  _italics_, [links](https://gohugo.io/), `code`.
+### Citation sans attribution
 
-### Blockquote with attribution
+> Vous pouvez utiliser la syntaxe Markdown dans une citation, comme **gras**, _italique_, [liens](https://gohugo.io/) ou `code`.
 
-> Don't communicate by sharing memory, share memory by communicating.<br>
+### Citation avec attribution
+
+> Ne communiquez pas en partageant de la mémoire, partagez la mémoire en communiquant.<br> 
 > — <cite>Rob Pike[^1]</cite>
 
+
 [^1]: The above quote is excerpted from Rob Pike's [talk](https://www.youtube.com/watch?v=PAAkCSZUG1c) during Gopherfest, November 18, 2015.
+[^1]: La citation ci-dessus est extraite du [discours](https://www.youtube.com/watch?v=PAAkCSZUG1c) de Rob Pike durant Gopherfest, le 18 novembre 2015.
 
-## Tables
+## Tableaux
 
-Tables aren't part of the core Markdown spec, but Hugo supports supports them out-of-the-box.
+Les tableaux ne font pas partie de la spécification Markdown de base, mais Hugo les prend en charge nativement.
 
-   Name | Age
+
+   Nom | Age
 --------|------
     Bob | 27
   Alice | 23
 
-### Markdown within tables
+### Markdown dans les tableaux
 
-| Italics   | Bold     | Code   |
+| Italique   | Gras     | Code   |
 | --------  | -------- | ------ |
-| *italics* | **bold** | `code` |
+| *Italique* | **Gras** | `code` |
 
-## Code Blocks
+## Blocs de code
 
-### Code block with backticks
+### Bloc de code avec des accents graves
 
 ```html
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Example HTML5 Document</title>
+  <title>Exemple de document HTML5</title>
 </head>
 <body>
   <p>Test</p>
@@ -96,27 +100,27 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
 </html>
 ```
 
-### Code block indented with four spaces
+### Bloc de code indenté avec quatre espaces
 
     <!doctype html>
     <html lang="en">
     <head>
       <meta charset="utf-8">
-      <title>Example HTML5 Document</title>
+      <title>Exemple de document HTML5</title>
     </head>
     <body>
       <p>Test</p>
     </body>
     </html>
 
-### Code block with Hugo's internal highlight shortcode
+### Bloc de code avec le shortcode interne de mise en évidence d'Hugo
 
 {{< highlight html >}}
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Example HTML5 Document</title>
+  <title>Exemple de document HTML5</title>
 </head>
 <body>
   <p>Test</p>
@@ -126,40 +130,40 @@ Tables aren't part of the core Markdown spec, but Hugo supports supports them ou
 
 ### Inline code
 
-Use the backtick to refer to a `variable` within a sentence.
+Utilisez l'accent grave pour faire référence à une `variable` dans une phrase.
 
-## List Types
+## Types de listes
 
-### Ordered List
+### Liste ordonnée
 
-1. First item
-2. Second item
-3. Third item
+1. Premier élément
+2. Deuxième élément
+3. Troisième élément
 
-### Unordered List
+### Liste non ordonnée
 
-* List item
-* Another item
-* And another item
+* Premier élément
+* Deuxième élément
+* Troisième élément
 
-### Nested list
+### Liste imbriquée
 
-* Fruit
-  * Apple
+* Fruits
+  * Pomme
   * Orange
-  * Banana
-* Dairy
-  * Milk
-  * Cheese
+  * Banane
+* Produits laitiers
+  * Lait
+  * Fromage
 
-## Other Elements — abbr, sub, sup, kbd, mark
+## Autres éléments — abbr, sub, sup, kbd, mark
 
-<abbr title="Graphics Interchange Format">GIF</abbr> is a bitmap image format.
+<abbr title="Graphics Interchange Format">GIF</abbr> est un format d'image bitmap.
 
 H<sub>2</sub>O
 
 X<sup>n</sup> + Y<sup>n</sup> = Z<sup>n</sup>
 
-Press <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd> to end the session.
+Appuyez sur <kbd>CTRL</kbd>+<kbd>ALT</kbd>+<kbd>Delete</kbd> pour terminer la session.
 
-Most <mark>salamanders</mark> are nocturnal, and hunt for insects, worms, and other small creatures.
+La plupart des <mark>salamandres</mark> sont nocturnes et chassent des insectes, des vers et d'autres petites créatures.

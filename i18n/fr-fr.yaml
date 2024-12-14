@@ -1,6 +1,6 @@
 ## HOME ##
 - id: "home.home"
-  translation: "Acceuil"
+  translation: "Accueil"
   
 - id: "home.recent_posts"
   translation: "Articles récents"
@@ -21,7 +21,7 @@
 
 ## ERRORS ##
 - id: "errors.404"
-  translation: "404 PAGE NON TROUVÉ"
+  translation: "404 PAGE NON TROUVÉE"
 
 - id: "errors.404_description"
-  translation: "Vous avez suivi une route qui n'existe pas."
+  translation: "Vous avez suivi une adresse qui n'existe pas."
