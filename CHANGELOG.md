@@ -1,5 +1,30 @@
 # Changelog
 
+## [1.19.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.18.0...v1.19.0) (2024-12-14)
+
+
+### :sparkles: Features
+
+* add threads social media icon ([#255](https://github.com/hugo-sid/hugo-blog-awesome/issues/255)) ([090b3e8](https://github.com/hugo-sid/hugo-blog-awesome/commit/090b3e825c7f343f6297b1897d39ff039cdbf70d))
+
+
+### :bug: Bug Fixes
+
+* corrected French translations in Markdown guide and i18n file ([#263](https://github.com/hugo-sid/hugo-blog-awesome/issues/263)) ([42095be](https://github.com/hugo-sid/hugo-blog-awesome/commit/42095be803c344e9e774f632b929e8e59944d688))
+
+
+### :hammer: Housekeeping
+
+* add `Multilingual` tag to `theme.toml` [skip ci] ([ac5a2ab](https://github.com/hugo-sid/hugo-blog-awesome/commit/ac5a2ab1eb4b939d1227ed81f0d1c74e4e4b7a4a))
+* **deps:** update codelytv/pr-size-labeler action to v1.10.2 ([#259](https://github.com/hugo-sid/hugo-blog-awesome/issues/259)) ([2391188](https://github.com/hugo-sid/hugo-blog-awesome/commit/239118849cac93a0f21b8e21caea453234a1df12))
+* **readme:** add website to readme ([#261](https://github.com/hugo-sid/hugo-blog-awesome/issues/261)) ([2ea9420](https://github.com/hugo-sid/hugo-blog-awesome/commit/2ea9420ec896e37db98c1d49d392c6eabe0e06ac))
+* update devcontainer.json ([#264](https://github.com/hugo-sid/hugo-blog-awesome/issues/264)) ([19cf68f](https://github.com/hugo-sid/hugo-blog-awesome/commit/19cf68f5c47d498432d5f01c8bcf56b2321cfae4))
+
+
+### :memo: Documentation
+
+* add missing `chdir` commands in setup section ([#247](https://github.com/hugo-sid/hugo-blog-awesome/issues/247)) ([#250](https://github.com/hugo-sid/hugo-blog-awesome/issues/250)) ([e35e758](https://github.com/hugo-sid/hugo-blog-awesome/commit/e35e75800f96cc00c8f0923618eec5f96711b8f7))
+
 ## [1.18.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.17.0...v1.18.0) (2024-10-28)
 
 
