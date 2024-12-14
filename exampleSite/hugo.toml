@@ -243,17 +243,15 @@ theme = "hugo-blog-awesome"
 
 ############################## French language ################################
 [Languages.fr-fr]
-  languageName = "french"
+  languageName = "French"
   languageCode = "fr-fr"
   contentDir = "content/fr"
   weight = 1
 
   [Languages.fr-fr.menu]
   [[Languages.fr-fr.menu.main]]
-    # The page reference (pageRef) is useful for menu highlighting
-    # When pageRef is set, setting `url` is optional; it will be used as a fallback if the page is not found.
     pageRef="/"
-    name = 'Acceuil'
+    name = 'Accueil'
     url = '/'
     weight = 10
   [[Languages.fr-fr.menu.main]]
@@ -273,7 +271,7 @@ theme = "hugo-blog-awesome"
   # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
   # the default value is set to 'auto'.
   # You can take a look at layouts/index.html for more information.
-  description = "Thème de blog Hugo minimal avec mode clair et sombre"
+  description = "Thème minimal pour blog Hugo avec prise en charge des modes clair et sombre"
   mainSections = ['posts']
   toc = true # set to false to disable table of contents 'globally'
   tocOpen = false # set to true to open table of contents by default
