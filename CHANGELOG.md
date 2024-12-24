@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.19.1](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.19.0...v1.19.1) (2024-12-24)
+
+
+### :hammer: Housekeeping
+
+* **deps:** update actions/upload-artifact action to v4.5.0 ([#265](https://github.com/hugo-sid/hugo-blog-awesome/issues/265)) ([5056c6e](https://github.com/hugo-sid/hugo-blog-awesome/commit/5056c6e187d4c2943449459ec693660314cca2b4))
+
 ## [1.19.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.18.0...v1.19.0) (2024-12-14)
 
 
