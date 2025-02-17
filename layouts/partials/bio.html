@@ -8,9 +8,16 @@
         <image width="25em" height="25em" href="{{ $image.RelPermalink }}" />
     </svg>
     {{ else }}
-    {{ $image := $image.Fill "70x70 webp" }}
-    <img class="author-avatar" src="{{ $image.RelPermalink }}" alt="{{ $avatar_img_alt }}" width="{{ $image.Width }}"
-        height="{{ $image.Height }}" />
+    {{ $image1x := $image.Fill "70x70 webp" }}
+    {{ $image2x := $image.Fill "140x140 webp" }}
+    {{ $image3x := $image.Fill "210x210 webp" }}
+    <img 
+        class="author-avatar"
+        src="{{ $image1x.RelPermalink }}"
+        srcset="{{ $image2x.RelPermalink }} 2x, {{ $image3x.RelPermalink }} 3x"
+        alt="{{ $avatar_img_alt }}"
+        width="{{ $image1x.Width }}"
+        height="{{ $image1x.Height }}" />
     {{ end }}
     {{ end }}
     <h2 class="author-name">{{ .Site.Params.author.intro }}</h2>
