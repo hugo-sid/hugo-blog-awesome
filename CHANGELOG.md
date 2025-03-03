@@ -1,5 +1,19 @@
 # Changelog
 
+## [1.19.1](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.19.0...v1.19.1) (2025-03-03)
+
+
+### :bug: Bug Fixes
+
+* align author image display size & actual size ([#284](https://github.com/hugo-sid/hugo-blog-awesome/issues/284)) ([a919504](https://github.com/hugo-sid/hugo-blog-awesome/commit/a919504a4ae88300e9eacd1cf6b1ba1e10d7cdd0))
+
+
+### :hammer: Housekeeping
+
+* add blog.crisweb.com as using this theme ([#281](https://github.com/hugo-sid/hugo-blog-awesome/issues/281)) ([c4a6784](https://github.com/hugo-sid/hugo-blog-awesome/commit/c4a6784e1784c160355cafbde149e41ab14f6b0b))
+* add Radicle SVG ([#285](https://github.com/hugo-sid/hugo-blog-awesome/issues/285)) ([57d9831](https://github.com/hugo-sid/hugo-blog-awesome/commit/57d9831cda136d1104d95d0b32a3635b43a81d11))
+* **deps:** update actions/upload-artifact action to v4.5.0 ([#265](https://github.com/hugo-sid/hugo-blog-awesome/issues/265)) ([5056c6e](https://github.com/hugo-sid/hugo-blog-awesome/commit/5056c6e187d4c2943449459ec693660314cca2b4))
+
 ## [1.19.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.18.0...v1.19.0) (2024-12-14)
 
 
