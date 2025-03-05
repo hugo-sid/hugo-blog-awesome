@@ -120,7 +120,7 @@ url = "https://twitter.com"
 
 [[params.socialIcons]]
 name = "Rss"
-url = "index.xml"
+url = "/index.xml"
 ```
 
 <details>
