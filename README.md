@@ -274,7 +274,6 @@ If you are using this theme for any website, feel free to list the website here.
 - <https://josephscottcampbell.com/>
 - <https://heckintosh.github.io/>
 - <https://dieter.plaetinck.be/>
-- <https://jmbhughes.com/>
 - <https://www.boniface.me/>
 - <https://meanii.dev/>
 - <https://unixsec.io/>
