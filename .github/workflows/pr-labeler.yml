@@ -16,7 +16,7 @@ jobs:
       pull-requests: write
     steps:
       - name: Update PRs with conflict labels
-        uses: eps1lon/actions-label-merge-conflict@657e437ea2533fd743739be26f0a2eeb420b306a # releases/2.1.0
+        uses: eps1lon/actions-label-merge-conflict@1df065ebe6e3310545d4f4c4e862e43bdca146f0 # releases/2.1.0
         with:
           dirtyLabel: "conflicts"
           #removeOnDirtyLabel: "PR: ready to ship"
