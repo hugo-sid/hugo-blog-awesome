@@ -271,16 +271,14 @@ If you are using this theme for any website, feel free to list the website here.
 - <https://chriscodes.net/>
 - <https://journeytolunar.com/>
 - <https://ruiper.es/>
-- <https://www.magicplace.de/>
-- <https://bskdany.com/>
 - <https://josephscottcampbell.com/>
 - <https://heckintosh.github.io/>
 - <https://dieter.plaetinck.be/>
-- <https://jmbhughes.com/>
 - <https://www.boniface.me/>
 - <https://meanii.dev/>
 - <https://unixsec.io/>
 - <https://blog.crisweb.com/>
+- <https://jonblack.gg/>
 - <https://viazure.cc/>
 
 ## Support
