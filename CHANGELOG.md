@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.19.2](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.19.1...v1.19.2) (2025-03-09)
+
+
+### :hammer: Housekeeping
+
+* add new site to the readme + remove several that no longer use the theme ([#290](https://github.com/hugo-sid/hugo-blog-awesome/issues/290)) ([b06d22f](https://github.com/hugo-sid/hugo-blog-awesome/commit/b06d22f9c52e58a0a294cfdc41aca3431e012560))
+
 ## [1.19.1](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.19.0...v1.19.1) (2025-03-05)
 
 
