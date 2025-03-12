@@ -136,6 +136,7 @@ url = "/index.xml"
 | `bitcoin`       | -                               |
 | `bluesky`       | bsky.app                        |
 | `buymeacoffee`  | buymeacoffee.com                |
+| `calendly`      | calendly.com                    |
 | `codepen`       | codepen.io                      |
 | `cryptohack`    | cryptohack.org                  |
 | `ctftime`       | ctftime.org                     |
