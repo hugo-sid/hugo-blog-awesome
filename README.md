@@ -169,6 +169,7 @@ url = "/index.xml"
 | `komoot`        | -                               |
 | `lastfm`        | last.fm                         |
 | `letterboxd`    | -                               |
+| `leetcode`      | leetcode.com                    |
 | `liberapay`     | liberapay.com                   |
 | `linkedin`      | linkedin.com                    |
 | `mastodon`      | mastodon.social                 |
