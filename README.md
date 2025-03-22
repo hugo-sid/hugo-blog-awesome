@@ -168,6 +168,7 @@ url = "/index.xml"
 | `kofi`          | ko-fi.com                       |
 | `komoot`        | -                               |
 | `lastfm`        | last.fm                         |
+| `leetcode`      | leetcode.com                    |
 | `letterboxd`    | -                               |
 | `liberapay`     | liberapay.com                   |
 | `linkedin`      | linkedin.com                    |
