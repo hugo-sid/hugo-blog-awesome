@@ -1,5 +1,22 @@
 # Changelog
 
+## [1.20.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.19.1...v1.20.0) (2025-03-22)
+
+
+### :sparkles: Features
+
+* Add Chinese language support ([#291](https://github.com/hugo-sid/hugo-blog-awesome/issues/291)) ([763bcc9](https://github.com/hugo-sid/hugo-blog-awesome/commit/763bcc96a697e7ee8d61f0c05a543e6e6f985e97))
+
+
+### :hammer: Housekeeping
+
+* add Calendly (calendly.com) social icon ([#293](https://github.com/hugo-sid/hugo-blog-awesome/issues/293)) ([fd47b24](https://github.com/hugo-sid/hugo-blog-awesome/commit/fd47b2419c083bb3098a42e53e0727ac91908e69))
+* add LeetCode (leetcode.com) social icon ([#294](https://github.com/hugo-sid/hugo-blog-awesome/issues/294)) ([ea68b1f](https://github.com/hugo-sid/hugo-blog-awesome/commit/ea68b1fe35e9d18e292584c07c27b0112ca43f2c))
+* add new site to the readme + remove several that no longer use the theme ([#290](https://github.com/hugo-sid/hugo-blog-awesome/issues/290)) ([b06d22f](https://github.com/hugo-sid/hugo-blog-awesome/commit/b06d22f9c52e58a0a294cfdc41aca3431e012560))
+* **deps:** update actions/upload-artifact action to v4.6.2 ([#275](https://github.com/hugo-sid/hugo-blog-awesome/issues/275)) ([a053938](https://github.com/hugo-sid/hugo-blog-awesome/commit/a0539385157909b377c97714bbd40ec3ad8cfac9))
+* **deps:** update eps1lon/actions-label-merge-conflict digest to 1df065e ([#274](https://github.com/hugo-sid/hugo-blog-awesome/issues/274)) ([681d9c9](https://github.com/hugo-sid/hugo-blog-awesome/commit/681d9c94c76d31d571b091dbe19dc3a30757ae5c))
+* update reference to Hugo time format method ([6496bec](https://github.com/hugo-sid/hugo-blog-awesome/commit/6496bec291566f57a230ffda23411c842e3f4e24))
+
 ## [1.19.1](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.19.0...v1.19.1) (2025-03-05)
 
 
