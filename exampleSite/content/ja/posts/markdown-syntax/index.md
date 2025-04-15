@@ -56,7 +56,7 @@ blockquote要素は他から引用してきたコンテンツについて言及�
 
 ### 注記のないblockquote
 
-> blockquote内で**bold**,  _italics_, [links](https://gohugo.io/), `code`のようなMarkdown文法を利用することもできます。。
+> blockquote内で**bold**,  _italics_, [links](https://gohugo.io/), `code`のようなMarkdown文法を利用することもできます。
 
 ### 注記のあるblockquote
 
@@ -128,7 +128,6 @@ blockquote要素は他から引用してきたコンテンツについて言及�
 ### インラインコード
 
 バックティックを利用することで`variable`を表現することができます。
-使用反引号在句子中引用 `variable`。
 
 ## リストタイプ
 

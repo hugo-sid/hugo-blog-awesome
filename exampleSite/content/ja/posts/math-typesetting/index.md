@@ -10,7 +10,7 @@ Hugoでは[サードパーティーJavaScriptライブラリ](https://github.com
 
 <!--more-->
 
-ここでは、KaTeX[KaTeX](https://katex.org/)を利用して説明します。。
+ここでは、[KaTeX](https://katex.org/)を利用して説明します。
 
 - サイト全体でKaTeXを利用する場合、以下に示す通り、`math`引数を`true`に設定してください。
   - `hugo.toml`
