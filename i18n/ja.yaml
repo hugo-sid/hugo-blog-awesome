@@ -1,0 +1,27 @@
+## HOME ##
+- id: "home.home"
+  translation: "ホーム"
+
+- id: "home.recent_posts"
+  translation: "最新の投稿"
+
+- id: "home.see_all_posts"
+  translation: "すべての投稿を見る"
+
+## SINGLE ##
+- id: "single.table_of_contents"
+  translation: "目次"
+
+## FOOTER ##
+- id: "footer.go_to_top"
+  translation: "トップに戻る"
+
+- id: "footer.disclaimer"
+  translation: "このサイトでは<a href=\"https://github.com/hugo-sid/hugo-blog-awesome\" target=\"_blank\" rel=\"noopener\">Hugo blog awesome</a>を利用しています。"
+
+## ERRORS ##
+- id: "errors.404"
+  translation: "404 ページが見つかりません"
+
+- id: "errors.404_description"
+  translation: "存在しないページにたどり着きました。"
