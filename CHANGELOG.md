@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.21.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.20.0...v1.21.0) (2025-04-15)
+
+
+### :sparkles: Features
+
+* add Japanese language ([#297](https://github.com/hugo-sid/hugo-blog-awesome/issues/297)) ([efa15fb](https://github.com/hugo-sid/hugo-blog-awesome/commit/efa15fb3fa5d3b1796ec6e0e806ebbca9f98bbcd))
+
 ## [1.20.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.19.1...v1.20.0) (2025-03-22)
 
 
