@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.21.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.20.0...v1.21.0) (2025-05-10)
+
+
+### :sparkles: Features
+
+* add Japanese language ([#297](https://github.com/hugo-sid/hugo-blog-awesome/issues/297)) ([efa15fb](https://github.com/hugo-sid/hugo-blog-awesome/commit/efa15fb3fa5d3b1796ec6e0e806ebbca9f98bbcd))
+
+
+### :hammer: Housekeeping
+
+* add Adriano's website ([#302](https://github.com/hugo-sid/hugo-blog-awesome/issues/302)) ([0744297](https://github.com/hugo-sid/hugo-blog-awesome/commit/07442970878c53caff71988b1975d725f34847de))
+* **deps:** update github/codeql-action action to v3.28.16 ([#296](https://github.com/hugo-sid/hugo-blog-awesome/issues/296)) ([38f952e](https://github.com/hugo-sid/hugo-blog-awesome/commit/38f952ed340b013c19e08306a7edffe61db5053e))
+
 ## [1.20.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.19.1...v1.20.0) (2025-03-22)
 
 
