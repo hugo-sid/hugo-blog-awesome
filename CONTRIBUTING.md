@@ -1,13 +1,13 @@
 # Welcome to contribution guidelines
 
-Thank you for taking time to contribute to Hugo blog awesome!
+Thank you for taking time to contribute to Hugo Blog Extended!
 
 Following the contribution guidelines helps both owners and contributors. The guidelines save time and hassle caused by improperly created pull requests or issues that might have to be rejected and re-submitted.
 
 ## When to use issues?
 
-We prefer to use issues for reporting real 'issues' or bugs. For feature requests you can visit the [feature request section](https://github.com/hugo-sid/hugo-blog-awesome/discussions/categories/feature-requests) of Discussions and start a new thread.
-For questions you can visit [Q&A section](https://github.com/hugo-sid/hugo-blog-awesome/discussions/categories/q-a) of Discussions.
+We prefer to use issues for reporting real 'issues' or bugs. For feature requests you can visit the [feature request section](https://github.com/BiosPlus/hugo-blog-extended/discussions/categories/feature-requests) of Discussions and start a new thread.
+For questions you can visit [Q&A section](https://github.com/BiosPlus/hugo-blog-extended/discussions/categories/q-a) of Discussions.
 
 ## Pull requests (PR)
 
@@ -24,7 +24,7 @@ If you are adding support for a new language, you have to do the following:
 2. Translate specific terms by creating a new language-specific file in the `i18n` directory
 3. Add translated content in `exampleSite/content` directory
 
-You can take a look at this [Pull request](https://github.com/hugo-sid/hugo-blog-awesome/pull/145) for reference.
+You can take a look at this repository for reference on language support implementation.
 
 ## Commits
 

@@ -2,4 +2,4 @@ go 1.22.0
 
 use .
 use ..   // Local theme clone resides in parent folder of example site
-// use ./themes/hugo-blog-awesome/  // Local theme clone resides in themes folder
+// use ./themes/hugo-blog-extended/  // Local theme clone resides in themes folder

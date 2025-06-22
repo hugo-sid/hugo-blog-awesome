@@ -7,7 +7,7 @@ math: true
 ---
 
 La notazione matematica in un progetto Hugo può essere abilitata utilizzando delle
-[librerie JavaScript di terze parti](https://github.com/hugo-sid/hugo-blog-awesome/blob/main/layouts/partials/helpers/katex.html).
+[librerie JavaScript di terze parti](https://github.com/BiosPlus/hugo-blog-extended/blob/main/layouts/partials/helpers/katex.html).
 
 <!--more-->
 

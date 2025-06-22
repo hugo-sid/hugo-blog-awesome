@@ -12,17 +12,17 @@ enableEmoji = true
 ignoreErrors = ["additional-script-loading-error"] # ignore error of loading additional scripts.
 
 # traditional way: theme component resides in directory 'themes'
-theme = "hugo-blog-awesome"
+theme = "hugo-blog-extended"
 
 # modern way: pull in theme component as hugo module
 #[module]
   # Uncomment the next line to build and serve using local theme clone declared in the named Hugo workspace:
-  # workspace = "hugo-blog-awesome.work"
+  # workspace = "hugo-blog-extended.work"
   #[module.hugoVersion]
     #extended = true
     #min = "0.87.0"
   #[[module.imports]]
-    #path = "github.com/hugo-sid/hugo-blog-awesome"
+    #path = "github.com/BiosPlus/hugo-blog-extended"
     #disable = false
 
 [services]
@@ -572,7 +572,7 @@ theme = "hugo-blog-awesome"
 
 [[params.socialIcons]]
 name = "github"
-url = "https://github.com/hugo-sid"
+url = "https://github.com/BiosPlus"
 
 [[params.socialIcons]]
 name = "twitter"

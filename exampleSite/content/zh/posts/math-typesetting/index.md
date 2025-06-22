@@ -6,7 +6,7 @@ description: KaTeX 设置简要指南
 math: true
 ---
 
-在 Hugo 项目中，可以通过使用 [第三方 JavaScript 库](https://github.com/hugo-sid/hugo-blog-awesome/blob/main/layouts/partials/helpers/katex.html) 来启用数学符号。
+在 Hugo 项目中，可以通过使用 [第三方 JavaScript 库](https://github.com/BiosPlus/hugo-blog-extended/blob/main/layouts/partials/helpers/katex.html) 来启用数学符号。
 
 <!--more-->
 

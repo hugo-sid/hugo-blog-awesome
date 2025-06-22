@@ -6,7 +6,7 @@ description: KaTeXの簡単なセットアップ方法
 math: true
 ---
 
-Hugoでは[サードパーティーJavaScriptライブラリ](https://github.com/hugo-sid/hugo-blog-awesome/blob/main/layouts/partials/helpers/katex.html)を利用することで数式を表記することができます。
+Hugoでは[サードパーティーJavaScriptライブラリ](https://github.com/BiosPlus/hugo-blog-extended/blob/main/layouts/partials/helpers/katex.html)を利用することで数式を表記することができます。
 
 <!--more-->
 

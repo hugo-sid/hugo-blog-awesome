@@ -17,7 +17,7 @@
   translation: "Go to top"
 
 - id: "footer.disclaimer"
-  translation: "Powered by <a href=\"https://github.com/hugo-sid/hugo-blog-awesome\" target=\"_blank\" rel=\"noopener\">Hugo blog awesome</a>."
+  translation: "Powered by <a href=\"https://github.com/BiosPlus/hugo-blog-extended\" target=\"_blank\" rel=\"noopener\">Hugo Blog Extended</a>."
 
 ## ERRORS ##
 - id: "errors.404"

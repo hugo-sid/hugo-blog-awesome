@@ -112,7 +112,7 @@ Social icons can be added by configuring `hugo.toml` file in the following manne
 ```toml
 [[params.socialIcons]]
 name = "github"
-url = "https://github.com/hugo-sid"
+url = "https://github.com/BiosPlus"
 
 [[params.socialIcons]]
 name = "twitter"
@@ -248,14 +248,14 @@ To use another comments system, provide your own `comments.html` partial in `lay
 
 ## Contributing
 
-Please read [CONTRIBUTING.md](https://github.com/hugo-sid/hugo-blog-awesome/blob/main/CONTRIBUTING.md).
+Please read [CONTRIBUTING.md](https://github.com/BiosPlus/hugo-blog-extended/blob/main/CONTRIBUTING.md).
 
 ## Contributors
 
-Thanks to these wonderful people for contributing to Hugo blog awesome:
+Thanks to these wonderful people for contributing to Hugo Blog Extended:
 
-<a href="https://github.com/hugo-sid/hugo-blog-awesome/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=hugo-sid/hugo-blog-awesome" />
+<a href="https://github.com/BiosPlus/hugo-blog-extended/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=BiosPlus/hugo-blog-extended" />
 </a>
 
 ## Websites using this theme
@@ -299,14 +299,14 @@ Thanks to [piharpi](https://harpi.me/) for creating the [Jekyll klise theme](htt
 
 ## License
 
-This theme is released under the MIT license. For more information read the [License](https://github.com/hugo-sid/hugo-blog-awesome/blob/main/LICENSE).
+This theme is released under the MIT license. For more information read the [License](https://github.com/BiosPlus/hugo-blog-extended/blob/main/LICENSE).
 
 ## Stats
 
 ### Visitors
 
-[![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2Fhugo-sid%2Fhugo-blog-awesome&countColor=%2337d67a&style=flat)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2Fhugo-sid%2Fhugo-blog-awesome)
+[![Visitors](https://api.visitorbadge.io/api/visitors?path=https%3A%2F%2Fgithub.com%2FBiosPlus%2Fhugo-blog-extended&countColor=%2337d67a&style=flat)](https://visitorbadge.io/status?path=https%3A%2F%2Fgithub.com%2FBiosPlus%2Fhugo-blog-extended)
 
 ### Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=hugo-sid/hugo-blog-awesome&type=Date)](https://star-history.com/#hugo-sid/hugo-blog-awesome&Date)
+[![Star History Chart](https://api.star-history.com/svg?repos=BiosPlus/hugo-blog-extended&type=Date)](https://star-history.com/#BiosPlus/hugo-blog-extended&Date)
