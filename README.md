@@ -291,9 +291,9 @@ Proud to power these amazing websites:
 
 <div align="center">
 
-| Website | Description | Screenshot |
-|---------|-------------|------------|
-| [Demo Site](https://hugo-blog-extended.pages.dev/) | Official demo | 🔗 [View Live](https://hugo-blog-extended.pages.dev/) |
+| Website | Description |
+|---------|-------------|
+| [Demo Site](https://hugo-blog-extended.pages.dev/) | Official demo |
 
 </div>
 
