@@ -1,3 +1,3 @@
-module github.com/BiosPlus/hugo-blog-extended/exampleSite
+module github.com/BiosPlus/hugo-mod-extended
 
-go 1.22.0
+go 1.24.4
