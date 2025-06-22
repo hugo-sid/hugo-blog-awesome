@@ -2,6 +2,7 @@ name = "Hugo Blog Extended"
 license = "MIT"
 licenselink = "https://github.com/BiosPlus/hugo-blog-extended/blob/main/LICENSE"
 description = "A fork of HBA with features that deviate from the original theme, such as a new layout, colors, and more."
+version = "0.0.2"
 
 # The home page of the theme, where the source can be found.
 homepage = "https://github.com/BiosPlus/hugo-blog-extended/"
