@@ -6,7 +6,7 @@
 </picture>
 
 </div>
-<h1 align=center> Hugo Blog Extended | <a href="https://hba.sid.one" target="_blank" rel="nofollow">Demo link</a></h1>
+<h1 align=center> Hugo Blog Extended | <a href="https://hugo-blog-extended.pages.dev/" target="_blank" rel="nofollow">Demo link</a></h1>
 
 <h4 align=center>⚡ Fast | 📰 Clean UI | 🌙 Dark mode support | 📱 Responsive design </h4>
 
@@ -21,7 +21,7 @@
 
 ![Page speed score](https://raw.githubusercontent.com/BiosPlus/hugo-blog-extended/master/images/pagespeed.png)
 
-The result shown above was last confirmed on September 23, 2023. You can check the details of the PageSpeed test at this link: [Link to the analysis](https://pagespeed.web.dev/analysis/https-hba-sid-one/uh4rm91hnj?form_factor=mobile). You can also do a live [PageSpeed test](https://pagespeed.web.dev/analysis?url=https://hba.sid.one/) of the [demo website](https://hba.sid.one) now.
+The result shown above was last confirmed on September 23, 2023. You can check the details of the PageSpeed test at this link: [Link to the analysis](https://pagespeed.web.dev/analysis/https-hba-sid-one/uh4rm91hnj?form_factor=mobile). You can also do a live [PageSpeed test](https://pagespeed.web.dev/analysis?url=https://hugo-blog-extended.pages.dev/) of the [demo website](https://hugo-blog-extended.pages.dev/) now.
 
 </details>
 
