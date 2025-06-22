@@ -7,7 +7,7 @@ description = "An extended version of the minimal Hugo blog theme with light and
 homepage = "https://github.com/BiosPlus/hugo-blog-extended/"
 
 # If you have a running demo of the theme.
-demosite = "https://hba.sid.one/"
+demosite = "https://hugo-blog-extended.pages.dev/"
 
 tags = ["blog", "responsive", "minimal", "dark", "light", "multilingual"]
 features = ["blog", "sass", "dark"]
