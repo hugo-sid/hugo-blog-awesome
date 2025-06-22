@@ -1,7 +1,7 @@
 name = "Hugo Blog Extended"
 license = "MIT"
 licenselink = "https://github.com/BiosPlus/hugo-blog-extended/blob/main/LICENSE"
-description = "An extended version of the minimal Hugo blog theme with light and dark mode support"
+description = "A fork of HBA with features that deviate from the original theme, such as a new layout, colors, and more."
 
 # The home page of the theme, where the source can be found.
 homepage = "https://github.com/BiosPlus/hugo-blog-extended/"
@@ -12,7 +12,7 @@ demosite = "https://hugo-blog-extended.pages.dev/"
 tags = ["blog", "responsive", "minimal", "dark", "light", "multilingual"]
 features = ["blog", "sass", "dark"]
 
-min_version = "0.87.0"
+min_version = "0.147.8"
 
 # If the theme has a single author
 [author]
