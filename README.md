@@ -295,6 +295,8 @@ The social icons are made possible thanks to [Aditya Telange](https://github.com
 
 Thanks to [piharpi](https://harpi.me/) for creating the [Jekyll klise theme](https://github.com/piharpi/jekyll-klise). It served as an inspiration to create this Hugo theme.
 
+Thanks to [Hugo-Sid](https://github.com/Hugo-Sid) for creating the original [Hugo Blog Awesome](https://github.com/Hugo-Sid/hugo-blog-awesome) theme, which served as the foundation for this.
+
 ## License
 
 This theme is released under the MIT license. For more information read the [License](https://github.com/BiosPlus/hugo-blog-extended/blob/main/LICENSE).
