@@ -1,12 +1,12 @@
 <div align=center>
  <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/main/assets/icons/book-icon-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/main/assets/icons/book-icon-light.svg">
-  <img alt="Hugo blog awesome logo" src="https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/feat/logo-change/assets/icons/book-icon-light.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/BiosPlus/hugo-blog-extended/main/assets/icons/book-icon-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/BiosPlus/hugo-blog-extended/main/assets/icons/book-icon-light.svg">
+  <img alt="Hugo Blog Extended logo" src="https://raw.githubusercontent.com/BiosPlus/hugo-blog-extended/main/assets/icons/book-icon-light.svg" />
 </picture>
 
 </div>
-<h1 align=center> Hugo Blog Awesome | <a href="https://hba.sid.one" target="_blank" rel="nofollow">Demo link</a></h1>
+<h1 align=center> Hugo Blog Extended | <a href="https://hba.sid.one" target="_blank" rel="nofollow">Demo link</a></h1>
 
 <h4 align=center>⚡ Fast | 📰 Clean UI | 🌙 Dark mode support | 📱 Responsive design </h4>
 
@@ -14,12 +14,12 @@
 
 | Dark mode | Light mode |
 | --- | --- |
-| ![Dark mode](https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/master/images/dark.png) | ![Light mode](https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/master/images/light.png) |
+| ![Dark mode](https://raw.githubusercontent.com/BiosPlus/hugo-blog-extended/master/images/dark.png) | ![Light mode](https://raw.githubusercontent.com/BiosPlus/hugo-blog-extended/master/images/light.png) |
 
 <details>
   <summary>Page speed score (click to expand)</summary>
 
-![Page speed score](https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/master/images/pagespeed.png)
+![Page speed score](https://raw.githubusercontent.com/BiosPlus/hugo-blog-extended/master/images/pagespeed.png)
 
 The result shown above was last confirmed on September 23, 2023. You can check the details of the PageSpeed test at this link: [Link to the analysis](https://pagespeed.web.dev/analysis/https-hba-sid-one/uh4rm91hnj?form_factor=mobile). You can also do a live [PageSpeed test](https://pagespeed.web.dev/analysis?url=https://hba.sid.one/) of the [demo website](https://hba.sid.one) now.
 
@@ -36,9 +36,9 @@ The result shown above was last confirmed on September 23, 2023. You can check t
 
 ## Why this theme?
 
-Hugo Blog Awesome (HBA) is a theme crafted to capture your readers' attention.
+Hugo Blog Extended (HBE) is an extended version of the popular Hugo Blog Awesome theme, crafted to capture your readers' attention with additional features and improvements.
 
-Additionally, it's fast, [privacy-conscious](https://themarkup.org/blacklight?url=hba.sid.one), and comes with no external dependencies. That's right. There are no Google fonts, icon packs, or JavaScript frameworks. No trackers or ads to bloat your website.
+Additionally, it's fast, privacy-conscious, and comes with no external dependencies. That's right. There are no Google fonts, icon packs, or JavaScript frameworks. No trackers or ads to bloat your website.
 
 Its focus on minimalism and clean UI ensures that your content takes the spotlight. This, coupled with the support for dark mode, provides a stress-free (on the eyes) reading experience for your audience.
 
@@ -60,15 +60,15 @@ Initialize your new Hugo site as hugo module by running the following command:
     cd myblog
     hugo mod init github.com/USER/REPO
 
-Afterwards, run this command to add hugo-blog-awesome as module to your site:
+Afterwards, run this command to add hugo-blog-extended as module to your site:
 
-    hugo mod get github.com/hugo-sid/hugo-blog-awesome
+    hugo mod get github.com/BiosPlus/hugo-blog-extended
 
 To make use of the theme, add this module configuration to your site's `hugo.toml`:
 
     [module]
       [[module.imports]]
-        path = "github.com/hugo-sid/hugo-blog-awesome"
+        path = "github.com/BiosPlus/hugo-blog-extended"
 
 To preview the theme with example content, run the following command from the `exampleSite` directory:
 
@@ -83,16 +83,16 @@ To create a new Hugo site with this theme as Git submodule, run the following co
 Then, clone this repository into the `themes` directory of your new site:
 
     cd myblog
-    git clone https://github.com/hugo-sid/hugo-blog-awesome.git themes/hugo-blog-awesome
+    git clone https://github.com/BiosPlus/hugo-blog-extended.git themes/hugo-blog-extended
 
 To preview the theme with example content, run the following command from the `exampleSite` directory:
 
-    cd themes/hugo-blog-awesome/exampleSite
+    cd themes/hugo-blog-extended/exampleSite
     hugo server --themesDir ../..
 
-To use this theme, set the `theme` variable in your site's `hugo.toml` to `hugo-blog-awesome`:
+To use this theme, set the `theme` variable in your site's `hugo.toml` to `hugo-blog-extended`:
 
-    theme = "hugo-blog-awesome"
+    theme = "hugo-blog-extended"
 
 ## Configuration
 

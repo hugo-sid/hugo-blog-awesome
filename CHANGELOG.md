@@ -1,5 +1,32 @@
 # Changelog
 
+## [1.0.0](https://github.com/BiosPlus/hugo-blog-extended/releases/tag/v1.0.0) (2025-06-22)
+
+### :sparkles: Initial Release
+
+* **hugo-blog-extended**: Initial release of Hugo Blog Extended theme
+* **base**: Forked from hugo-blog-awesome v1.20.0
+* **features**: All original features from hugo-blog-awesome included:
+  * Minimal design with light and dark mode support
+  * Syntax highlighting and RSS feed
+  * No external dependencies (jQuery, Bootstrap)
+  * Multi-language support (EN, DE, FR, IT, JA, RU, ZH, PT-BR)
+  * 100/100 Google PageSpeed Insights score
+  * Responsive design
+  * Social icons and customization options
+
+### :hammer: Technical Details
+
+* **hugo**: Requires Hugo Extended v0.87.0 or higher
+* **styling**: Built with SCSS and vanilla JavaScript
+* **performance**: Privacy-conscious with no external trackers or ads
+
+---
+
+## Upstream Changelog (hugo-blog-awesome)
+
+The following changelog entries are from the original hugo-blog-awesome theme that this extended version is based on:
+
 ## [1.20.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.19.1...v1.20.0) (2025-03-22)
 
 

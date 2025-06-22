@@ -1,10 +1,10 @@
-name = "Hugo blog awesome"
+name = "Hugo Blog Extended"
 license = "MIT"
-licenselink = "https://github.com/hugo-sid/hugo-blog-awesome/blob/main/LICENSE"
-description = "Minimal Hugo blog theme with light and dark mode support"
+licenselink = "https://github.com/BiosPlus/hugo-blog-extended/blob/main/LICENSE"
+description = "An extended version of the minimal Hugo blog theme with light and dark mode support"
 
 # The home page of the theme, where the source can be found.
-homepage = "https://github.com/hugo-sid/hugo-blog-awesome/"
+homepage = "https://github.com/BiosPlus/hugo-blog-extended/"
 
 # If you have a running demo of the theme.
 demosite = "https://hugo-blog-awesome.netlify.app/"
@@ -16,5 +16,5 @@ min_version = "0.87.0"
 
 # If the theme has a single author
 [author]
-    name = "Sidharth R"
-    homepage = "https://sidh.dev"
+    name = "BiosPlus"
+    homepage = "https://github.com/BiosPlus"

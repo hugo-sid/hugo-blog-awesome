@@ -1,3 +1,3 @@
-module github.com/hugo-sid/hugo-blog-awesome/exampleSite
+module github.com/BiosPlus/hugo-blog-extended/exampleSite
 
 go 1.22.0
