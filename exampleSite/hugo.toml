@@ -1,5 +1,5 @@
-title = "Awesome Hugo blog"
-baseURL = 'https://hba.sid.one/'
+title = "Extended Hugo blog"
+# baseURL = 'https://hugo-blog-extended.pages.dev/'
 
 # This is what goes in <html lang="">
 languageCode = 'en-us'
@@ -15,15 +15,14 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
 theme = "hugo-blog-extended"
 
 # modern way: pull in theme component as hugo module
-#[module]
-  # Uncomment the next line to build and serve using local theme clone declared in the named Hugo workspace:
-  # workspace = "hugo-blog-extended.work"
-  #[module.hugoVersion]
-    #extended = true
-    #min = "0.87.0"
-  #[[module.imports]]
-    #path = "github.com/BiosPlus/hugo-blog-extended"
-    #disable = false
+# Uncomment the following section and comment out the theme line above to use Hugo modules:
+# [module]
+#   [module.hugoVersion]
+#     extended = true
+#     min = "0.87.0"
+#   [[module.imports]]
+#     path = "github.com/BiosPlus/hugo-blog-extended"
+#     disable = false
 
 [services]
 # To enable Google Analytics 4 (gtag.js) provide G-MEASUREMENT_ID below.
@@ -74,7 +73,7 @@ theme = "hugo-blog-extended"
     weight = 30
 
 [Languages.en-gb.params]
-  sitename = "Awesome hugo blog"
+  sitename = "Extended hugo blog"
   defaultColor = "dark" # set color mode: dark, light, auto
   # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
   # the default value is set to 'auto'.
@@ -99,7 +98,7 @@ theme = "hugo-blog-extended"
 [Languages.en-gb.params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
-  intro = "Awesome hugo blog"
+  intro = "Extended hugo blog"
   name = "Sidharth R"
   description = "A fast, minimalistic Hugo theme with light and dark mode support, for running a personal site or blog."
 
@@ -138,7 +137,7 @@ theme = "hugo-blog-extended"
     weight = 30
 
 [Languages.it.params]
-  sitename = "Awesome hugo blog"
+  sitename = "Extended hugo blog"
   defaultColor = "dark" # set color mode: dark, light, auto
   # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
   # the default value is set to 'auto'.
@@ -163,7 +162,7 @@ theme = "hugo-blog-extended"
 [Languages.it.params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
-  intro = "Awesome hugo blog"
+  intro = "Extended hugo blog"
   name = "Sidharth R"
   description = "Un tema Hugo veloce e minimalista con supporto per la modalità chiara e scura, per la gestione di un sito o di un blog personale."
 
@@ -266,7 +265,7 @@ theme = "hugo-blog-extended"
     weight = 30
 
 [Languages.fr-fr.params]
-  sitename = "Awesome hugo blog"
+  sitename = "Extended hugo blog"
   defaultColor = "dark" # set color mode: dark, light, auto
   # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
   # the default value is set to 'auto'.
@@ -291,7 +290,7 @@ theme = "hugo-blog-extended"
 [Languages.fr-fr.params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
-  intro = "Awesome hugo blog"
+  intro = "Extended hugo blog"
   name = "Sidharth R"
   description = "Un thème Hugo rapide et minimaliste avec un mode clair et sombre, pour un site personnel ou un blog."
 
@@ -331,7 +330,7 @@ theme = "hugo-blog-extended"
     weight = 30
 
 [Languages.de-de.params]
-  sitename = "Awesome hugo blog"
+  sitename = "Extended hugo blog"
   defaultColor = "dark" # set color mode: dark, light, auto
   # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
   # the default value is set to 'auto'.
@@ -356,7 +355,7 @@ theme = "hugo-blog-extended"
 [Languages.de-de.params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
-  intro = "Awesome hugo blog"
+  intro = "Extended hugo blog"
   name = "Sidharth R"
   description = "Ein schnelles, minimalistisches Hugo-Theme mit hellem und dunklem Modus, für eine persönliche Website oder Blog."
 
@@ -396,7 +395,7 @@ theme = "hugo-blog-extended"
     weight = 30
 
 [Languages.pt-br.params]
-  sitename = "Awesome hugo blog"
+  sitename = "Extended hugo blog"
   defaultColor = "dark" # set color mode: dark, light, auto
   # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
   # the default value is set to 'auto'.
@@ -421,7 +420,7 @@ theme = "hugo-blog-extended"
 [Languages.pt-br.params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
-  intro = "Awesome hugo blog"
+  intro = "Extended hugo blog"
   name = "Sidharth R"
   description = "Um tema Hugo veloz e minimalista com suporte a modo claro e escuro para rodar um blog ou site pessoal"
 
@@ -461,7 +460,7 @@ theme = "hugo-blog-extended"
     weight = 30
 
 [Languages.zh-cn.params]
-  sitename = "Awesome hugo blog"
+  sitename = "Extended hugo blog"
   defaultColor = "dark" # set color mode: dark, light, auto
   # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
   # the default value is set to 'auto'.
@@ -486,7 +485,7 @@ theme = "hugo-blog-extended"
 [Languages.zh-cn.params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
-  intro = "Awesome hugo blog"
+  intro = "Extended hugo blog"
   name = "Sidharth R"
   description = "一个快速、极简的 Hugo 主题，支持亮色和暗色模式，适用于个人网站或博客。"
 
@@ -526,7 +525,7 @@ theme = "hugo-blog-extended"
     weight = 30
 
 [Languages.ja.params]
-  sitename = "Awesome hugo blog"
+  sitename = "Extended hugo blog"
   defaultColor = "dark" # set color mode: dark, light, auto
   # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
   # the default value is set to 'auto'.
@@ -551,7 +550,7 @@ theme = "hugo-blog-extended"
 [Languages.ja.params.author]
   avatar = "avatar.jpg" # put the file in assets folder; also ensure that image has same height and width
   # Note: image is not rendered if the resource(avatar image) is not found. No error is displayed.
-  intro = "Awesome hugo blog"
+  intro = "Extended hugo blog"
   name = "Sidharth R"
   description = "ライトモードとダークモードのある、高速で、ミニマリスティックなHugoテーマ。個人サイト・ブログにどうぞ。"
 
