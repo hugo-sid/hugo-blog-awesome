@@ -294,8 +294,6 @@ Proud to power these amazing websites:
 | Website | Description | Screenshot |
 |---------|-------------|------------|
 | [Demo Site](https://hugo-blog-extended.pages.dev/) | Official demo | 🔗 [View Live](https://hugo-blog-extended.pages.dev/) |
-| Tech Blog | Developer portfolio | 💼 Professional |
-| Personal Blog | Creative writing | ✍️ Minimalist |
 
 </div>
 
