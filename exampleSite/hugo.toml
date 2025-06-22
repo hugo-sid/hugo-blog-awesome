@@ -1,5 +1,5 @@
 title = "Extended Hugo blog"
-# baseURL = 'https://hugo-blog-extended.pages.dev/'
+baseURL = 'https://hugo-blog-extended.pages.dev/'
 
 # This is what goes in <html lang="">
 languageCode = 'en-us'
@@ -15,14 +15,15 @@ ignoreErrors = ["additional-script-loading-error"] # ignore error of loading add
 theme = "hugo-blog-extended"
 
 # modern way: pull in theme component as hugo module
-# Uncomment the following section and comment out the theme line above to use Hugo modules:
-[module]
-  [module.hugoVersion]
-    extended = true
-    min = "0.87.0"
-
-  [[module.imports]]
-    path = "github.com/BiosPlus/hugo-blog-extended"
+#[module]
+  # Uncomment the next line to build and serve using local theme clone declared in the named Hugo workspace:
+  # workspace = "hugo-blog-extended.work"
+  #[module.hugoVersion]
+    #extended = true
+    #min = "0.87.0"
+  #[[module.imports]]
+    #path = "github.com/BiosPlus/hugo-blog-extended"
+    #disable = false
 
 [services]
 # To enable Google Analytics 4 (gtag.js) provide G-MEASUREMENT_ID below.
