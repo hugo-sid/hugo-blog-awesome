@@ -250,15 +250,15 @@ To use another comments system, provide your own `comments.html` partial in `lay
 
 Please read [CONTRIBUTING.md](https://github.com/BiosPlus/hugo-blog-extended/blob/main/CONTRIBUTING.md).
 
-## Contributors
+<!-- ## Contributors
 
 Thanks to these wonderful people for contributing to Hugo Blog Extended:
 
 <a href="https://github.com/BiosPlus/hugo-blog-extended/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=BiosPlus/hugo-blog-extended" />
-</a>
+</a> -->
 
-## Websites using this theme
+<!-- ## Websites using this theme
 
 If you are using this theme for any website, feel free to list the website here. You can submit a pull request (PR) to include your website.
 
@@ -283,7 +283,7 @@ If you are using this theme for any website, feel free to list the website here.
 - <https://jonblack.gg/>
 - <https://viazure.cc/>
 - <https://spikethedragon40k.github.io/>
-- <https://tk-web.top>
+- <https://tk-web.top> -->
 
 ## Support
 
