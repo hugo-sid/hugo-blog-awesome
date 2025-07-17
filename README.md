@@ -194,6 +194,7 @@ url = "/index.xml"
 | `signal`        | signal.org                      |
 | `slack`         | slack.com                       |
 | `snapchat`      | snapchat.com/add                |
+| `speakerdeck`   | speakerdeck.com                 |
 | `spotify`       | spotify.com                     |
 | `stackoverflow` | stackoverflow.com               |
 | `stackshare`    | stackshare.io                   |
