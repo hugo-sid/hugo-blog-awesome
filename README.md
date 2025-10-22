@@ -194,6 +194,7 @@ url = "/index.xml"
 | `signal`        | signal.org                      |
 | `slack`         | slack.com                       |
 | `snapchat`      | snapchat.com/add                |
+| `speakerdeck`   | speakerdeck.com                 |
 | `spotify`       | spotify.com                     |
 | `stackoverflow` | stackoverflow.com               |
 | `stackshare`    | stackshare.io                   |
@@ -285,6 +286,7 @@ If you are using this theme for any website, feel free to list the website here.
 - <https://spikethedragon40k.github.io/>
 - <https://tk-web.top>
 - <https://xayan.nu/>
+- <https://danielecer.com/>
 
 ## Support
 
