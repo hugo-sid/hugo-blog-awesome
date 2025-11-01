@@ -1,5 +1,29 @@
 # Changelog
 
+## [1.21.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.20.0...v1.21.0) (2025-11-01)
+
+
+### :sparkles: Features
+
+* add Forgejo icon ([#303](https://github.com/hugo-sid/hugo-blog-awesome/issues/303)) ([841dff0](https://github.com/hugo-sid/hugo-blog-awesome/commit/841dff0d9c7566ea9176d4a16f03fb18f0db2219))
+* add icon for Speakerdeck ([#319](https://github.com/hugo-sid/hugo-blog-awesome/issues/319)) ([73da284](https://github.com/hugo-sid/hugo-blog-awesome/commit/73da28441d3a7276f1c239f5edd009249362a214))
+* add Japanese language ([#297](https://github.com/hugo-sid/hugo-blog-awesome/issues/297)) ([efa15fb](https://github.com/hugo-sid/hugo-blog-awesome/commit/efa15fb3fa5d3b1796ec6e0e806ebbca9f98bbcd))
+* add zulip icon, re-order icons alphabetically, update icon list in readme ([#318](https://github.com/hugo-sid/hugo-blog-awesome/issues/318)) ([664b225](https://github.com/hugo-sid/hugo-blog-awesome/commit/664b22544df9b0c67ba5d81605612b01773e597a))
+* declare support for light and dark theme in `&lt;head&gt;` ([#315](https://github.com/hugo-sid/hugo-blog-awesome/issues/315)) ([f5c6e01](https://github.com/hugo-sid/hugo-blog-awesome/commit/f5c6e01b7ccbef68f1410d6dac8412116427d0ad))
+
+
+### :hammer: Housekeeping
+
+* add Adriano's website ([#302](https://github.com/hugo-sid/hugo-blog-awesome/issues/302)) ([0744297](https://github.com/hugo-sid/hugo-blog-awesome/commit/07442970878c53caff71988b1975d725f34847de))
+* add https://tk-web.top to the list of sites using this theme ([#305](https://github.com/hugo-sid/hugo-blog-awesome/issues/305)) ([2ff8352](https://github.com/hugo-sid/hugo-blog-awesome/commit/2ff83524b22210df9b9f83638a0acbd1913ee6d4))
+* **deps:** update actions/checkout action to v5 ([#324](https://github.com/hugo-sid/hugo-blog-awesome/issues/324)) ([b4c1aaa](https://github.com/hugo-sid/hugo-blog-awesome/commit/b4c1aaa30512dc3c28f69779bc51d5f8f1b6c4c3))
+* **deps:** update actions/stale action to v10 ([#326](https://github.com/hugo-sid/hugo-blog-awesome/issues/326)) ([79497ca](https://github.com/hugo-sid/hugo-blog-awesome/commit/79497cac3820cddea475a79737ed59a0cf6774f7))
+* **deps:** update actions/upload-artifact action to v5 ([#329](https://github.com/hugo-sid/hugo-blog-awesome/issues/329)) ([3ff9930](https://github.com/hugo-sid/hugo-blog-awesome/commit/3ff99307c5df53ff5235f4511c29ef3cce97efa2))
+* **deps:** update github/codeql-action action to v3.28.16 ([#296](https://github.com/hugo-sid/hugo-blog-awesome/issues/296)) ([38f952e](https://github.com/hugo-sid/hugo-blog-awesome/commit/38f952ed340b013c19e08306a7edffe61db5053e))
+* **deps:** update github/codeql-action action to v4 ([#327](https://github.com/hugo-sid/hugo-blog-awesome/issues/327)) ([182d7bb](https://github.com/hugo-sid/hugo-blog-awesome/commit/182d7bb0a94662e82863e3c401c87c6240f672f3))
+* **README:** add `xayan.nu` to the list of websites using this theme ([#321](https://github.com/hugo-sid/hugo-blog-awesome/issues/321)) [skip ci] ([39fdcdd](https://github.com/hugo-sid/hugo-blog-awesome/commit/39fdcddfe7ddc7b94023a2f7005162a37a766c8f))
+* **README:** add danielecer.com to list of websites using theme ([#316](https://github.com/hugo-sid/hugo-blog-awesome/issues/316)) ([4719dd6](https://github.com/hugo-sid/hugo-blog-awesome/commit/4719dd658ce010c63ba223c6b2236554f1f1b6a6))
+
 ## [1.20.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.19.1...v1.20.0) (2025-03-22)
 
 
