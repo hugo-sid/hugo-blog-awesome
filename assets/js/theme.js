@@ -42,7 +42,7 @@
                 break;
             case THEMES.AUTO:
             default:
-                configState = window.matchMedia("(prefers-color-scheme: dark)")
+                configState = globalThis.matchMedia("(prefers-color-scheme: dark)")
                     .matches
                     ? THEMES.DARK
                     : THEMES.LIGHT;
@@ -70,9 +70,9 @@
             THEMES.SOLARIZED_LIGHT,
             THEMES.SOLARIZED_DARK
         ];
-        allThemes.forEach(theme => {
+        for (const theme of allThemes) {
             document.documentElement.classList.remove(theme);
-        });
+        }
 
         document.documentElement.classList.add(state);
     };
@@ -84,7 +84,6 @@
     const toggleTheme = () => {
         const currentState = getThemeState();
         const family = getThemeFamily(currentState);
-        const familyThemes = THEME_FAMILIES[family];
 
         let newState;
 
