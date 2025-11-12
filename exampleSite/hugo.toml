@@ -75,7 +75,7 @@ theme = "hugo-blog-awesome"
 
 [Languages.en-gb.params]
   sitename = "Awesome hugo blog"
-  defaultColor = "dark" # set color mode: dark, light, auto
+  defaultColor = "dark" # set color mode: dark, light, solarized-light, solarized-dark, auto
   # Setting it to 'auto' applies the color scheme based on the visitor's device color preference.If you don't specify anything, ignore this parameter, or leave it blank,
   # the default value is set to 'auto'.
   # You can take a look at layouts/index.html for more information.
