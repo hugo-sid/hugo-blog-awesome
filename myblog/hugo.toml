@@ -1,0 +1,78 @@
+baseURL = "www.yogeshsn.com.np"
+languageCode = "en-us"
+title = "yogeshsn"
+canoifyURLs = true
+
+[module]
+  [[module.imports]]
+    path = "github.com/hugo-sid/hugo-blog-awesome"
+[menu]
+  [[menu.main]]
+    identifier = "Posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = "10"
+
+  [[menu.main]]
+    identifier = "about"
+    name = "About me"
+    url = "/about/yogesh"
+    weight = "10"
+
+  [[menu.main]]
+    identifier = "References"
+    name = "References"
+    url = "/references/"
+    weight = "20"
+
+  [[menu.main]]
+    identifier = "categories"
+    name = "Categories"
+    url = "/categories/"
+    weight = "30"
+
+[[params.socialIcons]]
+  name = "x"
+  url = "https://x.com/yogesh__sn"
+
+[[params.socialIcons]]
+  name = "youtube"
+  url = "https://www.youtube.com/@palpasky6909/videos"
+
+[[params.socialIcons]]
+  name = "linkedin"
+  url = "https://www.linkedin.com/in/yogesh-sn🇳🇵-1926b8184" 
+
+[[params.socialIcons]]
+  name = "instagram"
+  url = "https://www.instagram.com/livingonnature"
+
+[params]
+  goToTop = true
+  ShowBreadCrumbs = true
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+
+# Add the following lines for photo, image, and footer
+
+[params.author]
+  avatar = "ys.png" # Update with the correct path
+  intro = "Yogesh Sharma Neupane"
+  name = "Yogesh SN"
+  description = "Dream, Discipline, and Dedication "
+
+# Enable KaTeX for math rendering
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      math = true
+
+  [markup.highlight]
+    noClasses = false
+    style = "monokai"
+
+[params.katex]
+  enable = true
+  css = "https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.css"
+  js = "https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.min.js"

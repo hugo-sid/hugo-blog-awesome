@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YSN PDF Viewer</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #3b0404; /* Light background color */
+        }
+        .container {
+            max-width: 1000px;
+            margin: 5px auto;
+            padding: 10px; /* Increased padding for better spacing */
+            border: 1px solid #b22727;
+            border-radius: 8px;
+            background-color: #f7ebeb; /* Same as body background for consistency */
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .pdf-container {
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            padding-top: 90%; /* Aspect ratio for embedded content (16:9) */
+            height: 0;
+        }
+        .pdf-container embed,
+        .pdf-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 90%;
+            border: none;
+        }
+        h2#pdf-title {
+            text-align: center; /* Center align the title */
+            font-size: 1.5rem; /* Font size for the title */
+            margin-bottom: 10px; /* Space below title */
+        }
+
+        @media only screen and (max-width: 768px) {
+            .container {
+                width: 90%;
+                max-width: none;
+                margin: 10px auto;
+                padding: 10px;
+            }
+            .pdf-container {
+                padding-top: 75%; /* Adjusted aspect ratio for smaller screens */
+            }
+            h2#pdf-title {
+                font-size: 1.2rem; /* Font size for smaller screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <h2 id="pdf-title">YSN PDF</h2>
+
+    <div class="container">
+        <div class="pdf-container">
+            <embed id="pdf-viewer" src="" type="application/pdf" />
+        </div>
+    </div>
+    <script>
+        function setPdfFile(filename, title) {
+            document.getElementById('pdf-title').innerText = title;
+            document.getElementById('pdf-viewer').src = filename;
+        }
+
+        function getUrlParameter(name) {
+            name = name.replace(/[\[]/, '\\[').replace(/[\]]/, '\\]');
+            var regex = new RegExp('[\\?&]' + name + '=([^&#]*)');
+            var results = regex.exec(location.search);
+            return results === null ? '' : decodeURIComponent(results[1].replace(/\+/g, ' '));
+        }
+
+        var pdfFile = getUrlParameter('file');
+        var pdfTitle = getUrlParameter('title');
+        
+        setPdfFile(pdfFile,pdfTitle);
+    </script>
+</body>
+</html>
