@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.21.1](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.21.0...v1.21.1) (2025-12-25)
+
+
+### :hammer: Housekeeping
+
+* **deps:** update actions/upload-artifact action to v6 ([#337](https://github.com/hugo-sid/hugo-blog-awesome/issues/337)) ([b30bd3b](https://github.com/hugo-sid/hugo-blog-awesome/commit/b30bd3b2fd934ea9c94f74ab601389cbdff42e77))
+* update SVG for speakerdeck icon ([#339](https://github.com/hugo-sid/hugo-blog-awesome/issues/339)) ([a8ff7b8](https://github.com/hugo-sid/hugo-blog-awesome/commit/a8ff7b8d8af64ef73d4870620ed0f6f1abab3984))
+
 ## [1.21.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.20.0...v1.21.0) (2025-11-01)
 
 
