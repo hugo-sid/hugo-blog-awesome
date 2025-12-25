@@ -297,6 +297,7 @@ If you are using this theme for any website, feel free to list the website here.
 - <https://tk-web.top>
 - <https://xayan.nu/>
 - <https://danielecer.com/>
+- <https://rishikrishna.com/>
 
 ## Support
 
