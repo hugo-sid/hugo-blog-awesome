@@ -12,8 +12,8 @@
 
 ## Screenshots
 
-| Dark mode | Light mode |
-| --- | --- |
+| Dark mode                                                                                         | Light mode                                                                                          |
+| ------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------- |
 | ![Dark mode](https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/master/images/dark.png) | ![Light mode](https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/master/images/light.png) |
 
 <details>
@@ -27,12 +27,12 @@ The result shown above was last confirmed on September 23, 2023. You can check t
 
 ## Features
 
-- Minimal design
-- Light and dark mode
-- Syntax highlighting
-- RSS feed
-- No jQuery, no Bootstrap
-- 100/100 Google PageSpeed Insights [score](https://pagespeed.web.dev/analysis/https-hba-sid-one/uh4rm91hnj?form_factor=mobile) on all 4 metrics
+-   Minimal design
+-   Multiple color themes: light, dark, solarized-light, and solarized-dark
+-   Syntax highlighting
+-   RSS feed
+-   No jQuery, no Bootstrap
+-   100/100 Google PageSpeed Insights [score](https://pagespeed.web.dev/analysis/https-hba-sid-one/uh4rm91hnj?form_factor=mobile) on all 4 metrics
 
 ## Why this theme?
 
@@ -72,7 +72,7 @@ To make use of the theme, add this module configuration to your site's `hugo.tom
 
 To preview the theme with example content, run the following command from the `exampleSite` directory:
 
-    hugo server
+    hugo server --themesDir ../..
 
 ### Using the theme as Git submodule
 
@@ -105,6 +105,31 @@ I used [realfavicongenerator.net](https://realfavicongenerator.net/) to generate
 
 If you want to customize anything further, you can modify `layouts\partials\head.html`.
 
+### Color themes
+
+The theme supports multiple color schemes that can be configured in your site's `hugo.toml` file:
+
+```toml
+[params]
+  defaultColor = "dark" # Options: light, dark, solarized-light, solarized-dark
+```
+
+Available options:
+
+-   `light` - Default light mode with clean, bright colors
+-   `dark` - Dark mode with reduced eye strain for low-light environments
+-   `solarized-light` - Solarized light theme with carefully designed contrast
+-   `solarized-dark` - Solarized dark theme with carefully designed contrast
+
+#### Theme switching behavior
+
+The theme includes a switcher button in the navigation bar that allows users to toggle between color modes:
+
+-   When using **regular themes** (`light` or `dark`), the switcher toggles between light and dark modes
+-   When using **solarized themes** (`solarized-light` or `solarized-dark`), the switcher toggles between solarized-light and solarized-dark modes
+
+The user's theme preference is saved in browser local storage and persists across visits.
+
 ### Adding Social icons
 
 Social icons can be added by configuring `hugo.toml` file in the following manner.
@@ -126,102 +151,102 @@ url = "/index.xml"
 <details>
   <summary>List of available icons (click to expand)</summary>
 
-| Name            | Platform                        |
-| --------------- | ------------------------------- |
-| `123rf`         | 123rf.com                       |
-| `adobestock`    | stock.adobe.com                 |
-| `anilist`       | anilist.co                      |
-| `applemusic`    | music.apple.com                 |
-| `applepodcasts` | podcasts.apple.com              |
-| `behance`       | behance.net                     |
-| `bilibili`      | bilibili.com                    |
-| `bitcoin`       | -                               |
-| `bluesky`       | bsky.app                        |
-| `buymeacoffee`  | buymeacoffee.com                |
-| `calendly`      | calendly.com                    |
-| `codeforces`    | codeforces.com                  |
-| `codepen`       | codepen.io                      |
-| `cryptohack`    | cryptohack.org                  |
-| `ctftime`       | ctftime.org                     |
-| `cv`            | -                               |
-| `deezer`        | deezer.com                      |
-| `dev`           | dev.to                          |
-| `deviantart`    | deviantart.com                  |
-| `discogs`       | discogs.com                     |
-| `discord`       | discord.com                     |
-| `dreamstime`    | dreamstime.com                  |
-| `dribbble`      | dribbble.com                    |
-| `douban`        | douban.com                      |
-| `email`         | -                               |
-| `facebook`      | facebook.com                    |
-| `flickr`        | flickr.com                      |
-| `forgejo`       | forgejo.org/                    |
-| `freepik`       | freepik.com                     |
-| `gitea`         | gitea.io                        |
-| `github`        | github.com                      |
-| `gitlab`        | gitlab.com                      |
-| `goodreads`     | goodreads.com                   |
-| `googlescholar` | scholar.google.com              |
-| `guruShots`     | gurushots.com                   |
-| `hackerone`     | hackerone.com                   |
-| `hackerrank`    | hackerrank.com                  |
-| `hackthebox`    | hackthebox.eu                   |
-| `instagram`     | instagram.com                   |
-| `itchio`        | itch.io                         |
-| `kaggle`        | kaggle.com                      |
-| `kakaotalk`     | kakaocorp.com/service/KakaoTalk |
-| `key`           | -                               |
-| `keybase`       | keybase.io                      |
-| `kofi`          | ko-fi.com                       |
-| `komoot`        | komoot.com                      |
-| `lastfm`        | last.fm                         |
-| `leetcode`      | leetcode.com                    |
-| `letterboxd`    | letterboxd.com                  |
-| `liberapay`     | liberapay.com                   |
-| `linkedin`      | linkedin.com                    |
-| `mastodon`      | mastodon.social                 |
-| `matrix`        | matrix.org                      |
-| `medium`        | medium.com                      |
-| `microblog`     | micro.blog                      |
-| `monero`        | -                               |
-| `mixcloud`      | mixcloud.com                    |
-| `nuget`         | nuget.org                       |
-| `paypal`        | paypal.com                      |
-| `peertube`      | -                               |
-| `pgp`           | -                               |
-| `phone`         | -                               |
-| `ploywork`      | ploywork.com                    |
-| `qq`            | qq.com                          |
-| `radicle`       | radicle.xyz                     |
-| `reddit`        | reddit.com                      |
-| `researchgate`  | researchgate.net                |
-| `rss`           | -                               |
-| `serverfault`   | serverfault.com                 |
-| `soundcloud`    | soundcloud.com                  |
-| `shutterstock`  | shutterstock.com                |
-| `signal`        | signal.org                      |
-| `slack`         | slack.com                       |
-| `snapchat`      | snapchat.com/add                |
-| `speakerdeck`   | speakerdeck.com                 |
-| `spotify`       | spotify.com                     |
-| `stackoverflow` | stackoverflow.com               |
-| `stackshare`    | stackshare.io                   |
-| `steam`         | steampowered.com                |
-| `strava`        | strava.com                      |
-| `telegram`      | telegram.org                    |
-| `threads`       | threads.net                     |
-| `tiktok`        | tiktok.com                      |
-| `twitch`        | twitch.tv                       |
-| `twitter` (the blue bird logo) | twitter.com      |
-| `unsplash`      | unsplash.com                    |
-| `x` (formerly Twitter) | x.com                    |
-| `xda`           | xda-developers.com              |
-| `xing`          | xing.com                        |
-| `ycombinator`   | ycombinator.com                 |
-| `youtube`       | youtube.com                     |
-| `zhihu`         | zhihu.com                       |
-| `zulip`         | zulip.com                       |
-| `other`         | -                               |
+| Name                           | Platform                        |
+| ------------------------------ | ------------------------------- |
+| `123rf`                        | 123rf.com                       |
+| `adobestock`                   | stock.adobe.com                 |
+| `anilist`                      | anilist.co                      |
+| `applemusic`                   | music.apple.com                 |
+| `applepodcasts`                | podcasts.apple.com              |
+| `behance`                      | behance.net                     |
+| `bilibili`                     | bilibili.com                    |
+| `bitcoin`                      | -                               |
+| `bluesky`                      | bsky.app                        |
+| `buymeacoffee`                 | buymeacoffee.com                |
+| `calendly`                     | calendly.com                    |
+| `codeforces`                   | codeforces.com                  |
+| `codepen`                      | codepen.io                      |
+| `cryptohack`                   | cryptohack.org                  |
+| `ctftime`                      | ctftime.org                     |
+| `cv`                           | -                               |
+| `deezer`                       | deezer.com                      |
+| `dev`                          | dev.to                          |
+| `deviantart`                   | deviantart.com                  |
+| `discogs`                      | discogs.com                     |
+| `discord`                      | discord.com                     |
+| `dreamstime`                   | dreamstime.com                  |
+| `dribbble`                     | dribbble.com                    |
+| `douban`                       | douban.com                      |
+| `email`                        | -                               |
+| `facebook`                     | facebook.com                    |
+| `flickr`                       | flickr.com                      |
+| `forgejo`                      | forgejo.org/                    |
+| `freepik`                      | freepik.com                     |
+| `gitea`                        | gitea.io                        |
+| `github`                       | github.com                      |
+| `gitlab`                       | gitlab.com                      |
+| `goodreads`                    | goodreads.com                   |
+| `googlescholar`                | scholar.google.com              |
+| `guruShots`                    | gurushots.com                   |
+| `hackerone`                    | hackerone.com                   |
+| `hackerrank`                   | hackerrank.com                  |
+| `hackthebox`                   | hackthebox.eu                   |
+| `instagram`                    | instagram.com                   |
+| `itchio`                       | itch.io                         |
+| `kaggle`                       | kaggle.com                      |
+| `kakaotalk`                    | kakaocorp.com/service/KakaoTalk |
+| `key`                          | -                               |
+| `keybase`                      | keybase.io                      |
+| `kofi`                         | ko-fi.com                       |
+| `komoot`                       | komoot.com                      |
+| `lastfm`                       | last.fm                         |
+| `leetcode`                     | leetcode.com                    |
+| `letterboxd`                   | letterboxd.com                  |
+| `liberapay`                    | liberapay.com                   |
+| `linkedin`                     | linkedin.com                    |
+| `mastodon`                     | mastodon.social                 |
+| `matrix`                       | matrix.org                      |
+| `medium`                       | medium.com                      |
+| `microblog`                    | micro.blog                      |
+| `monero`                       | -                               |
+| `mixcloud`                     | mixcloud.com                    |
+| `nuget`                        | nuget.org                       |
+| `paypal`                       | paypal.com                      |
+| `peertube`                     | -                               |
+| `pgp`                          | -                               |
+| `phone`                        | -                               |
+| `ploywork`                     | ploywork.com                    |
+| `qq`                           | qq.com                          |
+| `radicle`                      | radicle.xyz                     |
+| `reddit`                       | reddit.com                      |
+| `researchgate`                 | researchgate.net                |
+| `rss`                          | -                               |
+| `serverfault`                  | serverfault.com                 |
+| `soundcloud`                   | soundcloud.com                  |
+| `shutterstock`                 | shutterstock.com                |
+| `signal`                       | signal.org                      |
+| `slack`                        | slack.com                       |
+| `snapchat`                     | snapchat.com/add                |
+| `speakerdeck`                  | speakerdeck.com                 |
+| `spotify`                      | spotify.com                     |
+| `stackoverflow`                | stackoverflow.com               |
+| `stackshare`                   | stackshare.io                   |
+| `steam`                        | steampowered.com                |
+| `strava`                       | strava.com                      |
+| `telegram`                     | telegram.org                    |
+| `threads`                      | threads.net                     |
+| `tiktok`                       | tiktok.com                      |
+| `twitch`                       | twitch.tv                       |
+| `twitter` (the blue bird logo) | twitter.com                     |
+| `unsplash`                     | unsplash.com                    |
+| `x` (formerly Twitter)         | x.com                           |
+| `xda`                          | xda-developers.com              |
+| `xing`                         | xing.com                        |
+| `ycombinator`                  | ycombinator.com                 |
+| `youtube`                      | youtube.com                     |
+| `zhihu`                        | zhihu.com                       |
+| `zulip`                        | zulip.com                       |
+| `other`                        | -                               |
 
 </details>
 
@@ -273,30 +298,30 @@ Thanks to these wonderful people for contributing to Hugo blog awesome:
 
 If you are using this theme for any website, feel free to list the website here. You can submit a pull request (PR) to include your website.
 
-- <https://krisnova.net/>
-- <https://paddy-exe.github.io/>
-- <https://www.siggijons.net/>
-- <https://debanwita27.github.io/>
-- <https://mrizkimaulidan.vercel.app/>
-- <https://www.yukizr.com/>
-- <http://liamdalg.co.uk/>
-- <https://codewithzichen.bine.me/>
-- <https://chriscodes.net/>
-- <https://journeytolunar.com/>
-- <https://ruiper.es/>
-- <https://josephscottcampbell.com/>
-- <https://heckintosh.github.io/>
-- <https://dieter.plaetinck.be/>
-- <https://www.boniface.me/>
-- <https://meanii.dev/>
-- <https://unixsec.io/>
-- <https://blog.crisweb.com/>
-- <https://jonblack.gg/>
-- <https://viazure.cc/>
-- <https://spikethedragon40k.github.io/>
-- <https://tk-web.top>
-- <https://xayan.nu/>
-- <https://danielecer.com/>
+-   <https://krisnova.net/>
+-   <https://paddy-exe.github.io/>
+-   <https://www.siggijons.net/>
+-   <https://debanwita27.github.io/>
+-   <https://mrizkimaulidan.vercel.app/>
+-   <https://www.yukizr.com/>
+-   <http://liamdalg.co.uk/>
+-   <https://codewithzichen.bine.me/>
+-   <https://chriscodes.net/>
+-   <https://journeytolunar.com/>
+-   <https://ruiper.es/>
+-   <https://josephscottcampbell.com/>
+-   <https://heckintosh.github.io/>
+-   <https://dieter.plaetinck.be/>
+-   <https://www.boniface.me/>
+-   <https://meanii.dev/>
+-   <https://unixsec.io/>
+-   <https://blog.crisweb.com/>
+-   <https://jonblack.gg/>
+-   <https://viazure.cc/>
+-   <https://spikethedragon40k.github.io/>
+-   <https://tk-web.top>
+-   <https://xayan.nu/>
+-   <https://danielecer.com/>
 
 ## Support
 
