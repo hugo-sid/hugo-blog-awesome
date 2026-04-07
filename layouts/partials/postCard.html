@@ -11,7 +11,6 @@
     </div>
     {{ end }}
     <time class="post-item-meta" datetime="{{ dateFormat $ISO_date .Date }}">
-        {{ time.Format $configDateFormat .Date }}
-        {{/* OLD FORMAT: .Date.Format $configDateFormat */}}
+        {{ .Date.Format $configDateFormat }}
     </time>
 </article>
