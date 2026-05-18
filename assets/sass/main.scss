@@ -34,7 +34,52 @@ $dark-light: #1b1d25;
 $dark-smoke: #4a4d56;
 $dark-gray: #767f87;
 
-//////////////// 3. Fonts preferences /////////////////
+//////////////// 3. Solarized Colors /////////////////
+// Solarized Base Colors
+$solarized-base03: #002b36;
+$solarized-base02: #073642;
+$solarized-base01: #586e75;
+$solarized-base00: #657b83;
+$solarized-base0: #839496;
+$solarized-base1: #93a1a1;
+$solarized-base2: #eee8d5;
+$solarized-base3: #fdf6e3;
+
+// Solarized Accent Colors
+$solarized-yellow: #b58900;
+$solarized-orange: #cb4b16;
+$solarized-red: #dc322f;
+$solarized-magenta: #d33682;
+$solarized-violet: #6c71c4;
+$solarized-blue: #268bd2;
+$solarized-cyan: #2aa198;
+$solarized-green: #859900;
+
+// Solarized Light Theme Colors
+$solarized-light-text-base-color: $solarized-base00;
+$solarized-light-text-link-blue: $solarized-blue;
+$solarized-light-text-link-blue-active: $solarized-cyan;
+$solarized-light-bloquote-border: $solarized-base1;
+$solarized-light-blockquote-text: $solarized-base01;
+$solarized-light-inline-code-text: $solarized-base01;
+$solarized-light-inline-code-bg: $solarized-base2;
+$solarized-light-toc-bg: $solarized-base2;
+$solarized-light-go-top-bg: rgba($solarized-base2, 0.8);
+$solarized-light-go-top-bg-hover: $solarized-base2;
+
+// Solarized Dark Theme Colors
+$solarized-dark-text-base-color: $solarized-base0;
+$solarized-dark-text-link-blue: $solarized-blue;
+$solarized-dark-text-link-blue-active: $solarized-cyan;
+$solarized-dark-bloquote-border: $solarized-base01;
+$solarized-dark-blockquote-text: $solarized-base1;
+$solarized-dark-inline-code-text: $solarized-base1;
+$solarized-dark-inline-code-bg: $solarized-base02;
+$solarized-dark-toc-bg: $solarized-base02;
+$solarized-dark-go-top-bg: rgba($solarized-base02, 0.9);
+$solarized-dark-go-top-bg-hover: $solarized-base02;
+
+//////////////// 4. Fonts preferences /////////////////
 $sans-family: Roboto, sans-serif;
 $mono-family: Consolas, monospace;
 $base-font-size: 16px;
@@ -48,7 +93,7 @@ $normal-weight: 400;
 $bold-weight: 700;
 // $black-weight: 900; // uncomment if necessary
 
-//////////////// 4.Responsive design (media queries) /////////////////
+//////////////// 5. Responsive design (media queries) /////////////////
 $wide-size: 890px;
 $narrow-size: 720px;
 
@@ -72,7 +117,7 @@ $on-widescreen: 1152px;
     font-size: $base-font-size * $ratio;
 }
 
-//////////////// 5. Import all sass files /////////////////
+//////////////// 6. Import all sass files /////////////////
 
 @import "fonts";
 @import "base";
@@ -84,6 +129,7 @@ $on-widescreen: 1152px;
 @import "tableOfContent";
 @import "miscellaneous";
 @import "dark";
+@import "solarized";
 @import "listpage";
 @import "custom";
 

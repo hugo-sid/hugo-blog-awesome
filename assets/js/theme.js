@@ -4,57 +4,99 @@
     const THEMES = {
         LIGHT: "light",
         DARK: "dark",
+        SOLARIZED_LIGHT: "solarized-light",
+        SOLARIZED_DARK: "solarized-dark",
         AUTO: "auto",
+    };
+
+    const THEME_FAMILIES = {
+        regular: [THEMES.LIGHT, THEMES.DARK],
+        solarized: [THEMES.SOLARIZED_LIGHT, THEMES.SOLARIZED_DARK],
     };
 
     const body = document.body;
     const config = body.getAttribute("data-theme");
 
+    const getThemeFamily = (theme) => {
+        if (THEME_FAMILIES.regular.includes(theme)) return "regular";
+        if (THEME_FAMILIES.solarized.includes(theme)) return "solarized";
+        return "regular";
+    };
+
     const getThemeState = () => {
         const lsState = localStorage.getItem(LS_THEME_KEY);
-        if (lsState) return lsState;
 
-        let state;
+        let configState;
         switch (config) {
             case THEMES.DARK:
-                state = THEMES.DARK;
+                configState = THEMES.DARK;
                 break;
             case THEMES.LIGHT:
-                state = THEMES.LIGHT;
+                configState = THEMES.LIGHT;
+                break;
+            case THEMES.SOLARIZED_LIGHT:
+                configState = THEMES.SOLARIZED_LIGHT;
+                break;
+            case THEMES.SOLARIZED_DARK:
+                configState = THEMES.SOLARIZED_DARK;
                 break;
             case THEMES.AUTO:
             default:
-                state = window.matchMedia("(prefers-color-scheme: dark)")
+                configState = globalThis.matchMedia("(prefers-color-scheme: dark)")
                     .matches
                     ? THEMES.DARK
                     : THEMES.LIGHT;
                 break;
         }
-        return state;
+
+        if (lsState) {
+            const lsFamily = getThemeFamily(lsState);
+            const configFamily = getThemeFamily(configState);
+
+            if (lsFamily === configFamily) {
+                return lsState;
+            }
+
+            localStorage.removeItem(LS_THEME_KEY);
+        }
+
+        return configState;
     };
 
     const initTheme = (state) => {
-        if (state === THEMES.DARK) {
-            document.documentElement.classList.add(THEMES.DARK);
-            document.documentElement.classList.remove(THEMES.LIGHT);
-        } else if (state === THEMES.LIGHT) {
-            document.documentElement.classList.remove(THEMES.DARK);
-            document.documentElement.classList.add(THEMES.LIGHT);
+        const allThemes = [
+            THEMES.LIGHT,
+            THEMES.DARK,
+            THEMES.SOLARIZED_LIGHT,
+            THEMES.SOLARIZED_DARK
+        ];
+        for (const theme of allThemes) {
+            document.documentElement.classList.remove(theme);
         }
+
+        document.documentElement.classList.add(state);
     };
 
     // init theme ASAP, then do the rest.
     initTheme(getThemeState());
     requestAnimationFrame(() => body.classList.remove("notransition"))
+
     const toggleTheme = () => {
-        const state = getThemeState();
-        if (state === THEMES.DARK) {
-            localStorage.setItem(LS_THEME_KEY, THEMES.LIGHT);
-            initTheme(THEMES.LIGHT);
-        } else if (state === THEMES.LIGHT) {
-            localStorage.setItem(LS_THEME_KEY, THEMES.DARK);
-            initTheme(THEMES.DARK);
+        const currentState = getThemeState();
+        const family = getThemeFamily(currentState);
+
+        let newState;
+
+        if (family === "regular") {
+            newState = currentState === THEMES.LIGHT ? THEMES.DARK : THEMES.LIGHT;
+        } else if (family === "solarized") {
+            newState = currentState === THEMES.SOLARIZED_LIGHT
+                ? THEMES.SOLARIZED_DARK
+                : THEMES.SOLARIZED_LIGHT;
         }
+
+        localStorage.setItem(LS_THEME_KEY, newState);
+        initTheme(newState);
     };
 
     window.addEventListener("DOMContentLoaded", () => {
