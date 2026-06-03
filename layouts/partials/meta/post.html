@@ -35,27 +35,27 @@
     <meta property="article:section" content="{{ index . 0 }}" />
     {{ end }}
 
-    <script defer type="application/ld+json">
+    <script type="application/ld+json">
     {
-        "@context": "http://schema.org",
+        "@context": "https://schema.org",
         "@type": "Article",
         "headline": {{ .Title }},
         "author": {
         "@type": "Person",
-        "name": "{{ .Site.Params.github }}"
+        "name": "{{ with .Site.Params.author }}{{ .name }}{{ end }}"
         },
-        "datePublished": "{{ dateFormat "2006-01-02" .Date }}",
+        "datePublished": {{ dateFormat "2006-01-02" .Date }},
         "description": {{ .Description }},
         "wordCount": {{ .WordCount }},
-        "mainEntityOfPage": "True",
-        "dateModified": "{{ dateFormat "2006-01-02" .Lastmod }}",
+        "mainEntityOfPage": {{ .Permalink }},
+        "dateModified": {{ dateFormat "2006-01-02" .Lastmod }},
         "image": {
-        "@type": "imageObject",
-        "url": "{{ with .Params.image }}{{ . | absURL }}{{ end }}"
+        "@type": "ImageObject",
+        "url": {{ with .Params.images }}{{ index . 0 | absURL }}{{ else }}""{{ end }}
         },
         "publisher": {
         "@type": "Organization",
-        "name": "{{ .Site.Title }}"
+        "name": {{ .Site.Title }}
         }
     }
     </script>
