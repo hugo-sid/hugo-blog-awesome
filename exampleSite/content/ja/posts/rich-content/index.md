@@ -19,7 +19,7 @@ Hugoはリッチコンテンツにご利用いただける多くの[標準ショ
 
 ## Twitter シンプルショートコード
 
-{{< twitter_simple user="DesignReviewed" id="1085870671291310081" >}}
+{{< x user="DesignReviewed" id="1085870671291310081" >}}
 
 <br>
 
