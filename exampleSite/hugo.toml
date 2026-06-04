@@ -2,7 +2,7 @@ title = "Awesome Hugo blog"
 baseURL = 'https://hba.sid.one/'
 
 # This is what goes in <html lang="">
-languageCode = 'en-us'
+locale = 'en-us'
 
 # This defines how dates are formatted
 defaultContentLanguage = "en-gb"
@@ -49,8 +49,8 @@ theme = "hugo-blog-awesome"
 
 ############################## English language ################################
 [Languages.en-gb]
-  languageName = "English"
-  languageCode = "en-gb"
+  label = "English"
+  locale = "en-gb"
   contentDir = "content/en"
   weight = 1
 
@@ -114,8 +114,8 @@ theme = "hugo-blog-awesome"
 
 ############################## Italian language ################################
 [Languages.it]
-  languageName = "Italian"
-  languageCode = "it"
+  label = "Italian"
+  locale = "it"
   contentDir = "content/it"
   weight = 2
   [Languages.it.menu]
@@ -178,8 +178,8 @@ theme = "hugo-blog-awesome"
 
 ############################## Russian language ################################
 [Languages.ru-ru]
-  languageName = "Russian"
-  languageCode = "ru-ru"
+  label = "Russian"
+  locale = "ru-ru"
   contentDir = "content/ru"
   weight = 1
 
@@ -243,8 +243,8 @@ theme = "hugo-blog-awesome"
 
 ############################## French language ################################
 [Languages.fr-fr]
-  languageName = "French"
-  languageCode = "fr-fr"
+  label = "French"
+  locale = "fr-fr"
   contentDir = "content/fr"
   weight = 1
 
@@ -306,8 +306,8 @@ theme = "hugo-blog-awesome"
 
 ############################## German language ################################
 [Languages.de-de]
-  languageName = "German"
-  languageCode = "de-de"
+  label = "German"
+  locale = "de-de"
   contentDir = "content/de"
   weight = 1
 
@@ -371,8 +371,8 @@ theme = "hugo-blog-awesome"
 
 ############################## Brazilian language ################################
 [Languages.pt-br]
-  languageName = "Brazilian"
-  languageCode = "pt-br"
+  label = "Brazilian"
+  locale = "pt-br"
   contentDir = "content/br"
   weight = 1
 
@@ -436,8 +436,8 @@ theme = "hugo-blog-awesome"
 
 ############################## Chinese language ################################
 [Languages.zh-cn]
-  languageName = "Chinese"
-  languageCode = "zh-cn"
+  label = "Chinese"
+  locale = "zh-cn"
   contentDir = "content/zh"
   weight = 1
 
@@ -501,8 +501,8 @@ theme = "hugo-blog-awesome"
 
 ############################## Japanese language ################################
 [Languages.ja]
-  languageName = "Japanese"
-  languageCode = "ja"
+  label = "Japanese"
+  locale = "ja"
   contentDir = "content/ja"
   weight = 1
 
