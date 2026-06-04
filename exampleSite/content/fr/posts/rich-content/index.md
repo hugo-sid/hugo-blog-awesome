@@ -19,7 +19,7 @@ Hugo est livré avec plusieurs Shortcodes intégrés pour le contenu riche, ains
 
 ## Simple Shortcode pour Twitter
 
-{{< twitter_simple user="DesignReviewed" id="1085870671291310081" >}}
+{{< x user="DesignReviewed" id="1085870671291310081" >}}
 
 <br>
 
