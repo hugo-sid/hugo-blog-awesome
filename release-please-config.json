@@ -1,0 +1,43 @@
+{
+  "release-type": "simple",
+  "changelog-sections": [
+    {
+      "type": "feat",
+      "section": ":sparkles: Features",
+      "hidden": false
+    },
+    {
+      "type": "fix",
+      "section": ":bug: Bug Fixes",
+      "hidden": false
+    },
+    {
+      "type": "chore",
+      "section": ":hammer: Housekeeping",
+      "hidden": false
+    },
+    {
+      "type": "docs",
+      "section": ":memo: Documentation",
+      "hidden": false
+    },
+    {
+      "type": "ci",
+      "section": ":construction_worker: CI/CD",
+      "hidden": false
+    },
+    {
+      "type": "refactor",
+      "section": ":recycle: Refactoring",
+      "hidden": false
+    },
+    {
+      "type": "test",
+      "section": ":white_check_mark: Tests",
+      "hidden": false
+    }
+  ],
+  "packages": {
+    ".": {}
+  }
+}
