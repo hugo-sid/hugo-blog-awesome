@@ -25,6 +25,9 @@ The result shown above was last confirmed on September 23, 2023. You can check t
 
 </details>
 
+> [!NOTE]
+> We have made a major renovation to this template, Now, you need to have `hugo` to be at minimum version of `v0.160.0` and above. New people can start using this template right away, but if you are a previous user of our template, we've written a migration guide which you can view it [here](/MIGRATION.md)
+
 ## Features
 
 - Minimal design
@@ -46,7 +49,7 @@ Built with Hugo, SCSS, and vanilla JavaScript.
 
 ## Setup
 
-> **Note**
+> [!NOTE]
 > You must have the [Hugo extended version](https://gohugo.io/installation/linux/#editions) installed in order to use this theme. This theme uses Sass for styling. With the Hugo extended version, Sass can be transpiled to CSS without any additional tools.
 
 ### Using the theme as Hugo module
