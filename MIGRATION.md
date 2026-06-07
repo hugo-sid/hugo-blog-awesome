@@ -188,7 +188,60 @@ This applies to any content files across all language directories (e.g. `content
 
 ---
 
-## 5. Build Environment Updates (Netlify)
+## 5. Language Configuration in `hugo.toml` (v0.158.0)
+
+Three language configuration keys were deprecated in v0.158.0 and must be renamed in your `hugo.toml` (or `config.toml`) under each `[languages.*]` block.
+
+| Deprecated key | Replacement | Notes |
+|---|---|---|
+| `languageName` | `label` | Human-readable display name for the language |
+| `languageCode` | `locale` | Should be a full RFC 5646 language tag (e.g. `it-IT`, not just `it`) |
+| `languageDirection` | `direction` | Text direction — only needed if using RTL languages |
+
+### Before
+
+```toml
+[languages.it]
+  languageName = "Italian"
+  languageCode = "it"
+  weight = 3
+```
+
+### After
+
+```toml
+[languages.it]
+  label = "Italian"
+  locale = "it-IT"
+  weight = 3
+```
+
+Apply the same rename to every language block in your config. For example, a full multilingual setup:
+
+```toml
+[languages.en]
+  label = "English"
+  locale = "en-US"
+  weight = 1
+
+[languages.de]
+  label = "Deutsch"
+  locale = "de-DE"
+  weight = 2
+
+[languages.it]
+  label = "Italian"
+  locale = "it-IT"
+  weight = 3
+```
+
+> **Note:** `locale` expects a full [RFC 5646](https://datatracker.ietf.org/doc/html/rfc5646) language tag (e.g. `it-IT`) rather than a bare ISO code (`it`). Hugo uses this value for date, currency, and number localisation.
+
+After updating, run `hugo build --logLevel info` — the deprecation warnings for these keys should be gone.
+
+---
+
+## 6. Build Environment Updates (Netlify)
 
 If deploying on Netlify, update your `netlify.toml` build environment versions:
 
