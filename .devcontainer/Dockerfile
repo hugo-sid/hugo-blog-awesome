@@ -1,5 +1,5 @@
 # Set the Node.js version to match Netlify build environment.
-ARG NODE_VERSION=24-bullseye
+ARG NODE_VERSION=24
 # Use the base image for Node.js development from Microsoft's repository.
 FROM mcr.microsoft.com/devcontainers/javascript-node:${NODE_VERSION}
 
