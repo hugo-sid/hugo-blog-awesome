@@ -9,11 +9,11 @@ exclude_from_rss: true
 
 Hugo utilise divers projets open source, notamment :
 
-* <https://github.com/yuin/goldmark>
-* <https://github.com/alecthomas/chroma>
-* <https://github.com/muesli/smartcrop>
-* <https://github.com/spf13/cobra>
-* <https://github.com/spf13/viper>
+* https://github.com/yuin/goldmark
+* https://github.com/alecthomas/chroma
+* https://github.com/muesli/smartcrop
+* https://github.com/spf13/cobra
+* https://github.com/spf13/viper
 
 Hugo est idéal pour les blogs, les sites Web d'entreprise, les portfolios créatifs, les magazines en ligne, les applications à page unique ou même un site Web avec des milliers de pages.
 

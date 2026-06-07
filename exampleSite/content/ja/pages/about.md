@@ -9,11 +9,11 @@ Hugoは[Apache License 2.0](https://github.com/gohugoio/hugo/blob/master/LICENSE
 
 Hugoは以下に示すようなオープンソースプロジェクトを活用して作成されています:
 
-* <https://github.com/yuin/goldmark>
-* <https://github.com/alecthomas/chroma>
-* <https://github.com/muesli/smartcrop>
-* <https://github.com/spf13/cobra>
-* <https://github.com/spf13/viper>
+* https://github.com/yuin/goldmark
+* https://github.com/alecthomas/chroma
+* https://github.com/muesli/smartcrop
+* https://github.com/spf13/cobra
+* https://github.com/spf13/viper
 
 Hugoはブログや、コーポレートサイト、ポートフォリオ、オンラインマガジンをはじめとして、単一ページアプリケーションから何千ページもあるサイトまで幅広くご利用いただくことができます。
 

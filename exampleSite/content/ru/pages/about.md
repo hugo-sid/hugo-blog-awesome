@@ -9,11 +9,11 @@ exclude_from_rss: true
 
 Hugo использует множество проектов с исходным кодом, такие как:
 
-* <https://github.com/yuin/goldmark>
-* <https://github.com/alecthomas/chroma>
-* <https://github.com/muesli/smartcrop>
-* <https://github.com/spf13/cobra>
-* <https://github.com/spf13/viper>
+* https://github.com/yuin/goldmark
+* https://github.com/alecthomas/chroma
+* https://github.com/muesli/smartcrop
+* https://github.com/spf13/cobra
+* https://github.com/spf13/viper
 
 Использование Hugo идеально для блогов, корпоративных вебсайтов, творческих портфолио, on-line журналов, одностраничных приложений или вебсайтов с тысячью страниц.
 

@@ -9,11 +9,11 @@ Hugo 是用 Go 语言编写的开源静态网站生成器，遵循 [Apache Licen
 
 Hugo 使用了多种开源项目，包括：
 
-* <https://github.com/yuin/goldmark>
-* <https://github.com/alecthomas/chroma>
-* <https://github.com/muesli/smartcrop>
-* <https://github.com/spf13/cobra>
-* <https://github.com/spf13/viper>
+* https://github.com/yuin/goldmark
+* https://github.com/alecthomas/chroma
+* https://github.com/muesli/smartcrop
+* https://github.com/spf13/cobra
+* https://github.com/spf13/viper
 
 Hugo 非常适合博客、企业网站、创意作品集、在线杂志、单页应用程序，甚至是拥有数千页的网站。
 
