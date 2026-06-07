@@ -150,7 +150,7 @@ The `layouts/_default/rss.xml` template (or your override) must replace `.Site.A
 ### After
 
 ```xml
-<language>{{ site.Language.LanguageCode }}</language>
+<language>{{ site.Language.locale }}</language> <!-- See Point 6 for this -->
 {{ with site.Params.Author.email }}
 <managingEditor>{{.}}{{ with site.Params.Author.name }} ({{.}}){{ end }}</managingEditor>
 {{ end }}
@@ -280,3 +280,4 @@ NODE_VERSION = "22"
 - [Hugo v0.146.0 new template system overview](https://gohugo.io/templates/new-templatesystem-overview/)
 - [Hugo v0.156.0 deprecations — Hugo Discourse](https://discourse.gohugo.io/t/deprecations-in-v0-156-0/56732)
 - [hugo-blog-awesome PR #344 — fix removed Hugo methods](https://github.com/hugo-sid/hugo-blog-awesome/pull/344)
+- [hugo-blog-awesome PR #357 — Hugo template upgrade for `v0.160` and above](https://github.com/hugo-sid/hugo-blog-awesome/pull/357)
