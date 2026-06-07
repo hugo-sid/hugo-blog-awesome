@@ -248,7 +248,7 @@ The contents of this partial will be inserted at the end of the `<head>` section
 
 ## Content
 
-### Posts
+### Creating a Post
 
 To create a new post, run the following command:
 
@@ -256,11 +256,23 @@ To create a new post, run the following command:
 
 Then, edit the `my-first-post.md` file to suit your needs.
 
+### Exclude a page from RSS feed
+
+To exclude a page from your rss feed just enable `exclude_from_rss` parameter in your markdown file. You can view this option in `archetypes/default.md`
+
+```markdown
+---
+title:
+date: {{ .Date }}
+exclude_from_rss: false
+---
+```
+
 ### Comments
 
 To enable Disqus comments, set `services.disqus.shortname` in your site's `hugo.toml`.
 
-To use another comments system, provide your own `comments.html` partial in `layouts\partials\comments.html`.
+To use another comments system, provide your own `comments.html` partial in `layouts\_partials\comments.html`.
 
 ## Contributing
 
