@@ -24,8 +24,6 @@ If you are adding support for a new language, you have to do the following:
 2. Translate specific terms by creating a new language-specific file in the `i18n` directory
 3. Add translated content in `exampleSite/content` directory
 
-You can take a look at this [Pull request](https://github.com/hugo-sid/hugo-blog-awesome/pull/145) for reference.
-
 ## Commits
 
 This project adheres to [Conventional Commits specification](https://www.conventionalcommits.org/en/v1.0.0/).
