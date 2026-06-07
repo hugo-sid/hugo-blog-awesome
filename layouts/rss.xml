@@ -19,7 +19,7 @@
     <link>{{ .Permalink }}</link>
     <description>Recent content {{ if ne  .Title  .Site.Title }}{{ with .Title }}in {{.}} {{ end }}{{ end }}on {{ .Site.Title }}</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>{{ site.Language.LanguageCode }}</language>{{ with site.Params.Author.email }}
+    <language>{{ site.Language.Locale }}</language>{{ with site.Params.Author.email }}
     <managingEditor>{{.}}{{ with site.Params.Author.name }} ({{.}}){{end}}</managingEditor>{{end}}{{ with site.Params.Author.email }}
     <webMaster>{{.}}{{ with site.Params.Author.name }} ({{.}}){{end}}</webMaster>{{end}}{{ with site.Params.Copyright }}
     <copyright>{{.}}</copyright>{{end}}{{ if not .Date.IsZero }}

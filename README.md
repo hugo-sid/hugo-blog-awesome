@@ -16,6 +16,10 @@
 | --- | --- |
 | ![Dark mode](https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/master/images/dark.png) | ![Light mode](https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/master/images/light.png) |
 
+> [!IMPORTANT]
+> This template has been significantly updated and now requires Hugo **v0.160.0 or later**.
+> New users can dive right in — if you're coming from an older version, check out the [Migration Guide](/MIGRATION.md) before upgrading.
+
 <details>
   <summary>Page speed score (click to expand)</summary>
 

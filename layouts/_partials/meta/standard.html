@@ -25,10 +25,10 @@
 <meta property="og:description" content="{{ $description }}" />
 <meta name="twitter:description" content="{{ $description }}" />
 
-<meta property="og:locale" content="{{ .Site.LanguageCode }}" />
-<meta name="language" content="{{ .Site.LanguageCode }}" />
+<meta property="og:locale" content="{{ .Site.Language.Locale }}" />
+<meta name="language" content="{{ .Site.Language.Locale }}" />
 {{ range .AllTranslations }}
-  <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.LanguageName }}" />
+  <link rel="alternate" hreflang="{{ .Language.Lang }}" href="{{ .Permalink }}" title="{{ .Language.Label }}" />
 {{ end }}
 
 {{/*  Define empty variable image  */}}

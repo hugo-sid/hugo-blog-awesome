@@ -3,10 +3,10 @@
     {{- hugo.Generator }}
 
     {{/* Open Graph tags */}}
-    {{ template "_internal/opengraph.html" . }}
+    {{ partial "opengraph.html" . }}
 
     {{/* Twitter Card tags */}}
-    {{ template "_internal/twitter_cards.html" . }}
+    {{ partial "twitter_cards.html" . }}
 
     {{/* Canonical link, RSS */}}
 
@@ -45,7 +45,7 @@
 
     {{/* Google analytics script. See hugo.toml to enable/disable this. */}}
     {{- if hugo.IsProduction | or (eq site.Params.env "production") }}
-    {{ template "_internal/google_analytics.html" . }}
+    {{ partial "google_analytics.html" . }}
     {{- end -}}
 
     {{/* Extend head with user supplied partial */}}
