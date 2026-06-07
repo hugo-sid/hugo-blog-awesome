@@ -16,6 +16,10 @@
 | --- | --- |
 | ![Dark mode](https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/master/images/dark.png) | ![Light mode](https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/master/images/light.png) |
 
+> [!IMPORTANT]
+> This template has been significantly updated and now requires Hugo **v0.160.0 or later**.
+> New users can dive right in — if you're coming from an older version, check out the [Migration Guide](/MIGRATION.md) before upgrading.
+
 <details>
   <summary>Page speed score (click to expand)</summary>
 
@@ -24,9 +28,6 @@
 The result shown above was last confirmed on September 23, 2023. You can check the details of the PageSpeed test at this link: [Link to the analysis](https://pagespeed.web.dev/analysis/https-hba-sid-one/uh4rm91hnj?form_factor=mobile). You can also do a live [PageSpeed test](https://pagespeed.web.dev/analysis?url=https://hba.sid.one/) of the [demo website](https://hba.sid.one) now.
 
 </details>
-
-> [!NOTE]
-> We have made a major renovation to this template, Now, you need to have `hugo` to be at minimum version of `v0.160.0` and above. New people can start using this template right away, but if you are a previous user of our template, we've written a migration guide which you can view it [here](/MIGRATION.md)
 
 ## Features
 
@@ -49,7 +50,7 @@ Built with Hugo, SCSS, and vanilla JavaScript.
 
 ## Setup
 
-> [!NOTE]
+> **Note**
 > You must have the [Hugo extended version](https://gohugo.io/installation/linux/#editions) installed in order to use this theme. This theme uses Sass for styling. With the Hugo extended version, Sass can be transpiled to CSS without any additional tools.
 
 ### Using the theme as Hugo module
