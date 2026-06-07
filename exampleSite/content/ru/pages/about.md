@@ -2,17 +2,18 @@
 title: О проекте
 description: 'Hugo - самый быстрый фреймворк для создания сайтов'
 author: Hugo Authors
+exclude_from_rss: true
 ---
 
 Написанный на Go, Hugo - это генератор статических сайтов с открытом исходным кодом и лицензией [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE). Hugo поддерживает TOML, YAML и JSON типы файлов с данными, Markdown, HTML файлы и использует шорт коды для добавления богатого содержания. Другие возможности: таксономия, режим нескольких языков, обработка изображений, настраиваемые выходные форматы, сжатие HTML/CSS/JS и поддержка Sass SCSS рабочих процессов.
 
 Hugo использует множество проектов с исходным кодом, такие как:
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+* <https://github.com/yuin/goldmark>
+* <https://github.com/alecthomas/chroma>
+* <https://github.com/muesli/smartcrop>
+* <https://github.com/spf13/cobra>
+* <https://github.com/spf13/viper>
 
 Использование Hugo идеально для блогов, корпоративных вебсайтов, творческих портфолио, on-line журналов, одностраничных приложений или вебсайтов с тысячью страниц.
 

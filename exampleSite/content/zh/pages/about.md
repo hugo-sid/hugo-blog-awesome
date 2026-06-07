@@ -2,17 +2,18 @@
 title: 关于
 description: 'Hugo，世界上最快的网站构建框架'
 author: Hugo Authors
+exclude_from_rss: true
 ---
 
 Hugo 是用 Go 语言编写的开源静态网站生成器，遵循 [Apache Licence 2.0](https://github.com/gohugoio/hugo/blob/master/LICENSE) 许可证。Hugo 支持 TOML、YAML 和 JSON 数据文件类型，以及 Markdown 和 HTML 内容文件，并使用短代码来添加丰富的内容。其他显著功能包括分类法、多语言模式、图像处理、自定义输出格式、HTML/CSS/JS 压缩以及对 Sass SCSS 工作流的支持。
 
 Hugo 使用了多种开源项目，包括：
 
-* https://github.com/yuin/goldmark
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
+* <https://github.com/yuin/goldmark>
+* <https://github.com/alecthomas/chroma>
+* <https://github.com/muesli/smartcrop>
+* <https://github.com/spf13/cobra>
+* <https://github.com/spf13/viper>
 
 Hugo 非常适合博客、企业网站、创意作品集、在线杂志、单页应用程序，甚至是拥有数千页的网站。
 
