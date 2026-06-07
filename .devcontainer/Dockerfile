@@ -1,7 +1,7 @@
 # Set the Node.js version to match Netlify build environment.
-ARG NODE_VERSION=1.22
+ARG NODE_VERSION=24-bullseye
 # Use the base image for Node.js development from Microsoft's repository.
-FROM mcr.microsoft.com/devcontainers/javascript-node:${NODE_VERSION}-bullseye
+FROM mcr.microsoft.com/devcontainers/javascript-node:${NODE_VERSION}
 
 # Choose between 'hugo' (standard) or 'hugo_extended' (extended) version of Hugo.
 ARG VARIANT=hugo_extended
