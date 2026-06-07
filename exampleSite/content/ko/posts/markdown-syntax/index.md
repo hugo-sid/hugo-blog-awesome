@@ -31,7 +31,7 @@ Xerum, quo qui aut unt expliquam qui dolut labo. Aque venitatiusda cum, voluptio
 
 Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sapicia is sinveli squiatum, core et que aut hariosam ex eat.
 
-## Image
+## 이미지
 
 다음과 같은 문법으로 이미지를 삽입할 수 있습니다. 이미지 파일의 경로는 `index.md` 파일의 상대경로여야 합니다.
 
@@ -95,7 +95,7 @@ Itatur? Quiatae cullecum rem ent aut odis in re eossequodi nonsequ idebis ne sap
 </html>
 ```
 
-### 띄어쓰기 네 칸으로 들여쓴 코드 블록
+### 공백 네 칸으로 들여쓴 코드 블록
 
     <!doctype html>
     <html lang="en">

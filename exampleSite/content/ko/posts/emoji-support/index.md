@@ -9,7 +9,7 @@ tags:
 
 이모지는 Hugo 프로젝트에서 여러 방법으로 활성화될 수 있습니다.
 <!--more-->
-[`emojify`](https://gohugo.io/functions/emojify/) 함수는 템플릿 또는 [인라인 숏코드](https://gohugo.io/templates/shortcode-templates/#inline-shortcodes)에서 사용할 수 있습니다. 
+[`emojify`](https://gohugo.io/functions/emojify/) 함수는 템플릿 또는 [인라인 숏코드](https://gohugo.io/templates/shortcode-templates/#inline-shortcodes)에서 사용할 수 있습니다.
 
 이모지를 전역적으로 활성화하려면, `hugo.toml`에서 `enableEmoji`를 `true`로 설정하세요. 컨텐츠 파일에서 이모지 숏코드를 사용할 수 있습니다; 예를 들어,
 
@@ -21,7 +21,7 @@ I :heart: Hugo! 😁
 
 ***
 
-**N.B.** 위 방법는 Hugo에 유니코드 표준 이모지 문자와 조합을 활성화합니다. 하지만 이 글자의 렌더링은 브라우저와 플랫폼에 의존합니다. 이모지를 꾸미기 위해서 제 3자 폰트나 폰트 스택을 사용할 수 있습니다; 예를 들어,
+**참고:** 위 방법는 Hugo에 유니코드 표준 이모지 문자와 조합을 활성화합니다. 하지만 이 글자의 렌더링은 브라우저와 플랫폼에 의존합니다. 이모지를 꾸미기 위해서 제 3자 폰트나 폰트 스택을 사용할 수 있습니다; 예를 들어,
 
 {{< highlight css >}}
 .emoji {

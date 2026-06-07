@@ -26,7 +26,7 @@ description: Hugo blog awesome 테마에서 목차 활성화하기
 ```
 
 목차를 전역적으로 비활성화하려면, `toc` 파라미터를 무시하거나 `false`로 설정하세요.
- 
+
 ## 특정 포스트에 목차 활성화
 
 특정 포스트에 목차를 활성화하려면 포스트 설정에서 `toc` 파라미터를 `true`로 설정하세요.
@@ -43,7 +43,7 @@ description: Hugo blog awesome 테마에서 목차 활성화하기
 
 특정 포스트에서 목차를 비활성화하려면, 다음 두 단계를 거쳐야합니다
 
-참고: 포스트의 `.Params.toc`은 `.Site.Params.toc`을 덮어쓸 것입니다. 다음 과정을 거치면, 포스트의 `toc` 파라미터는 `false`가 될 것입니다.
+참고: 포스트의 `.Params.toc`은 `.Site.Params.toc`을 덮어씁니다. 다음 과정을 거치면, 포스트의 `toc` 파라미터는 `false`가 될 것입니다.
 
 1.  `hugo.toml`에서 `toc` 파라미터를 `true`로 설정하세요.
 
@@ -64,7 +64,7 @@ description: Hugo blog awesome 테마에서 목차 활성화하기
 
 ## 목차 열기
 
-기본적으로, 목차는 접혀있습니다.. 기본적으로 열리게 하려면, `hugo.toml`에서 `tocOpen` 파리미터를 `true`로 설정하세요.
+기본적으로, 목차는 접혀있습니다. 기본적으로 열리게 하려면, `hugo.toml`에서 `tocOpen` 파리미터를 `true`로 설정하세요.
 
 ```toml
 [params]
