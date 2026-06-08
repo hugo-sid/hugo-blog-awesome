@@ -16,9 +16,9 @@
 | --- | --- |
 | ![Dark mode](https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/master/images/dark.png) | ![Light mode](https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/master/images/light.png) |
 
-### Pagespeed score
+### PageSpeed score
 
-![Page speed score](https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/main/images/image.png)
+![PageSpeed score](https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/main/images/image.png)
 
 > [!IMPORTANT]
 > This template requires Hugo extended version **v0.160.0 or later**.
