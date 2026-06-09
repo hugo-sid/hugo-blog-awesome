@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.0.1](https://github.com/hugo-sid/hugo-blog-awesome/compare/v2.0.0...v2.0.1) (2026-06-09)
+
+
+### :bug: Bug Fixes
+
+* update CONTRIBUTING.md to remove pull request reference ([#362](https://github.com/hugo-sid/hugo-blog-awesome/issues/362)) ([03e0df6](https://github.com/hugo-sid/hugo-blog-awesome/commit/03e0df6d69d24629a24d1548475c293df3f6b38f))
+* update/v2 module support ([#367](https://github.com/hugo-sid/hugo-blog-awesome/issues/367)) ([b535cc9](https://github.com/hugo-sid/hugo-blog-awesome/commit/b535cc9d1093c031c396f4416551f6d42fdc36d8))
+
+
+### :hammer: Housekeeping
+
+* **deps:** upgrade dependencies in Dockerfile, netlify.toml ([#364](https://github.com/hugo-sid/hugo-blog-awesome/issues/364)) ([2038d73](https://github.com/hugo-sid/hugo-blog-awesome/commit/2038d733b8eb6bf2d15f86f790a79c7dd691f3fd))
+
 ## [2.0.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v1.21.0...v2.0.0) (2026-06-07)
 
 
