@@ -16,18 +16,14 @@
 | --- | --- |
 | ![Dark mode](https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/master/images/dark.png) | ![Light mode](https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/master/images/light.png) |
 
+### PageSpeed score
+
+![PageSpeed score](https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/main/images/image.png)
+
 > [!IMPORTANT]
-> This template has been significantly updated and now requires Hugo **v0.160.0 or later**.
-> New users can dive right in — if you're coming from an older version, check out the [Migration Guide](/MIGRATION.md) before upgrading.
+> This template requires Hugo extended version **v0.160.0 or later**.
+> New users can dive right in. If you're coming from an older version, check out the [Migration Guide](/MIGRATION.md) before upgrading.
 
-<details>
-  <summary>Page speed score (click to expand)</summary>
-
-![Page speed score](https://raw.githubusercontent.com/hugo-sid/hugo-blog-awesome/master/images/pagespeed.png)
-
-The result shown above was last confirmed on September 23, 2023. You can check the details of the PageSpeed test at this link: [Link to the analysis](https://pagespeed.web.dev/analysis/https-hba-sid-one/uh4rm91hnj?form_factor=mobile). You can also do a live [PageSpeed test](https://pagespeed.web.dev/analysis?url=https://hba.sid.one/) of the [demo website](https://hba.sid.one) now.
-
-</details>
 
 ## Features
 
@@ -50,53 +46,78 @@ Built with Hugo, SCSS, and vanilla JavaScript.
 
 ## Setup
 
-> **Note**
-> You must have the [Hugo extended version](https://gohugo.io/installation/linux/#editions) installed in order to use this theme. This theme uses Sass for styling. With the Hugo extended version, Sass can be transpiled to CSS without any additional tools.
+### Using the theme as Git submodule
+
+To create a new Hugo site with this theme as a Git submodule, run the following command:
+
+```bash
+hugo new site myblog
+cd myblog
+git clone https://github.com/hugo-sid/hugo-blog-awesome.git themes/hugo-blog-awesome
+```
+
+To preview the theme with example content, run the following command from the `exampleSite` directory:
+
+```bash
+cd themes/hugo-blog-awesome/exampleSite
+hugo server --themesDir ../..
+```
+
+To use this theme, set the `theme` variable in your site's `hugo.toml`:
+
+```toml
+theme = "hugo-blog-awesome"
+```
 
 ### Using the theme as Hugo module
 
-First create a new Hugo site by running the following command:
+**Step 1:** Create a new Hugo site
 
-    hugo new site myblog
+```bash
+hugo new site myblog
+cd myblog
+```
 
-Initialize your new Hugo site as hugo module by running the following command:
+**Step 2:** Initialize your site as a Hugo module
 
-    cd myblog
-    hugo mod init github.com/USER/REPO
+```bash
+hugo mod init github.com/USER/REPO
+```
 
-Afterwards, run this command to add hugo-blog-awesome as module to your site:
+Replace `github.com/USER/REPO` with your repository address (or any module path you prefer).
 
-    hugo mod get github.com/hugo-sid/hugo-blog-awesome
+**Step 3:** Add hugo-blog-awesome/v2 as a module dependency
 
-To make use of the theme, add this module configuration to your site's `hugo.toml`:
+```bash
+hugo mod get github.com/hugo-sid/hugo-blog-awesome/v2
+```
 
-    [module]
-      [[module.imports]]
-        path = "github.com/hugo-sid/hugo-blog-awesome"
+**Step 4:** Configure the module in your site's `hugo.toml`
 
-To preview the theme with example content, run the following command from the `exampleSite` directory:
+Add the following to your `hugo.toml`:
 
-    hugo server
+```toml
+[module]
+  [[module.imports]]
+    path = "github.com/hugo-sid/hugo-blog-awesome/v2"
+```
 
-### Using the theme as Git submodule
+**Step 5:** Verify your module dependencies are resolved
 
-To create a new Hugo site with this theme as Git submodule, run the following command:
+```bash
+hugo mod tidy
+```
 
-    hugo new site myblog
+You're all set! You can now start creating content. The theme will be automatically included from the module.
 
-Then, clone this repository into the `themes` directory of your new site:
+**Step 6:** Preview your site
 
-    cd myblog
-    git clone https://github.com/hugo-sid/hugo-blog-awesome.git themes/hugo-blog-awesome
+```bash
+hugo server
+```
 
-To preview the theme with example content, run the following command from the `exampleSite` directory:
+Visit `http://localhost:1313` to see your site with the theme applied.
 
-    cd themes/hugo-blog-awesome/exampleSite
-    hugo server --themesDir ../..
-
-To use this theme, set the `theme` variable in your site's `hugo.toml` to `hugo-blog-awesome`:
-
-    theme = "hugo-blog-awesome"
 
 ## Configuration
 
@@ -107,7 +128,7 @@ It is recommended that you copy the `hugo.toml` file from the `exampleSite` dire
 
 I used [realfavicongenerator.net](https://realfavicongenerator.net/) to generate the favicons. You can place the resulting files in the `assets\icons` folder. That should get your favicon working.
 
-If you want to customize anything further, you can modify `layouts\partials\head.html`.
+If you want to customize anything further, you can modify `layouts\_partials\head.html`.
 
 ### Adding Social icons
 
@@ -230,7 +251,7 @@ url = "/index.xml"
 
 </details>
 
-If you are trying to add an icon that is not listed above, you can modify `layouts\partials\svgs\svgs.html` to include your icon (SVG). You are encouraged to submit your icon by creating a pull request, so that others can benefit.
+If you are trying to add an icon that is not listed above, you can modify `layouts\partials\svgs\svgs.html` to include your icon (SVG). You are encouraged to submit your icon by creating a pull request.
 
 ### Enable go to top button
 
@@ -261,6 +282,79 @@ Then, edit the `my-first-post.md` file to suit your needs.
 To enable Disqus comments, set `services.disqus.shortname` in your site's `hugo.toml`.
 
 To use another comments system, provide your own `comments.html` partial in `layouts\partials\comments.html`.
+
+## Updating the Theme
+
+To keep your Hugo Blog Awesome theme up-to-date, follow the instructions based on your installation method.
+
+### Updating via Hugo Modules
+
+If you installed the theme using Hugo modules, use the steps below to update your theme.
+
+**Step 1:** Update to the latest version
+
+```bash
+hugo mod get -u github.com/hugo-sid/hugo-blog-awesome/v2
+```
+
+This command fetches the latest version of the theme.
+
+**Step 2:** Tidy up your module dependencies
+
+```bash
+hugo mod tidy
+```
+
+This ensures your `go.mod` and `go.sum` files are clean and up-to-date.
+
+**Step 3:** Verify the update
+
+```bash
+hugo server
+```
+
+Run your site locally to confirm everything works with the updated theme.
+
+### Updating via Git Submodule
+
+If you installed the theme as a Git submodule, follow these steps to update.
+
+**Step 1:** Navigate to the theme directory
+
+```bash
+cd themes/hugo-blog-awesome
+```
+
+**Step 2:** Fetch and merge the latest changes
+
+```bash
+git pull origin main
+```
+
+This pulls the latest version from the remote repository.
+
+**Step 3:** Navigate back to your site root
+
+```bash
+cd ../..
+```
+
+**Step 4:** Verify the update
+
+```bash
+hugo server
+```
+
+Run your site locally to confirm everything works with the updated theme.
+
+### Handling Breaking Changes
+
+When updating between major versions (e.g., v1 to v2), there may be breaking changes. Always check the [Migration Guide](/MIGRATION.md) for instructions before updating.
+
+### Staying Updated
+
+- **Hugo Modules:** New versions are fetched on demand when you run `hugo mod get -u`
+- **Git Submodule:** You control when to update by running `git pull`
 
 ## Contributing
 
