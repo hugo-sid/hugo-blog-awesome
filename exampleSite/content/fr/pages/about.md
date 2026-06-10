@@ -2,6 +2,7 @@
 title: À propos
 description: 'Hugo, the world''s fastest framework for building websites'
 author: Hugo Authors
+exclude_from_rss: true
 ---
 
 Écrit en Go, Hugo est un générateur de sites statiques open source disponible sous la licence Apache 2.0. Hugo prend en charge les types de fichiers de données TOML, YAML et JSON, les fichiers de contenu Markdown et HTML, et utilise des shortcodes pour ajouter du contenu riche. Parmi les autres fonctionnalités notables, on trouve les taxonomies, le mode multilingue, le traitement des images, les formats de sortie personnalisés, la minification HTML/CSS/JS et le support des workflows Sass SCSS.

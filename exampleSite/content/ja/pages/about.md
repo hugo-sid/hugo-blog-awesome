@@ -2,6 +2,7 @@
 title: このサイトについて
 description: 'Hugoは世界で最も高速にウェブサイトが構築できるフレームワークです。'
 author: Hugo Authors
+exclude_from_rss: true
 ---
 
 Hugoは[Apache License 2.0](https://github.com/gohugoio/hugo/blob/master/LICENSE)で提供される、Go製のオープンソース静的サイトジェネレーターです。 HugoはTOML、YAML、およびJSON形式に対応しており、MarkdownやHTMLもリッチコンテンツの作成にご利用いただけます。さらに、タクソノミー、多言語モード、画像処理、カスタム出力形式、さらにHTML/CSS/JSの最小化やSass SCSSのワークフローもご利用いただけます。
