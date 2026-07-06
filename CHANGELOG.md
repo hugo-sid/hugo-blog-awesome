@@ -1,5 +1,17 @@
 # Changelog
 
+## [2.1.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v2.0.1...v2.1.0) (2026-07-06)
+
+
+### :sparkles: Features
+
+* add new page parameter `exclude_from_rss` ([#365](https://github.com/hugo-sid/hugo-blog-awesome/issues/365)) ([454b9b5](https://github.com/hugo-sid/hugo-blog-awesome/commit/454b9b57f2a2096c1a2646f03b09bb85b41569ab))
+
+
+### :hammer: Housekeeping
+
+* **deps:** update actions/checkout action to v7 ([#369](https://github.com/hugo-sid/hugo-blog-awesome/issues/369)) ([eb9b579](https://github.com/hugo-sid/hugo-blog-awesome/commit/eb9b57911a96ed79055812a915d9508e727e0c6a))
+
 ## [2.0.1](https://github.com/hugo-sid/hugo-blog-awesome/compare/v2.0.0...v2.0.1) (2026-06-09)
 
 
