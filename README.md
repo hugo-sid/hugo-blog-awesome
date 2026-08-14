@@ -434,4 +434,4 @@ This theme is released under the MIT license. For more information read the [Lic
 
 ### Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=hugo-sid/hugo-blog-awesome&type=Date)](https://star-history.com/#hugo-sid/hugo-blog-awesome&Date)
+[![Star History Chart](https://star-history.dera.page/svg?repos=hugo-sid/hugo-blog-awesome&type=Date)](https://star-history.dera.page/#hugo-sid/hugo-blog-awesome&Date)
