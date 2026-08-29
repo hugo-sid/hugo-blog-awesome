@@ -3,3 +3,5 @@
 exampleSite/public/
 exampleSite/resources/
 exampleSite/.hugo_build.lock
+public/
+resources/

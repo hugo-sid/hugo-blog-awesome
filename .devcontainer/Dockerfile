@@ -1,4 +1,8 @@
-# Set the Node.js version to match Netlify build environment.
+# Microsoft's javascript-node devcontainer image is only published per Node
+# major version (e.g. "24"), never per exact patch version, so this tracks
+# just the major version. The exact patch version (kept in sync with this)
+# lives in .mise.toml / netlify.toml, which Netlify's nvm-based build can
+# pin exactly.
 ARG NODE_VERSION=24
 # Use the base image for Node.js development from Microsoft's repository.
 FROM mcr.microsoft.com/devcontainers/javascript-node:${NODE_VERSION}
