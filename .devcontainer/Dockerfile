@@ -9,7 +9,7 @@ FROM mcr.microsoft.com/devcontainers/javascript-node:${NODE_VERSION}
 
 # Choose between 'hugo' (standard) or 'hugo_extended' (extended) version of Hugo.
 ARG VARIANT=hugo_extended
-ARG HUGO_VERSION=0.162.1
+ARG HUGO_VERSION=0.165.0
 ARG GO_VERSION=1.27.0
 
 # Install necessary tools and dependencies, and download Hugo.
