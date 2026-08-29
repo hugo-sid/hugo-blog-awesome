@@ -1,5 +1,24 @@
 # Changelog
 
+## [2.1.1](https://github.com/hugo-sid/hugo-blog-awesome/compare/v2.1.0...v2.1.1) (2026-08-29)
+
+
+### :bug: Bug Fixes
+
+* star history chart ([#377](https://github.com/hugo-sid/hugo-blog-awesome/issues/377)) ([2ee223b](https://github.com/hugo-sid/hugo-blog-awesome/commit/2ee223b11a504a83d342d97edf152937af7058c1))
+
+
+### :hammer: Housekeeping
+
+* **deps:** implement centralized version management via mise ([#378](https://github.com/hugo-sid/hugo-blog-awesome/issues/378)) ([072c53d](https://github.com/hugo-sid/hugo-blog-awesome/commit/072c53dcae586ebd8bff029667c7a38ffe936b82))
+* **deps:** update `renovate.json` with packageRules for Node version ([594fe91](https://github.com/hugo-sid/hugo-blog-awesome/commit/594fe915360e36e380d18cf741ed62a52e6921bc))
+* **deps:** update actions/checkout action to v7.0.1 ([#372](https://github.com/hugo-sid/hugo-blog-awesome/issues/372)) ([b532f8b](https://github.com/hugo-sid/hugo-blog-awesome/commit/b532f8bbd5bd3905002d5e130b7e57450520a5e8))
+* **deps:** update actions/stale action to v11 ([#374](https://github.com/hugo-sid/hugo-blog-awesome/issues/374)) ([9c49243](https://github.com/hugo-sid/hugo-blog-awesome/commit/9c4924392dab0b10950323985982b5d772c1abd0))
+* **deps:** update dependency go to v1.27.0 ([#379](https://github.com/hugo-sid/hugo-blog-awesome/issues/379)) ([57b04b4](https://github.com/hugo-sid/hugo-blog-awesome/commit/57b04b4fe2b6f8cb6da55b6f1ee0ce0f9a9ef81d))
+* **deps:** update dependency hugo to v0.165.0 ([#380](https://github.com/hugo-sid/hugo-blog-awesome/issues/380)) ([45f7a19](https://github.com/hugo-sid/hugo-blog-awesome/commit/45f7a19e1e230fc2ed09d1eb42248689a258e5ce))
+* **deps:** update github/codeql-action action to v4.37.9 ([#370](https://github.com/hugo-sid/hugo-blog-awesome/issues/370)) ([b023cf7](https://github.com/hugo-sid/hugo-blog-awesome/commit/b023cf7d8915d4b24bd27ca0b958a84c717547ec))
+* **deps:** update ossf/scorecard-action action to v2.4.4 ([#373](https://github.com/hugo-sid/hugo-blog-awesome/issues/373)) ([beef65b](https://github.com/hugo-sid/hugo-blog-awesome/commit/beef65b2846f0b8765ff58689c014ffee8be055e))
+
 ## [2.1.0](https://github.com/hugo-sid/hugo-blog-awesome/compare/v2.0.1...v2.1.0) (2026-07-06)
 
 
