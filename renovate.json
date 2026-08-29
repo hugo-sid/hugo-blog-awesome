@@ -1,4 +1,13 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:recommended"]
+  "extends": ["config:recommended"],
+  "packageRules": [
+    {
+      "description": "ARG NODE_VERSION in .devcontainer/Dockerfile is a generated value, kept in sync with .mise.toml's node version by .scripts/sync-versions.sh. Don't let Renovate's dockerfile manager propose independent bumps for it — that would drift the devcontainer's Node major away from the version pinned everywhere else.",
+      "matchManagers": ["dockerfile"],
+      "matchFileNames": [".devcontainer/Dockerfile"],
+      "matchDepNames": ["mcr.microsoft.com/devcontainers/javascript-node"],
+      "enabled": false
+    }
+  ]
 }
