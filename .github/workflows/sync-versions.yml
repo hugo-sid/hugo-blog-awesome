@@ -1,0 +1,33 @@
+name: Sync Versions
+
+on:
+  pull_request:
+    paths:
+      - '.mise.toml'
+
+jobs:
+  sync-versions:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          ref: ${{ github.head_ref }}
+          token: ${{ secrets.GITHUB_TOKEN }}
+      
+      - name: Sync versions from .mise.toml file
+        run: bash .scripts/sync-versions.sh
+      
+      - name: Commit synced changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .devcontainer/Dockerfile netlify.toml .devcontainer/devcontainer.json
+          if git diff --cached --quiet; then
+            echo "[INFO] No changes to commit"
+          else
+            git commit -m "chore: sync versions from .mise.toml"
+            git push
+            echo "[SUCCESS] Versions synced and committed"
+          fi
