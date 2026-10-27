@@ -1,0 +1,24 @@
+load("//anybuild/tools:hugo.bzl", "hugo_build", "hugo_config")
+load("//anybuild/tools:staticfile.bzl", "staticfile_serve")
+
+# Keep the Hugo version synchronized with .mise.toml.
+config = hugo_config(
+    schema = 1,
+    hugo_version = "0.165.0",
+    static_dir = "exampleSite/public",
+    commands = {
+        "build": "hugo --source exampleSite --themesDir .. --theme . --baseURL / --destination public --gc --minify",
+    },
+)
+
+build = hugo_build(config)
+staticfile_serve(
+    config,
+    build,
+    name = "hugo-blog-awesome",
+    extra_commands = {
+        "start": "static-web-server --root='{}' --log-level=info --port={}".format(
+            build.static_app.serve_path, config.port,
+        ),
+    },
+)

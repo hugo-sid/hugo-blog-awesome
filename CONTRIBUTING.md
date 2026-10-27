@@ -28,6 +28,7 @@ Versions for Node.js, Hugo, and Go are defined in a single `.mise.toml` file (th
 - `.mise.toml` - Single source of truth for all tool versions
 - `.devcontainer/Dockerfile` - Development container environment
 - `netlify.toml` - Netlify build environment
+- `Anybuild` - Wasmer build environment
 - `.devcontainer/devcontainer.json` - VS Code dev container configuration
 
 ### How it works
