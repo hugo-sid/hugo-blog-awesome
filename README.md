@@ -119,6 +119,23 @@ hugo server
 Visit `http://localhost:1313` to see your site with the theme applied.
 
 
+### Deploy the example site on Wasmer
+
+[Wasmer Edge](https://docs.wasmer.io/edge/) is a cloud platform for hosting websites and applications.
+
+[![Deploy to Wasmer](https://img.shields.io/badge/Deploy%20to-Wasmer-171717?logo=wasmer&logoColor=white)](https://wasmer.io/apps/create?github=hugo-sid%2Fhugo-blog-awesome)
+
+The button imports this repository and builds its included `exampleSite` using the root `Anybuild` configuration. To publish your own blog, fork this repository, update the content and settings in `exampleSite`, then import your fork in Wasmer so future deployments use your changes.
+
+The build uses the Hugo Extended version in `.mise.toml` and serves `exampleSite/public` as a static site. To build the same files locally from the repository root:
+
+```bash
+hugo --source exampleSite --themesDir .. --theme . --baseURL / --destination public --gc --minify
+```
+
+The deployment uses `/` as the base URL so links work on the assigned domain. Set your final site URL as the `--baseURL` in `Anybuild` when you need absolute canonical and feed URLs. If you use this theme in a separate Hugo site, use that site's configuration and build directory instead of this example.
+
+
 ## Configuration
 
 You can take a look at the `hugo.toml` file in the `exampleSite` directory for an example configuration.

@@ -48,6 +48,10 @@ sed -i "s/^\([[:space:]]*\)NODE_VERSION = .*/\1NODE_VERSION = \"$NODE_VERSION\"/
 sed -i "s/^\([[:space:]]*\)HUGO_VERSION = .*/\1HUGO_VERSION = \"$HUGO_VERSION\"/" netlify.toml
 sed -i "s/^\([[:space:]]*\)GO_VERSION = .*/\1GO_VERSION = \"$GO_VERSION\"/" netlify.toml
 
+# Update the Hugo version used by the Wasmer build.
+echo "[INFO] Updating Anybuild..."
+sed -i "s/^\([[:space:]]*\)hugo_version = .*/\1hugo_version = \"$HUGO_VERSION\",/" Anybuild
+
 # Update .devcontainer/devcontainer.json
 echo "[INFO] Updating .devcontainer/devcontainer.json..."
 sed -i "s/\"golang\": \"[^\"]*\"/\"golang\": \"$GO_VERSION\"/" .devcontainer/devcontainer.json
