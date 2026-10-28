@@ -3,7 +3,7 @@
 # just the major version. The exact patch version (kept in sync with this)
 # lives in .mise.toml / netlify.toml, which Netlify's nvm-based build can
 # pin exactly.
-ARG NODE_VERSION=24
+ARG NODE_VERSION=26
 # Use the base image for Node.js development from Microsoft's repository.
 FROM mcr.microsoft.com/devcontainers/javascript-node:${NODE_VERSION}
 
