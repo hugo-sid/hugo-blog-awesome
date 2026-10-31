@@ -49,7 +49,7 @@
     {{- end -}}
 
     {{/* Extend head with user supplied partial */}}
-    {{ if templates.Exists "partials/custom-head.html" }}
+    {{ if templates.Exists "_partials/custom-head.html" }}
       {{ partial "custom-head.html" . }}
     {{ end }}
 </head>
